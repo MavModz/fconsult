@@ -1,0 +1,248 @@
+/* Add relevant styles or import the global stylesheet */
+.country-card-container {
+    max-width: 330px;
+    width: 100%;
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;  
+    padding-block-end: 20px;
+}
+.country-cards-data{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 25px;
+}
+.card-img {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+.title-info h5 {
+    color: #454056;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.servicelis-avgrevw{
+    color: #666276;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.totlrvw-list-rev{
+    color: #9691a4;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.bottom-info span {
+    color: #666276;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.bottom-info h5 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+}
+
+.service-dropdown-area>span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #FF5757;
+    background-color: #fff0f0;
+    border-radius: 50px;
+    width: 125px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badges-area {
+    position: absolute;
+    top: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.badge-wrapper.popular {
+    background-color: #FF5757;
+    color: var(--background-white);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    min-width: 103px;
+    height: 28px;
+}
+
+.bookmark-area {
+    border-radius: 50px;
+    padding: 8px;
+    background-color: var(--background-white);
+}
+
+.company-profile-img {
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.company-details-area>span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #454056;
+}
+
+.price-info-wrapper>span {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #454056;
+}
+.image-area{
+    height: 160px;
+    position: relative;
+}
+.wishlist-absol{
+    width: fit-content;
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+/* hover redirection */
+
+.nuxt-link-hover {
+    position: relative;
+}
+
+.image-hovershow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.nuxt-link-hover:hover .image-hovershow {
+    display: block;
+}
+
+
+/* countries  */
+.popular-cntries-maincnt {
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    scrollbar-width: none;
+    column-gap: 40px;
+    row-gap: 15px;
+    padding-bottom: 35px;
+
+  }
+  
+  .popular-cntries-maincnt-inside {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 15px;
+  }
+  
+  .popular-cntries-maincnt h3 {
+    color: #0B131E;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  .countries_btn-new {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+  }
+  
+  .popul-flag-name {
+    margin-bottom: 0px;
+    color: #343E42;
+    font-weight: 500;
+    font-size: 15px
+  }
+  .title_25{
+    color: #1f1b2d;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    padding-bottom: 20px;
+  }
+.pop-cnt-flgclas{
+    width: 25px;
+    height: 14px;
+}
+.pop-cnt-flgclas img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services-thin-scrollbar {
+    max-height: 990px;
+overflow: hidden;
+  }
+  .scroll-active {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  /* thin scrollbar */
+  
+  .style-4::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #f5f4f8;
+    background-color: #f5f5f5;
+  }
+  
+  .style-4::-webkit-scrollbar {
+    width: 4px;
+    background-color: red;
+  }
+  
+  .style-4::-webkit-scrollbar-thumb {
+    background-color: red;
+    border: 2px solid #d5d2dc;
+  }
+
+
+@media screen and (max-width:639px){
+    .country-cards-data{
+        grid-template-columns: 100%;
+    
+    }
+    .country-card-container {
+        max-width: -webkit-fill-available;
+    }
+}

@@ -1,0 +1,132 @@
+/** @format */
+.tab-content {
+  box-shadow: 7.831155300140381px 7.831155300140381px 19.5778865814209px
+    rgba(0, 0, 0, 0.08);
+  border-radius: 15.66px;
+  width: -webkit-fill-available;
+  height: 85vh;
+  margin-top: 20px;
+  background: #ffff;
+  overflow: auto;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 390px;
+  min-width: 205px;
+  height: 40px;
+  align-items: center;
+}
+
+.search-container > img {
+  width: 12px;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+
+.search-container > input {
+  outline: none;
+  border: 1px solid #f4f4f4;
+  background: #f4f7fe;
+  max-width: 100%;
+  border-radius: 50px;
+  text-indent: 30px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.search-container > input:focus {
+  outline: none;
+  border: 1px solid #ff5757;
+}
+
+.btn-normal {
+  background: #f5f4f8;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #454056;
+  font-size: 16px;
+  font-weight: 500;
+  height: max-content;
+  line-height: 150%;
+  transition: all 0.3s ease;
+}
+
+.btn-normal.active {
+  background: #ffff;
+    border: 0;
+    color: #ff5757;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: all 0.3s ease;
+}
+
+.enquery-list {
+  padding: 20px 0px;
+  border-bottom: 2px dashed #e4e6ef;
+}
+
+.enquery-list > h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.enquery-list > h5 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #3F4254;
+}
+
+h5 > .green {
+  color: #01b574;
+  font-weight: 700;
+}
+
+h5 > .red {
+  color: #ff5757;
+  font-weight: 700;
+}
+
+h5 > .grey {
+  color: #65758c;
+  font-weight: 700;
+}
+
+.name > h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.name > p {
+  margin: 0;
+  color: #a1a5b7;
+  font-size: 16px;
+}
+
+.date-time {
+  border: 2px dashed #e4e6ef;
+  border-radius: 6px;
+  height: max-content;
+  padding: 10px 20px;
+  color: #7e8299;
+}
+
+.paginator {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 40px;
+}
+
+.no-data {
+  color: #454056;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+}

@@ -1,0 +1,140 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Lead-container {
+  margin: auto;
+  background: #fff;
+  height: 900px;
+  border-radius: 16px;
+}
+
+.Lead-wrapper {
+  padding: 40px;
+}
+
+.lead-heading {
+  
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  color: #282823;
+}
+
+.lead-row2 {
+  padding-top: 70px;
+}
+
+.lead-row2-heading {
+  font-size: 22px;
+  
+  color: #0f172a;
+  font-weight: 500;
+  line-height: 22px;
+  padding-bottom: 15px;
+}
+
+#lead-search {
+  border-radius: 16px;
+  width: 402px;
+  height: 79px;
+  padding-left: 20px;
+  border: 1.64px solid #cbd5e1;
+  background: rgba(241, 245, 249, 0.4);
+  outline: none;
+  
+  font-size: 20px;
+  font-weight: 400;
+  color: #64748b;
+}
+
+.lead-row3-box-heading > h3 {
+  
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  color: #404040;
+}
+
+.lead-box-button {
+  width: 147px;
+  height: 76px;
+  background: #ff5757;
+  border-radius: 16px;
+  margin-left: 15px;
+  font-size: 21px;
+  font-weight: 700;
+  
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0px 2.636577844619751px 5.273155689239502px 0px #ffd3354d;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.lead-box-button:hover {
+  background-color: #ffffff;
+  color: #ff5757;
+  border: 1px solid #ff5757;
+}
+
+.lead-row3-box {
+  padding-top: 40px;
+}
+
+.lead-row3-box-heading {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.lead-row3-container {
+  background-color: #ffffff;
+  box-shadow: 0px 10.468084335327148px 162.25531005859375px 0px #99abc62e;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-radius: 16px;
+}
+
+.lead-row4 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.lead-row4 > h3 {
+  font-weight: 400;
+  font-size: 29px;
+  
+  line-height: 38px;
+  color: #150b3d;
+}
+
+.lead-line {
+  background-color: #000000;
+  height: 2px;
+}
+
+.lead-row5 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.lead-row5 > h3 {
+  font-weight: 400;
+  font-size: 29px;
+  
+  line-height: 38px;
+  color: #150b3d;
+}
+
+.edit {
+  padding-right: 50px;
+}

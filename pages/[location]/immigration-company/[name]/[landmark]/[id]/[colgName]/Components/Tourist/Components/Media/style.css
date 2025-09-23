@@ -1,0 +1,38 @@
+body {
+  background-color: #000;
+  font: 1.1em Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+  width: -webkit-fill-available;
+}
+figure {
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+figure > img {
+  grid-row: 1/-1;
+  grid-column: 1;
+  cursor: pointer;
+}
+.containers {
+  column-count: 3;
+  column-gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .containers {
+    column-count: 2;
+  }
+}
+@media (max-width: 480px) {
+  .containers {
+    column-count: 1;
+  }
+}

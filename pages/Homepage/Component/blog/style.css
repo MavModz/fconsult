@@ -1,0 +1,16 @@
+
+.blog-first-container{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.homepage-blog-container{
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+    .blog-first-container{
+    padding-bottom: 0px;
+padding-top: 0px;}
+.homepage-blog-container{
+    padding-bottom: 20px;
+}
+}

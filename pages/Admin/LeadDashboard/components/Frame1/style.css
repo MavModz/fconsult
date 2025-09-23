@@ -1,0 +1,201 @@
+.frame {
+  display: flex;
+  align-items: flex-start;
+  gap: 19.72px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.frame .small-chart {
+  position: relative;
+  width: 25%;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 19.72px;
+  overflow: hidden;
+  padding: 20px 22px;
+}
+.custom-frame1-datas {
+  max-width: 175px;
+  width: 100%;
+  display: flex;
+  column-gap: 19px;
+  align-items: self-start;
+}
+.custom-frame1-datas-3rd {
+  max-width: 186px;
+  width: 100%;
+  display: flex;
+  column-gap: 15px;
+  justify-content: space-between;
+  align-items: self-start;
+}
+.frame .label {
+  /* top: 53px;
+  left: 24px;
+  position: absolute; */
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(100, 116, 139, 1);
+  font-size: 13.8px;
+  letter-spacing: -0.28px;
+  line-height: 23.7px;
+  white-space: nowrap;
+}
+.frame .cash {
+  /* position: absolute;
+  top: 17px;
+  left: 24px; */
+  font-family: "DM Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(27, 37, 89, 1);
+  font-size: 23.7px;
+  letter-spacing: -0.47px;
+  line-height: 31.6px;
+  white-space: nowrap;
+}
+.frame .overlap {
+  /* position: absolute;
+  top: 25px;
+  left: 125px; */
+}
+.frame .overlap-group {
+  position: relative;
+  height: 5px;
+  border-radius: 60.71px;
+}
+.frame .div {
+  width: 11px;
+  background-color: #ff5757;
+  position: absolute;
+  height: 5px;
+  top: 0;
+  left: 0;
+  border-radius: 60.71px;
+}
+.frame .overlap-wrapper {
+  left: 23px;
+  position: absolute;
+  width: 45px;
+  height: 5px;
+  top: 20px;
+  transform: rotate(-90deg);
+}
+.frame .overlap-group-wrapper {
+  left: 9px;
+  position: absolute;
+  width: 45px;
+  height: 5px;
+  top: 20px;
+  transform: rotate(-90deg);
+}
+.frame .div-wrapper {
+  left: -6px;
+  position: absolute;
+  width: 45px;
+  height: 5px;
+  top: 20px;
+  transform: rotate(-90deg);
+}
+.frame .div-2 {
+  position: relative;
+  width: 25%;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 19.72px;
+  overflow: hidden;
+  padding: 20px 5px 20px 20px;
+}
+.frame .text-wrapper {
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(100, 116, 139, 1);
+  font-size: 13.8px;
+  letter-spacing: -0.28px;
+  line-height: 23.7px;
+  white-space: nowrap;
+}
+.frame .no-clients {
+  font-weight: 700;
+  color: rgba(27, 37, 89, 1);
+  font-size: 23.7px;
+  letter-spacing: -0.47px;
+  line-height: 31.6px;
+  white-space: nowrap;
+}
+.frame .icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 55px;
+  height: 55px;
+  background-color: #ff5757;
+  border-radius: 27.61px;
+}
+.frame .icon {
+  width: 28px;
+  height: 28px;
+}
+.frame .overlap-2 {
+  position: absolute;
+  width: 116px;
+  height: 53px;
+  top: 19px;
+  left: 90px;
+}
+.frame .label-2 {
+  width: 115px;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(100, 116, 139, 1);
+  font-size: 13.8px;
+  letter-spacing: -0.28px;
+  line-height: 23.7px;
+  white-space: nowrap;
+}
+.frame .cash-2 {
+  font-weight: 700;
+  color: rgba(27, 37, 89, 1);
+  font-size: 23.7px;
+  letter-spacing: -0.47px;
+  line-height: 31.6px;
+  white-space: nowrap;
+}
+.frame .img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 55px;
+  height: 55px;
+  background-color: #fef4f4;
+  border-radius: 27.61px;
+}
+.frame .img {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 12px;
+  left: 11px;
+}
+@media screen and (max-width: 991px) {
+  .frame {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 15px;
+}
+.frame .div-2 {
+  width: 100%;
+}
+.frame .small-chart{
+  width: 100%;
+}
+}
+@media screen and (max-width:776px) {
+  .frame {
+    padding-top: 15px;
+}
+}
+@media screen and (max-width: 480px) {
+  .frame {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+}

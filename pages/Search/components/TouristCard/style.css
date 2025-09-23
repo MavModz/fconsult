@@ -1,0 +1,116 @@
+/* Add relevant styles or import the global stylesheet */
+.country-card-container {
+    width: 438px;
+    max-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    position: relative;  /* To position dropdown relative to this container */
+}
+
+.card-img {
+    border-radius: 12px;
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.title-info h5 {
+    color: #3c3c3c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+
+.bottom-info span {
+    color: #666276;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.bottom-info h5 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+}
+
+.service-dropdown-area>span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #FF5757;
+    background-color: #fff0f0;
+    border-radius: 50px;
+    width: 125px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badges-area {
+    position: absolute;
+    top: 23px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.badge-wrapper.popular {
+    background-color: #FF5757;
+    color: var(--background-white);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    min-width: 103px;
+    height: 28px;
+}
+
+.bookmark-area {
+    border-radius: 50px;
+    padding: 8px;
+    background-color: var(--background-white);
+    margin-left: auto;
+}
+
+.bookmark-area img {
+    width: 16px;
+    height: 16px;
+}
+
+.company-profile-img {
+    border-radius: 50px;
+    width: 26px;
+    height: 26px;
+}
+
+.company-details-area>span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #454056;
+}
+
+.price-info-wrapper>span {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #454056;
+}
+
+@media (max-width:655px){
+    .country-card-container{
+      width: 100%;
+    }
+  }

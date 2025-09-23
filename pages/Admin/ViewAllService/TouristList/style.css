@@ -1,0 +1,38 @@
+.hover-effect:hover {
+    background: white; /* Change background to white */
+    color: #FF5757; /* Text color on hover */
+    border:1px solid #FF5757; /* Border color on hover */
+  }
+.single-listng-srvstdy{
+    height: 240px;
+}
+.single-listng-srvstdy img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dropdown-menu{
+    position: absolute;
+    inset: 0px auto auto -5.5vw !important;
+    margin: 0px;
+    transform: translate3d(-82px, 37px, 0px);
+  }
+  .dropdown-item {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    color: inherit;
+    padding-bottom: 5px !important;
+    margin-bottom: 0px !important;
+    cursor: pointer;
+    border: 0px !important;
+}
+
+.dropdown-item:hover{
+    color: #FF5757;
+    background-color: transparent;
+    border-bottom: 0px !important;
+}
+
+  

@@ -1,0 +1,139 @@
+.main-div {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fcfcfc;
+}
+
+/* .sorting-area {
+max-width: 285px;
+} */
+
+.sorting-wrapper {
+    border: 1px solid #D5D2DC;
+}
+
+
+.p-inputtext {
+    padding: 8px 16px;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(438px, 1fr));
+    gap: 50px;
+    justify-items: center;
+}
+
+.business-list,
+.tourist-list,
+.loading-skeleton-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(438px, 1fr));
+    gap: 32px;
+    justify-items: center;
+}
+
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(663px, 1fr));
+    gap: 34px;
+    justify-items: center;
+}
+
+.no-data-text {
+    font-size: 1.25rem;
+    text-align: left;
+    margin-top: 20px;
+    color: #666;
+}
+
+:deep(.p-paginator){
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+.card-area-divider {
+    color: #EFECF3;
+    margin: 42px 0 24px 0;
+}
+
+.ad-banner-container {
+    width: 100%;
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 91px;
+}
+
+.ad-banner-area {
+    background-color: #1F1B2D;
+    border-radius: 12px;
+    height: 191px;
+    display: flex;
+    position: relative;
+}
+
+.banner-mockup {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+.banner-text-area {
+    position: absolute;
+    right: 100px;
+    top: 45px;
+    width: 60%;
+}
+
+.banner-text-wrapper {
+    color: var(--background-white);
+    max-width: 350px;
+}
+
+.banner-text-wrapper>h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.banner-text-wrapper>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.banner-cta-area button {
+    background-color: #454056E5;
+    border-radius: 8px;
+    padding: 11px 22px;
+}
+
+@media (max-width: 1124px) and (min-width: 768px) {
+    .filter--area{
+        width: 37%;
+    };
+}
+@media (max-width: 768px) and (min-width: 575px) {
+    .filter--area{
+        width: 30%;
+    };
+}
+
+@media (max-width:600px) {
+    .filter--area{
+        display: none !important;
+    }
+    
+}
+@media (max-width: 575px) {
+    .business-list{
+        grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
+    }
+
+    .company-list-area{
+        width: 100% !important;
+    }
+    
+}

@@ -1,0 +1,8 @@
+[
+    {
+      "origin": ["https://api.findandconsult.com"],
+      "responseHeader": ["Content-Type"],
+      "method": ["GET", "POST", "OPTIONS"]
+    }
+  ]
+  

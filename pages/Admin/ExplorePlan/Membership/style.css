@@ -1,0 +1,409 @@
+/** @format */
+
+.custom-checkbox1 {
+  /* Hide the default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.custom-checkbox1:checked + .checkbox-label1::before {
+  /* Display custom checkmark when the checkbox is checked */
+  content: '✔';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 33px;
+  background-color: #e1cb72;
+  color: black;
+  border-radius: 3px;
+}
+
+.checkbox-label1 {
+  /* Add custom styles to the checkbox label */
+  position: absolute;
+  top: 0px;
+  margin-left: -32px; /* Add space between the checkbox and label */
+  font-weight: bold;
+  color: #333; /* Custom color for the label */
+}
+
+.ship-row3-checkbox {
+  position: relative;
+  padding-left: 110px;
+}
+
+.custom-checkbox2 {
+  /* Hide the default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.custom-checkbox2:checked + .checkbox-label2::before {
+  /* Display custom checkmark when the checkbox is checked */
+  content: '✔';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+}
+
+.checkbox-label2 {
+  /* Add custom styles to the checkbox label */
+  position: absolute;
+  top: -2px;
+  margin-left: -20px; /* Add space between the checkbox and label */
+  font-weight: bold;
+  color: #333; /* Custom color for the label */
+}
+
+.ship-row5-col1 {
+  position: relative;
+}
+
+.custom-checkbox {
+  /* Hide the default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 32px;
+  height: 32px;
+  border: 2.67px solid #bdbcdb;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.custom-checkbox:checked + .checkbox-label::before {
+  /* Display custom checkmark when the checkbox is checked */
+  content: '✔';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 33px;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+}
+
+.checkbox-label {
+  /* Add custom styles to the checkbox label */
+  position: absolute;
+  top: 0px;
+  margin-left: -33px; /* Add space between the checkbox and label */
+  font-weight: bold;
+  color: #333; /* Custom color for the label */
+}
+
+.ship-row3-col3-checkbox {
+  position: relative;
+  padding-left: 130px;
+}
+
+.ship-container {
+  background-color: #f6f8fb;
+  padding: 40px;
+}
+
+.ship-back-button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.ship-back-button > a {
+  text-decoration: none;
+}
+
+.ship-back-button > a > h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8692a6;
+  margin: 0px;
+}
+
+.ship-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ship-row1-col2 > p {
+  margin: 0px;
+  text-align: end;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #bdbdbd;
+}
+
+.ship-row1-col2 > h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #8692a6;
+}
+
+.ship-row2 {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.ship-row2 > h2 {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 49px;
+  margin: 0px;
+  color: #1f1f1f;
+}
+
+.ship-row2 > h3 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 49px;
+  text-align: center;
+  color: #ff5757;
+}
+
+.ship-row3-col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.ship-row3-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #3c3c3c;
+  border: 4px solid #e1cb72;
+  width: 490px;
+  border-radius: 7px;
+}
+
+.ship-row3-col2 > h3 {
+  color: #e1cb72;
+  margin: 0px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.ship-row3-col2 > p {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #f8fcff;
+}
+
+.ship-row3-col3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.ship-row3-col3-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffffff;
+  width: 490px;
+  box-shadow: 0px 2.6098597049713135px 18.26901626586914px 1.3049298524856567px
+    #0000000f;
+  border-radius: 7px;
+}
+
+.ship-row3-col3-logo {
+  width: 75px;
+  height: 75px;
+  border-radius: 60px;
+  background-color: #ff62621a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ship-row3-plan > h3 {
+  margin: 0px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ff5757;
+}
+
+.ship-row3-plan > p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #3c3c3c;
+}
+
+.ship-row4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.ship-row4 > button {
+  width: 490px;
+  height: 82px;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  background-color: #ff5757;
+}
+
+.ship-row5 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 8px;
+}
+
+.ship-row5 > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ff5757;
+  margin: 0px;
+  color: #696f79;
+}
+
+.ship-row5 > p > span {
+  color: #ff5757;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 535px) and (max-width: 767px) {
+  .ship-row3-col3-checkbox {
+    position: relative;
+    padding-left: 55px;
+  }
+  .ship-row3-checkbox {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 534px) {
+  .ship-row3-col3-checkbox {
+    position: relative;
+    padding-left: 35px;
+  }
+  .ship-row3-checkbox {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 485px) and (max-width: 499px) {
+  .ship-row3-col3-checkbox {
+    position: relative;
+    padding-left: 15px;
+  }
+  .ship-row3-checkbox {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 484px) {
+  .ship-row3-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  .ship-row3-col3-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  .ship-row3-col3-checkbox {
+    position: relative;
+    padding-left: 0px;
+  }
+  .ship-row3-checkbox {
+    padding-left: 0px;
+  }
+  .ship-row2 > h3 {
+    font-size: 25px;
+  }
+  .ship-row2 > h2 {
+    font-size: 25px;
+    line-height: 15px;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 379px) {
+  .ship-row3-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .ship-row3-col3-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .ship-row3-col3-checkbox {
+    position: relative;
+    padding-left: 0px;
+  }
+  .ship-row3-checkbox {
+    padding-left: 0px;
+  }
+  .ship-row2 > h3 {
+    font-size: 25px;
+  }
+  .ship-row2 > h2 {
+    font-size: 25px;
+    line-height: 15px;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 331px) {
+  .ship-row2 > h2 {
+    line-height: 35px;
+  }
+  .ship-row2 > h3 {
+    line-height: 30px;
+  }
+  .ship-container {
+    padding: 15px;
+  }
+}

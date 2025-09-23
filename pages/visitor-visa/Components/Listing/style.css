@@ -1,0 +1,260 @@
+/** @format */
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  border: 0px solid #e8e8e8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    45deg,
+    var(--color-background),
+    var(--color-background)
+  );
+}
+#study-carousel-widthcont {
+  max-width: 400px;
+  width: 100%;
+}
+.offers-container {
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.btn-container {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 60%;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+  align-items: center;
+  border-bottom: 0.2px solid #bdbdbd;
+}
+
+.btn-container > span {
+  cursor: pointer;
+}
+
+.btn-container > .active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 6px 20px;
+  border-radius: 6px;
+  color: #3c3c3c;
+}
+
+.btn-container > .active::before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.scroll-btn {
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(
+    81.8deg,
+    rgba(242, 60, 60, 0.15) 9.52%,
+    rgba(242, 60, 60, 0.1) 67.4%
+  );
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0px 2.46px 11.08px 0px #0d5ef43d;
+}
+
+.cards > img {
+  width: 1000px;
+}
+
+.cards {
+  max-width: 400px;
+  width: fit-content;
+  box-shadow: 0px 0px 11px rgba(34, 35, 58, 0.2);
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.accomodation {
+  width: -webkit-fill-available;
+  position: relative;
+}
+
+.accomodation > img {
+  padding: 0px !important  ;
+  border-radius: 12px;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+}
+
+.accomodation > span {
+  width: fit-content;
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.heading {
+  color: #3c3c3c;
+  font-weight: 700;
+  margin: 0;
+  font-size: 19px;
+}
+
+.scroller {
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 40px;
+  padding-inline: 20px;
+}
+
+.image-content {
+  position: relative;
+}
+
+.image-content > img {
+  height: 135px;
+  border-radius: 18px;
+  max-height: 208px;
+  width: -webkit-fill-available;
+}
+
+.image-content > .text {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.text > img {
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+}
+
+.text > h5 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.text-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffff;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: linear-gradient(
+    355.84deg,
+    #2c2c2c -0.18%,
+    rgba(17, 28, 68, 0) 93.6%
+  );
+}
+
+.cards > h3 {
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.rating > button {
+  color: #ff5757;
+  border: 0.84px solid #ff5757;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.rating > div {
+  border: 1px solid var(--inactive, #a3aed0);
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.rating-text {
+  font-weight: 700;
+}
+
+.rating-percent {
+  color: #9691a4;
+  font-weight: 400;
+}
+.study-newabr-head {
+  font-weight: 700;
+  color: #1f1b2d;
+}
+.countries_newservice {
+  background-color: #f8f4f8;
+  padding: 8px 18px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  height: fit-content;
+  line-height: 28px;
+}
+.countries_newservice:active {
+  background-color: #fff;
+  color: red;
+  padding: 8px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.countries_newservice:focus {
+  background-color: #fff;
+  color: red;
+  padding: 8px 20px;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.customclass-listing-container {
+  margin-top: 38px;
+}
+
+@media screen and (max-width: 768px) {
+  .stomclass-listing-container {
+    margin-top: 25px;
+  }
+  .countries_newservice {
+    padding: 5px 16px;
+  }
+}
+@media (max-width: 480px) {
+  .cards {
+    max-width: 350px;
+  }
+  .customclass-listing-container {
+    margin-top: 20px;
+  }
+  .countries_newservice {
+    padding: 4px 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cards {
+    max-width: 314px;
+  }
+}

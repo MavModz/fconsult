@@ -1,0 +1,98 @@
+.document-card {
+  box-shadow: 0px 3.75px 58.11px 0px #99abc62e;
+  background: #ffff;
+  max-width: 400px !important;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px!important;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #aaa6b9;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.underline:hover {
+  color: #ff5757;
+  text-decoration: underline !important;
+}
+
+.card-left-heading > h5 {
+  color: #150a33;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.card-left-heading > p {
+  color: #524b6b;
+  margin: 0;
+}
+
+.status-shared {
+ color: #01B574;
+ font-weight: 700;
+ text-transform: uppercase;
+}
+
+.status-requested {
+  color: #ff5757;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.light-red {
+  background: #ff57571a;
+  padding: 8px 12px;
+  border-radius: 30px;
+  color: #f22c15;
+  font-weight: 700;
+  font-size: 11px;
+}
+.light-red > img {
+  width: 15px;
+}
+
+.light-grey {
+  background: #ececec;
+  border: 1px solid #ececec;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #3c3c3c;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+/* Styles for the disabled button */
+.light-grey:disabled {
+  background-color: transparent; /* Gray background for disabled state */
+  color: #909090; /* Lighter text color for disabled state */
+  cursor: not-allowed; /* Indicate that the button is disabled */
+  border: 1px solid #c7c7c7; /* Optional border for the disabled button */
+}
+
+
+.light-grey > img {
+  width: 16px;
+}
+
+.light-cool-grey {
+  background: #5d6b981a;
+  padding: 6px 12px;
+  border-radius: 30px;
+  color: #5d6b98;
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+span > .arrow-down {
+  width: 15px;
+}

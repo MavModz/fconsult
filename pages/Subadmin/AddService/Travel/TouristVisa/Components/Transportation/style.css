@@ -1,0 +1,237 @@
+.transport-form-container {
+  padding:0px 24px  24px;
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+.form-header h2 {
+  font-size: 23px;
+  font-weight: 700;
+  color:#1F1B2D;
+  margin-bottom: 0px;
+}  
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+  }
+  .add-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f44336;
+    cursor: pointer;
+  }
+
+  .location-input {
+    font-size: 16px;
+    color: #333;
+  }
+.input-container {
+    position: relative;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+  }
+.close-btn {
+  background: none;
+  font-size: 27px;
+  border: none;
+  cursor: pointer;
+  color: #838383;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.form-row-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+label {
+  font-weight: 400;
+  margin-bottom: 6px;
+  font-size: 17px;
+ color: #1F1B2D;
+}
+  .select-option {
+    padding: 0rem 1.5rem 0rem 0.5rem;
+    border: 1.19px solid #D5D2DC;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+  
+  }
+    select {
+    appearance: auto;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+  }
+   .custom-select {
+    border: none !important;
+    outline: none !important;
+  }
+  
+
+.form-input {
+  padding: 13px 17px;
+    border: 1.19px solid #D5D2DC;
+  border-radius: 10px;
+  font-size: 17px;
+  width: 100%;
+}
+
+.icon-input {
+  position: relative;
+}
+
+.icon-input i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 17px;
+  color: #ff5757;
+}
+
+.icon-input input {
+  padding-left: 41px;
+}
+
+textarea.form-input {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  margin-top: 49px;
+}
+
+.delete-btn {
+  color: #ff5757;
+  font-weight: 500;
+  display: flex;
+  font-size: 19px;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.tag-section p{
+     font-weight: 400;
+  margin-bottom: 6px !important;
+  font-size: 17px;
+ color: #1F1B2D;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  border: 1.24px solid #D5D2DC;
+  border-radius: 10px;
+  padding: 10px 13px;
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  align-items: center;
+  justify-content: start;
+
+}
+.tag  {
+  background-color: #ffeef0;
+  color: #ff5757 !important;
+  padding: 9px 17px;
+  border-radius: 20px;
+  font-size: 14px !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.required::after {
+  content: " *";
+  color: #ff5757;
+}
+.add-tag-btn {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.tags-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.tags::-webkit-scrollbar {
+  display: none;
+}
+.fade {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  background: linear-gradient(to left, white, rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.custom-checkbox {
+  appearance: none;
+  width: 17px;
+  height: 16px;
+  border: 2px solid #ff5757;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  background-color: white;
+}
+
+.custom-checkbox:checked {
+  background-color: #ff5757;
+}
+
+.custom-checkbox:checked::after {
+  content: '✓';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 12px;
+  color: white;
+}
+@media screen and (min-width: 600px) and (max-width: 950px) {
+.form-row-1 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+}
+@media screen and  (max-width: 600px) {
+  .form-row-1, .form-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;  
+}
+.transport-form-container {
+    padding: 0px 0px 24px;
+}
+}

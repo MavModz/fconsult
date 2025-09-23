@@ -1,0 +1,160 @@
+.dash {
+    width: 246.09988403320312;
+    height: 30;
+    border-radius: 40.69px;
+    padding-top: 10px;
+    padding-right: 32.55px;
+    padding-bottom: 10px;
+    padding-left: 32.55px;
+    gap: 10.17px;
+    border-width: 1.02px;
+    border: 1.02px solid #676B6C;
+    color: #676B6C;
+    font-size: 14px;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.card{
+    background-color: white;
+    border: none;
+}
+
+.explore {
+    width: 228.09988403320312;
+    height: 30;
+    border-radius: 40.69px;
+    padding-top: 10px;
+    padding-right: 32.55px;
+    padding-bottom: 10px;
+    padding-left: 32.55px;
+    gap: 10.17px;
+    background: #FF5757;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.topheader {
+    position: relative;
+    top: -9px
+}
+
+.vidheader {
+    /* background-color: #D9D9D9; */
+    min-height: 500px;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.ftitle {
+    font-weight: 300;
+    font-size: 18px;
+    vertical-align: middle;
+    color: #ff5757;
+    padding: 0;
+    margin: 0;
+}
+
+.fcontent {
+    font-weight: 100;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #3C3C3C;
+}
+
+
+.feature {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+
+.feature2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+.warningheader {
+    background-color: #FF635F1A;
+    color: #F12222;
+    width: 991;
+    height: 56.392921447753906;
+    justify-content: space-between;
+    border-radius: 10.38px;
+    padding-top: 12px;
+    padding-right: 20.76px;
+    padding-bottom: 12px;
+    padding-left: 20.76px;
+    font-size: 13px;
+}
+
+.tbold {
+    font-weight: 700 !important;
+    padding-top: 10px;
+}
+
+.conf {
+    border: 1px solid #FF5757;
+    border-radius: 10px;
+    padding: 5px 15px 5px 5px;
+    word-break: keep-all;
+    min-width: 235px;
+    height: 36px;
+}
+
+
+.textcontent {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 29px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+
+.righttick {
+    color: #FF5757;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.checkcontent {
+    font-weight: 400;
+    font-size: 20.1px;
+    letter-spacing: 0px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.trialbtn {
+    height: 40px;
+    width: 210.1999969482422;
+    border-radius: 76.13px;
+    gap: 7.61px;
+    padding-top: 0px;
+    padding-right: 19.6px;
+    padding-bottom: 0px;
+    padding-left: 23.6px;
+    background-color: #8383831A;
+    color: #838383;
+}
+
+.buybtn {
+    height: 40px;
+    width: 118.19999694824219;
+    border-radius: 76.13px;
+    gap: 7.61px;
+    padding-top: 0px;
+    padding-right: 19.6px;
+    padding-bottom: 0px;
+    padding-left: 23.6px;
+    background-color: #FF5757;
+    color: #FFFFFF;
+}

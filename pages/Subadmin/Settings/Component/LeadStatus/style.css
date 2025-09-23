@@ -1,0 +1,132 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.leadstatus-container {
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+}
+
+.leadstatus-wrapper {
+  padding: 40px;
+}
+
+.leadstatus-logo {
+  cursor: pointer;
+}
+
+.leadstatus-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.leadstatus-first > h2 {
+  font-size: 28px;
+  
+  font-weight: 700;
+  line-height: 42px;
+  color: #282823;
+  padding-bottom: 41px;
+}
+
+.leadstatus-row1 > h3 {
+  font-size: 17px;
+  
+  font-weight: 500;
+  line-height: 15px;
+  color: #0f172a;
+  padding-bottom: 15px;
+}
+
+.leadstatus-input {
+  width: 305px;
+  height: 60px;
+  background: linear-gradient(0deg, #cbd5e1);
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 15px;
+  
+  font-weight: 400;
+  line-height: 31px;
+  color: #64748b;
+  padding-left: 15px;
+  outline: none;
+}
+
+.leadstatus-button-box {
+  padding-top: 25px;
+}
+
+.leadstatus-add {
+  height: 51px;
+  width: 99px;
+  box-shadow: 0px 1.768px 3.536px 0px rgba(255, 211, 53, 0.3);
+  background: #ff5757;
+  color: #fff;
+  
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14.143px;
+  border-radius: 10px;
+  border: none;
+}
+
+.leadstatus-add:hover {
+  background-color: #fff;
+  color: #ff5757;
+  border: 1px solid #ff5757;
+  transition: ease-in-out 0.3s;
+}
+
+.leadstatus-box {
+  width: 612px;
+  height: 104px;
+  background: #ffffff;
+  box-shadow: 0px 6.528000354766846px 101.18399810791016px 0px #99abc62e;
+  border-radius: 16px;
+}
+
+.leadstatus-box-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.leadstatus-box2 {
+  width: 612px;
+  height: 104px;
+  background: #ffffff;
+  box-shadow: 0px 6.528000354766846px 101.18399810791016px 0px #99abc62e;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+.leadstatus-box3 {
+  width: 612px;
+  height: 104px;
+  background: #ffffff;
+  box-shadow: 0px 6.528000354766846px 101.18399810791016px 0px #99abc62e;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+.leadstatus-box4 {
+  width: 612px;
+  height: 104px;
+  background: #ffffff;
+  box-shadow: 0px 6.528000354766846px 101.18399810791016px 0px #99abc62e;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+.leadstatus-box-wrapper > h3 {
+  
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #150a33;
+}

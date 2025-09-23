@@ -1,0 +1,28 @@
+.parents-container-listing-details {
+    background: #fff;
+    box-shadow: 0 2.73623px 2.73623px -2.73623px rgba(31, 27, 45, 0.08),
+      0 5.47246px 16.4174px rgba(31, 27, 45, 0.08);
+      padding: 30px 20px 30px 30px;
+    color: #666276;
+    font-size:14px
+}
+
+.icon-job{
+    border: 2px solid red;
+
+}
+.contact-section{
+    border: 1px solid red;
+}
+
+@media (max-width: 475px) {
+    .custom-button {
+        padding: 0.5rem; /* Adjust padding */
+        font-size: 16px; /* Adjust font size */
+        /* Add any other styles you want to change */
+    }
+
+    
+}
+
+

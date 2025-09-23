@@ -1,0 +1,70 @@
+.card {
+    border: none;
+    cursor: pointer;
+}
+.crossbtn{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.reminderbtn {
+    border: 1px solid #ff5757;
+    border-radius: 5px;
+    color: #ff5757;
+    padding: 3px 14px 3px 14px;
+}
+
+.extendbtn {
+   background-color: #8383831A;
+   border-radius: 50px;
+   padding: 3px 14px 3px 14px;
+   color: #838383;
+}
+
+.card-header {
+    border: none;
+    background-color: #fff;
+}
+
+.activebtn {
+    width: 170.78504943847656;
+    height: 41.00886154174805;
+    border-radius: 5.13px;
+    padding-top: 10.25px;
+    padding-right: 20.5px;
+    padding-bottom: 10.25px;
+    padding-left: 20.5px;
+    gap: 8.54px;
+    border-width: 0.43px;
+    background: linear-gradient(135deg, #FF8686 0%, #FF2618 100%);
+    color: #fff;
+}
+
+.expirebtn {
+    width: 116.49374389648438;
+    height: 41.047943115234375;
+    border-radius: 5.13px;
+    border-width: 0.43px;
+    padding-top: 10.25px;
+    padding-right: 20.5px;
+    padding-bottom: 10.25px;
+    padding-left: 20.5px;
+    gap: 8.54px;
+    border: 0.43px solid #FF635F;
+    background: var(--Base-Value-Color-White, #FFFFFF);
+    color: #FF2618;
+}
+
+.requestbtn {
+    width: 138.78504943847656;
+    height: 41.00886154174805;
+    border-radius: 5.13px;
+    border-width: 0.43px;
+    padding-top: 10.25px;
+    padding-right: 20.5px;
+    padding-bottom: 10.25px;
+    padding-left: 20.5px;
+    gap: 8.54px;
+    border: 0.43px solid #A5A5A5;
+    color: #A5A5A5
+}

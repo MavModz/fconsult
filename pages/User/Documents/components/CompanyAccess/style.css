@@ -1,0 +1,68 @@
+.p-sidebar-content {
+  overflow: unset;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 250px;
+  min-width: 205px;
+  height: 50px;
+  background: #f4f7fe;
+  border: 1px solid white;
+  border-radius: 30px;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.search-container>img {
+  width: 12px;
+}
+
+.search-container>input {
+  outline: 0;
+  border: 0;
+  background: #f4f7fe;
+  width: 100%;
+  max-width: 150px;
+  min-width: 60px;
+  height: 100%;
+  outline: none;
+}
+
+.sidebar {
+  width: 500px;
+}
+
+.pyramid {
+  max-width: 300px;
+  min-width: 300px;
+}
+
+.pyramid>h6 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.pyramid>p {
+  color: #a7a9b7;
+  font-size: 15px;
+  margin: 0;
+}
+
+.fixed-footer {
+  width: 100%;
+  background-color: #fff;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+}
+
+.company-list {
+  max-height: calc(100vh - 250px);
+  overflow-y: auto;
+}

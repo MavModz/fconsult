@@ -1,0 +1,63 @@
+.tourist-profile-contianer{
+    background: #fff;
+    box-shadow: 0 2.73623px 2.73623px -2.73623px rgba(31, 27, 45, 0.08),
+    0 5.47246px 16.4174px rgba(31, 27, 45, 0.08);
+    border-radius: 10px;
+    
+}
+.tourist-profile-sub-contianer{
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.tourist-arival-time{
+    align-items: center;
+    margin-bottom: 10px;
+}
+.tourist-arival-time-member{
+    border-radius: 10px;
+}
+.tourist-arival-time-member-infant{
+    border-top:1px solid #D1D5DB
+}
+.tourist-arival-time-date-first{
+    border-right:1px solid #D1D5DB ;
+}
+.tourist-payment{
+    margin-top: 20px;
+    border: 1px solid #FF5757;
+    border-radius:10px ;
+    background-color: #FF5757;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    /* padding:10px 20px 10px 20px ; */
+}
+.tourist-payment p{
+    text-align: center;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+
+}
+.tourist-about-charge{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6B7280;
+}
+.tourist-about-charge p{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+.tourist-about-fee{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#000000
+}

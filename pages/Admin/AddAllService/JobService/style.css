@@ -1,0 +1,55 @@
+.nav-item > .active{
+    color: #ff5757;
+    border-bottom: 2px solid #ff5757;
+  }
+  
+  .nav-link{
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #a1a5b7;
+    font-size: 15.1px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .card{
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .logo_image{
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .cover_image{
+    height: 150px;
+    width: max-content;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .tabs{
+    border: none;
+    border-radius: 16px;
+    padding: 25px 15px;
+    background-color:#fff;
+    /* border-top: 1px solid #EFF2F5;
+    margin: 0px 20px 0px 20px; */
+  
+  }
+  /* #add-leads-bootsrt-header{
+    background-color:#e7ecf8;
+  } */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

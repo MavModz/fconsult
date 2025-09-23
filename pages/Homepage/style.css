@@ -1,0 +1,298 @@
+.main-container-homepage {
+ 
+    margin: auto;
+   
+}
+.homepage-search-container {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 50px;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.elastic-search {
+    position: absolute;
+    width: 100%; 
+    background-color: white;
+    border: 1px solid #D5D2DC;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 10;
+    top: 100%; 
+    left: 0;
+    max-width: 400px;
+    overflow-y: auto;
+    max-height: 300px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.elastic-search ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.elastic-search li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.elastic-search li:hover {
+    background-color: #f5f5f5;
+}
+.homepage-container{
+    background-image: url(/img/png/Homepage/herosection.avif);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-left: 10%; 
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken; 
+
+}
+
+.homepage-container.loaded {
+    background-image: url(/img/png/Homepage/herosection.png);
+}
+
+
+.homepage-header {
+    text-align: left;
+    max-width: 900px; 
+}
+
+.homepage-header h1 {
+    color: #F8FCFF;
+    font-family: "Noto Sans";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 130%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.homepage-header p {
+    color: #FFF5F5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Search Bar */
+.homepage-search-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 50px;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.homepage-search-container i {
+    font-size: 18px;
+    color: red;
+    margin-left: 15px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.search-button {
+    background-color: #ff5757;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ff5757;
+}
+
+
+.home-page-service-page-card {
+    width: 100%;
+    margin: auto;
+    /* background: #F8FCFF; */
+
+}
+
+.homepage-tab-card {
+   
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-icon-wrapper {
+    width: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.search-button:hover{
+    color: red;
+    background-color: #fff;
+
+}
+
+.homepage-icon-wrapper Carousel {
+    width: 100%;
+}
+
+.homepage-icon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 13.69px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 2.282px 2.282px -2.282px rgba(31, 27, 45, 0.08), 0px 4.563px 13.69px 0px rgba(31, 27, 45, 0.08);
+}
+
+.icon-bg {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: white;
+    transition: 0.3s;
+}
+
+.homepage-icon {
+    width: 180.598px;
+    height: 125.149px;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-bg {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: white;
+}
+
+.homepage-icon:hover .icon-bg {
+    background: #ff5757;
+}
+
+
+@media (max-width: 1200px) {
+    .homepage-header h2 {
+        font-size: 55px;
+    }
+    .homepage-header p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    .homepage-header h2 {
+        font-size: 45px;
+    }
+    .homepage-header p {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+   
+    .homepage-header h2 {
+        font-size: 35px;
+    }
+    .homepage-header p {
+        font-size: 18px;
+    }
+}
+@media (min-width: 600px) and (max-width: 845px) {
+    .homepage-icon {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .homepage-header h2 {
+        font-size: 28px;
+    }
+    .homepage-search-container{
+        width: 80%;
+        padding:0px 15px 0px 8px;
+    }
+    .homepage-header p {
+        font-size: 16px;
+    }
+    .search-button {
+        padding: 7px 14px;
+        font-size: 14px;
+}
+.homepage-container{
+    background-image: url(/img/png/Homepage/herosection.avif);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-left: 10%; 
+    /* overflow: hidden; */
+}
+
+
+.homepage-header h1 {
+    color: #F8FCFF;
+    font-family: "Noto Sans";
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 110%;
+    max-width: 500;
+    margin-bottom: 0px;
+
+}
+.homepage-header p {
+    color: #FFF5F5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 10px;
+}
+}

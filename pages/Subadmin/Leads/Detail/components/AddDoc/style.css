@@ -1,0 +1,120 @@
+.p-sidebar {
+  padding: 24px;
+}
+
+.p-sidebar-header-content {
+  color: #000000;
+  font-size: 30px !important;
+  line-height: 44px;
+  font-weight: 500;
+  padding: 0px 1px;
+}
+
+.header-para {
+  color: #8692A6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.p-radiobutton {
+  border: 1px solid #ff5722;
+  border-radius: 50px;
+}
+
+.radio-group {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#update-event-select {
+  outline: none;
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 15px;
+  background: rgba(241, 245, 249, 0.40);
+  border: 1px solid #CBD5E1;
+}
+
+.selected-option {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.checkbox-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+  display: flex;
+  justify-content: center;
+
+}
+
+.checkbox-card.active {
+  border-color: #f44336;
+  background-color: #ffe5e5;
+  filter: grayscale(0%);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.hidden-radio {
+  display: none;
+}
+
+.selected-option {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-content>img {
+  width: 50px;
+  height: 50px;
+}
+
+.card-content>p {
+  color: #FF5757;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.btn-red {
+  background: #ff5757;
+  border: 0;
+  padding: 10px 40px;
+  border-radius: 6px;
+  color: #ffff;
+  width: 100%;
+}
+
+.formkit-no-files, .formkit-file-list {
+  display: none;
+}
+
+.formkit-help {
+  color: #676B6C;
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,85 @@
+{
+    "Transportation": {
+        "type": "transportation",
+        "transportation_field": {
+            "price": null,
+            "country": null,
+            "city": null,
+            "state": null,
+            "zip_code": null,
+            "street": null,
+            "rating": null,
+            "tags": null,
+            "description": null
+        }
+    },
+    "Transfer": {
+        "type": "transfer",
+        "transfer_field": {
+            "price": null,
+            "type": null,
+            "company": null,
+            "class": null,
+            "departure": null,
+            "stopage": null,
+            "arrival": null,
+            "departure_location": null,
+            "destination_location": null,
+            "description": null,
+            "tags": null
+        }
+    },
+    "Destination": {
+        "type": "destination",
+        "destination_field": {
+            "price": null,
+            "country": null,
+            "city": null,
+            "state": null,
+            "zip_code": null,
+            "street": null,
+            "rating": null,
+            "tags": null,
+            "description": null
+        }
+    },
+    "Accommodation": {
+        "type": "accommodation",
+        "accommodation_field": {
+            "price": null,
+            "hotel": null,
+            "checkin": null,
+            "checkout": null,
+            "checkout_date": null,
+            "country": null,
+            "city": null,
+            "zipcode": null,
+            "rating": null,
+            "tags": null,
+            "description": null,
+            "hotel_location": null
+        }
+    },
+    "Activities": {
+        "type": "activities",
+        "activities_field": {
+            "price": null,
+            "title": null,
+            "type": null,
+            "places": null,
+            "duration": null,
+            "location": null,
+            "image": null,
+            "description": null
+        }
+    },
+    "Custom": {
+        "type": "custom",
+        "custom_field": {
+            "price": null,
+            "title": null,
+            "image": null,
+            "description": null
+        }
+    }
+}

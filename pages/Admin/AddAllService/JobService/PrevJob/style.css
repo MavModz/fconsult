@@ -1,0 +1,227 @@
+.preview-jb-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 4.934579372406006px 19.738317489624023px 0px #1F1B2D1F;
+}
+.preview-jb-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.preview-jb-eye-head{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    justify-content: space-between; 
+}
+.preview-jb-vacn>span{
+    color: #1F1B2D;
+    font-weight: 700;
+    font-size: 26px;
+}
+.jblst-brd-cmp{
+    border: 1px solid #EFECF3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.preview-jb-back-shad{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #f5f4f8;
+    border-radius: 14px;
+}
+.preview-jb-back-shad-wht{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+.preview-job-partener{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.preview-job-manager>span{
+    color: #1F1B2D;
+    font-size: 26px;
+    font-weight: 700;
+}
+.preview-job-par-fat{
+    background-color: #efecfe;
+    color: #5D3CF2;
+    padding: 7px 16px;
+    border-radius: 100px;
+}
+.preview-job-par-hrs{
+color: #9691A4;
+font-weight: 400;
+font-size: 16px;
+line-height: 3;
+
+}
+.preview-job-par-zalo{
+    display: flex;
+    align-items: center;
+  column-gap: 15px;
+}
+.preview-job-partech{
+    color: #ff5757;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+#preview-job-stlcn{
+    color: red;
+}
+.preview-job-partech-gry{
+    color: #666276;
+    font-size: 16px;
+    font-weight: 400;
+}
+.preview-job-partech-showphn{
+    color: #ff5757;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.prev-jb-cntmax{
+    height: 100%;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.prev-jb-cntmax-reqr{
+    color: #1F1B2D;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+   
+}
+
+.style-4::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #f5f4f8;
+	background-color: #F5F5F5;
+}
+
+.style-4::-webkit-scrollbar
+{
+	width: 4px;
+	background-color:red;
+}
+
+.style-4::-webkit-scrollbar-thumb
+{
+	background-color: red;
+	border: 2px solid #d5d2dc;
+}
+.prev-job-listl>li{
+    color: 
+    #666276;
+    font-size: 16px;
+    font-weight: 400;
+}
+.prev-job-listl {
+    /* list-style: red; */
+}
+.joblis-lsr-nextbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding: 25px 40px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 4.934579372406006px 19.738317489624023px 0px #1F1B2D1F;
+}
+.jobls-btnnxt{
+    background-color: #ff5757;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 21px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.jobls-btnnxt-white{
+    background-color: #fff;
+    border: 1px solid #ff5757;
+    padding: 7px 20px;
+    border-radius: 21px;
+    color: #ff5757;
+    font-size: 17px;  
+    font-weight: 700;
+}
+
+@media screen and (max-width:767px){
+    .preview-job-partener {
+        display: grid;
+        row-gap: 15px;
+        justify-content: center;
+    }
+    .preview-job-manager>span {
+        font-size: 20px;
+        text-align: center;
+    }
+    .prev-featmedia{
+        text-align: center;
+    }
+    .preview-jb-wrapper {
+        padding: 15px;
+
+    }
+    .preview-jb-back-shad-wht {
+        padding: 20px;
+    }
+}
+@media screen and (max-width:405px){
+    .joblis-lsr-nextbtn {
+        display: grid;
+        row-gap: 20px;
+        justify-content: center;
+}
+.preview-jb-back-shad {
+
+    padding: 12px;
+
+}
+}
+@media screen and (max-width:415px){
+    .preview-job-par-zalo{
+        display: grid;
+        justify-content: center;
+        padding-bottom: 18px;
+    }
+    #preview-job-stlcn {
+        display: flex;
+        justify-content: center;
+    }
+    .preview-job-par-boots{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:450px){
+    .preview-jb-header {
+        display: grid;
+        justify-content: center;
+    }
+    .preview-jb-eye-head {
+        display: grid;
+        justify-content: center;
+    }
+    .prev-jbeye-icn{
+        text-align: center;
+    }
+    .prev-jbeye-icnmon{
+        text-align: center;
+    }
+}

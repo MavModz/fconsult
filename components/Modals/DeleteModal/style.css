@@ -1,0 +1,135 @@
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1003;
+  }
+  
+  /* Modal Dialog */
+  .modal-dialog {
+    background: #fff;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Modal Header */
+  .modal-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Close Button */
+  .close-btn {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Modal Body */
+  .modal-body {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  
+  .modal-description {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Modal Footer */
+  .modal-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Cancel Button */
+  .cancel-btn {
+    background: transparent;
+    border: 1px solid #ff5757;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #ff5757;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cancel-btn:hover {
+    background: rgba(255, 87, 87, 0.1);
+  }
+  
+  /* Confirm Button */
+  .confirm-btn {
+    background: #ff5757;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .confirm-btn:hover {
+    background: #e04b4b;
+  }
+
+  .confirm-btn:disabled {
+    background: #ff5757;
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+
+  .confirm-btn:disabled:hover {
+    background: #ff5757;
+  }
+
+  /* Spinner */
+  .spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 1s ease-in-out infinite;
+    margin-right: 8px;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

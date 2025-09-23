@@ -1,0 +1,98 @@
+.homepage-2nd-add-design {
+    border-top: 1px solid #ff5757;
+    background-color: #29292a;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 5px;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Space between content and image */
+    padding: 0 20px; /* Add some padding to prevent touching the edges */
+    box-sizing: border-box;
+}
+
+.content-section {
+    flex: 1; 
+}
+
+.image-section img {
+    width: 100%;
+    margin-top: 4.5%;
+    object-fit: contain; /* Ensure the image covers the container without distortion */
+}
+
+.home-lead-section-text {
+    padding-left: 20px;
+}
+.second-add-button{
+    border: 1px solid #ff5757;
+}
+.second-add-button:hover{
+    background-color: white;
+    color:#ff5757
+}
+
+@media (max-width: 768px) {
+    .homepage-2nd-add-design {
+       
+        height: 300px;
+    }
+
+    .lead-main-text-home {
+        font-size: 26px;
+    }
+
+    .home-lead-section-text {
+        padding-left: 39px;
+        text-align: center;
+    }
+
+    .image-section img {
+        max-width: 100%; /* Make the image fill the available space */
+        object-fit: contain; /* Ensure the entire image is visible and not cropped */
+    }
+    .home-lead-section-text-para{
+        font-size: 14px;
+    }
+    .home-lead-section-text-heading{
+        font-size: 20px;
+     
+    }
+    .home-lead-section-text-button{
+        font-size: 12px;
+        
+    }
+    .add2-button-cta{
+        justify-content: center !important;
+    }
+  
+}
+
+@media (max-width: 512px) {
+    .homepage-2nd-add-design {
+       
+        height: 250px;
+    }
+    .lead-main-text-home {
+        font-size: 22px;
+    }
+
+    .home-lead-section-text {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 512px) {
+    .home-lead-section-text-para{
+        font-size: 14px;
+    }
+    .home-lead-section-text-heading{
+        font-size: 19px;
+    }
+    .home-lead-section-text-button{
+        font-size: 12px;
+    }
+    .image-section{
+        display: none;
+    }
+}

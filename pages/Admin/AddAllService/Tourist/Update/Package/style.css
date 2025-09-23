@@ -1,0 +1,548 @@
+.pricing-basic-allday {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 4.934579372406006px 19.738317489624023px 0px #1F1B2D1F;
+}
+
+.pricing-basic-allday-dot{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    column-gap: 5px;
+    background-color: #F5F5F5;
+    padding: 7px 20px;
+    border-radius: 6px;
+}
+.pricing-basic-allday-day1{
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 600;
+}
+.pricing-basic-allday-day1-dot{
+    width:
+            10px;
+    height: 10px;
+    background-color: #ff5757;
+    border-radius: 50%;
+}
+.pricing-border-span-line{
+    border: 1px solid #EFECF3;
+    height: 24px;
+}
+.pricing-border-line{
+    border: 1px solid #EFECF3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pricing-basic-allday-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+    column-gap: 30px;
+
+}
+.pricing-border-day2s{
+    color: #828282;
+    font-weight: 600;
+    font-size: 16px;
+}
+.pricing-addtab-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.pricing-addtab-ttl-prsn{
+    display: flex;
+    align-items: center;
+}
+.pricing-addtab-totl-dgn{
+    color: #3C3C3C;
+    font-size: 25px;
+    font-weight: 500;
+}
+.pricing-addtab-prpson{
+    background-color: #ffefef;
+    color: red;
+    text-align: center;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 50px;
+}
+.pricing-addtab-prpson-rss{
+    color: #ff5757;
+    font-weight: 700;
+    font-size: 28px;
+}
+.pricing-day-drp{
+    color: #1F1B2D;
+    font-weight: 700;
+    font-size: 25px;
+}
+.pricing-cal-daystl{
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+.pricing-disp-flx-drpps{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+    column-gap: 15px;
+}
+.btn-align-center{
+    display: flex;
+    align-items: center;
+}
+.btn-align-center > span {
+    background: #f4f7fe;
+    color: #3c3c3c;
+    padding: 8px 20px;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid #a3aed0;
+}
+.select-option {
+    padding: 6.5px 0px;
+    color: #ffff;
+    background: #ff5757;
+    border: 0;
+    border-radius: 0px 8px 8px 0px;
+}
+.drop-down {
+    inset: 0px 0px auto -160px !important;
+    width: 120px !important;
+    text-align: center;
+    padding: 0;
+    border-bottom: 1px solid #a3aed0;
+    border-right: 1px solid #a3aed0;
+    border-left: 1px solid #a3aed0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transform: translate(25px, 47px) !important;
+}
+.drop-down > li {
+    padding: 7px 25px;
+    border-radius: 0px 0px 10px 10px;
+    background: #f4f7fe;
+    color: #3c3c3c;
+    text-align: justify;
+    cursor: pointer;
+}
+.pricing-transport-conta{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 4.934579372406006px 19.738317489624023px 0px #1F1B2D1F;
+    margin-top: 20px;
+}
+.pricing-transport-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pricing-transport-heading-car{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.pricing-trans-detais{
+    color: #1F1B2D;
+    font-weight: 700;
+    font-size: 29px;
+}
+.pricing-right-transport{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.pricing-right-trans-prc{
+    color: #ff5757;
+    font-size: 21px;
+    font-weight: 700;
+}
+.pricing-right-transpt-rss{
+    color: #666276;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid #D5D2DC;
+    padding: 4px 18px;
+    border-radius: 8px;
+
+}
+.pricing-trans-cmpny-flx{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.tourist-transport-lable {
+    color: #1F1B2D;
+    font-weight: 400;
+    font-size: 17px;
+    padding-bottom: 2px;
+}
+.tourist-transport-inpt1st {
+    width: 100%;
+    border: 1px solid #D5D2DC;
+    outline: none;
+    border-radius: 9px;
+    padding: 10px 10px;
+}
+#updateevents-drpsemi {
+    padding: 10px 10px;
+}
+.jobliscmp-dro{
+    margin-bottom: 0px !important;
+    width: 31%;
+}
+.tourist-bsc-dic-wd{
+    width: 31%;
+}
+.tourist-transport-2stbx{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.tourist-bsc-dic-wd2{
+    width: 48%;
+}
+.tourist-bsc-dic-checkbx{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.tourist-transp-spnnd{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #D5D2DC;
+    padding: 5px;
+    background: #fff;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+}
+.tourist-transport-inpt1st-depart{
+    text-indent: 8px;
+    outline: 0;
+    border: 0;
+    background: #fff;
+    width: 100%;
+}
+#tourist-transp-loction{
+    color: red;
+}
+.tourist-transport-despstbx{
+    padding-top: 30px;
+}
+.tourist-trans-delt-flx{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.tourist-transport0delete{
+    color: #ff5757;
+    font-size: 18px;
+    font-weight: 400;
+}
+.tourist-trans-delt-paddng{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.tourist-trans-delt-additm{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    column-gap: 15px;
+}
+.tourist-trans-delt-additm>span{
+    color: #1F1B2D;
+    font-weight: 400;
+    font-size: 16px;
+    min-width: 72px;
+
+}
+.jbdtls-outadd-on {
+    border: 1.53px solid #cbd5e1;
+    width: -webkit-fill-available;
+    height: 48px;
+    border-radius: 8px;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    column-gap: 10px;
+}
+.jobdtls-red-on {
+    display: flex;
+    column-gap: 10px;
+    background: #ff575733;
+    padding: 5px 18px;
+    color: #ff5757;
+    font-weight: 700;
+    border-radius: 24px;
+    min-width: max-content;
+}
+.jobliscmp-dro-destination{
+    margin-bottom: 0px !important;
+    width: 48%;
+}
+.jobliscmp-dro-destination-district{
+    margin-bottom: 0px !important;
+    width: 66%;
+}
+.tourist-bsc-dic-wd2-zipcde{
+    width: 30%;
+}
+.jobliscmp-dro-destination-ratingg{
+    width: 20%;
+    margin-bottom: 0px !important;
+}
+.tourist-trans-delt-additm-trns{
+    align-items: center;
+    width: 48%;
+    column-gap: 15px;
+}
+.tourist-trans-delt-additm-trns>span{
+    color: #1F1B2D;
+    font-weight: 400;
+    font-size: 16px;
+    min-width: 72px;
+
+}
+.tourist-bsc-dic-wd2-zipcde-blw{
+    width: 26%;
+}
+.pricing-destination-dsp-map{
+    padding-top: 30px;
+}
+.pricing-destination-dsp-map>span{
+    color: #1F1B2D;
+    font-weight: 700;
+    font-size: 20px;
+}
+.pricing-destination-map-dotted{
+    margin-top: 25px;
+    background-color: #fff6f6;
+    width: 100%;
+    height: 250px;
+    border: 1px dotted #ff5757;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing-destination-map-dotted-inner{
+    text-align: center;
+}
+.pricing-destination-map-dotted-inn-spn{
+    background-color: #ff5757;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    column-gap: 8px;
+    display: flex;
+}
+.pricng-destin-dragthem{
+    color: #666276;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top:  10px;
+}
+.pricing-destination-map-infocl{
+    margin-top: 20px;
+    background-color: #fff6f6;
+    padding: 13px;
+    border-radius: 9px;
+    min-height: 100px;
+    height: 100%;
+}
+.pricing-destination-map-infocl-parg{
+    color: #ff5757;
+}
+.pricing-destin-map-inffw{
+    display: flex;
+    column-gap: 8px;
+}
+.tourist-bsc-dic-wd2-accd{
+    padding-top: 30px;
+    width: 100%;
+}
+.tourist-transp-upld{
+    color:
+            #909090;
+}
+.tourist-bsc-dic-wd2-activities {
+    width: 35%;
+}
+.tourist-bsc-dic-wd2-image{
+    width: 23%;
+}
+.tourist-bsc-dic-wd2-custom {
+    width: 48%;
+}
+.tourist-bsc-dic-wd2-image-cus{
+    width: 48%;
+}
+.joblis-lsr-nextbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding: 25px 40px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 4.934579372406006px 19.738317489624023px 0px #1F1B2D1F;
+}
+.jobls-btnnxt-white {
+    background-color: #fff;
+    border: 1px solid #ff5757;
+    padding: 7px 20px;
+    border-radius: 21px;
+    color: #ff5757;
+    font-size: 17px;
+    font-weight: 700;
+}
+.jobls-btnnxt {
+    background-color: #ff5757;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 21px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.Transportation-addtags{
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width:767px){
+    .pricing-addtab-cont {
+        display: grid;
+        align-items: center;
+        row-gap: 20px;
+        justify-content: center;
+    }
+    .pricing-transport-heading {
+        display: grid;
+        align-items: center;
+        row-gap: 20px;
+        justify-content: center;
+    }
+    .pricing-trans-cmpny-flx{
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+    .jobliscmp-dro{
+        width: 100%;
+    }
+    .tourist-bsc-dic-wd {
+        width: 100%;
+    }
+    .tourist-transport-2stbx {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+    .tourist-bsc-dic-wd2{
+        width: 100%;
+    }
+    .tourist-trans-delt-paddng{
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+    .tourist-trans-delt-additm {
+        display: flex;
+        order: 1;
+        width: 100%;
+
+    }
+    .tourist-trans-delt-flx {
+        display: flex;
+        order: 2;
+        margin: auto;
+    }
+    .jobliscmp-dro-destination {
+        width: 100%;
+    }
+    .jobliscmp-dro-destination-district{
+        width: 100%;
+    }
+    .tourist-bsc-dic-wd2-zipcde{
+        width: 100%;
+    }
+    .tourist-bsc-dic-wd2-zipcde-blw{
+        width: 100%;
+    }
+    .jobliscmp-dro-destination-ratingg {
+        width: 100%;
+
+    }
+    .tourist-trans-delt-additm-trns {
+        width: 100%;
+
+    }
+    .tourist-bsc-dic-wd2-activities {
+        width: 100%;
+    }
+    .tourist-bsc-dic-wd2-image {
+        width: 100%;
+    }
+    .tourist-bsc-dic-wd2-custom {
+        width: 100%;
+    }
+    .tourist-bsc-dic-wd2-image-cus {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .pricing-trans-detais {
+        font-size: 23px;
+    }
+    .pricing-transport-heading-car {
+        justify-content: center;
+
+    }
+    .tourist-trans-delt-additm {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .joblis-lsr-nextbtn {
+        display: grid;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}

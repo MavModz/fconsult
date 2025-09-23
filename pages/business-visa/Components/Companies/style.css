@@ -1,0 +1,89 @@
+/** @format */
+
+.imigartion-card {
+  border: 0.44px solid var(--inactive, #a3aed0);
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  column-gap: 4%;
+  row-gap: 15px;
+  align-items: center;
+  width: -webkit-fill-available;
+  min-width: 380px;
+  height: 170px;
+  /* box-shadow: 0px 0px 11px rgba(34, 35, 58, 0.2); */
+}
+
+.stdy-cmp-imghgtr{
+  padding: 0px;
+  width: -moz-fit-content;
+  width: 30%;
+  border-radius: 14.9px;
+}
+.stdy-cmp-imghgtr img{
+  aspect-ratio: 1/1;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+.call-now {
+  display: flex;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.call-now > button {
+  color: #ff5757;
+  border: 0.52px solid #ff5757;
+  /* padding: 8px 20px; */
+  border-radius: 8px;
+}
+
+h5 {
+  width: fit-content;
+}
+
+@media screen and (min-width: 1251px) and (max-width:1430px) {
+.visa-expert-left img{
+  aspect-ratio: 8/9;
+}
+}
+@media screen and (max-width: 1250px) {
+.compa-style-grid{
+  display: grid;
+   grid-template-columns: 100%;
+}
+.visa-expert-left img {
+  aspect-ratio: 2 / 1;
+  width: 100%;
+}
+.cstm-widdth-cmpp{
+  width: 100%;
+}
+.near-by-clss{
+  margin-top: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .visa-expert-left img {
+    aspect-ratio: 1 / 1;
+  }
+}
+@media (max-width: 480px) {
+  .imigartion-card {
+    flex-direction: column;
+    min-width: 300px;
+  }
+  .stdy-cmp-imghgtr{
+    width: 80%;
+    margin: auto;
+    height: 140px;
+  }
+  .stdy-cmp-imghgtr img{
+    object-fit: contain;
+  }
+}

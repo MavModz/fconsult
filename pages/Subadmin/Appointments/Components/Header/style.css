@@ -1,0 +1,134 @@
+
+
+.gallery-media-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 30px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  .gallery-media-action>button {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #ff8686 0%, #ff2618 100%);
+    border: 0;
+    color: #fff;
+    border-radius: 26px;
+  }
+  .leads-filter-design {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    width: 100%;
+  }
+  .leads-filter-left{
+    display: flex;
+    
+    justify-content: flex-start;
+    gap:10px;
+    width:50%
+  }
+  .your-events-btn-icon {
+    cursor: pointer;
+    text-decoration: none;
+    
+  
+    color: #64748b;
+    padding: 10px;
+    
+   
+    transition: 0.8s;
+  
+    font-weight: 550;
+  
+    outline: none;
+    position: relative;
+    z-index: 1;
+    font-size: 13px;
+   
+  }
+  .leads-filter-right{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 50%;
+}
+.your-events-btn-icon {
+    cursor: pointer;
+    text-decoration: none;
+    
+  
+    color: #64748b;
+    padding: 10px;
+    
+   
+    transition: 0.8s;
+  
+    font-weight: 550;
+  
+    outline: none;
+    position: relative;
+    z-index: 1;
+    font-size: 13px;
+   
+  }
+  .your-events-btn {
+    cursor: pointer;
+    text-decoration: none;
+    
+  
+    color: #64748b;
+    padding: 10px;
+    
+   
+    transition: 0.8s;
+  
+    font-weight: 550;
+    transition: ease-out 0.8s;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    font-size: 13px;
+    border:1px solid #d7dce4 ;
+    border-radius: 5px ;
+  }
+
+.btn-align-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-align-center>span {
+    background: #f4f7fe;
+    color: #3c3c3c;
+    padding: 6px 20px;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid #a3aed0;
+  }
+
+.leads-customopent-dropdown{
+    background-color: #ff8686;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+@media (max-width: 767px) {
+    .gallery-media-action {
+      /* height: 230px; */
+      justify-content: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .leads-filter-design {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }

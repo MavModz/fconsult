@@ -1,0 +1,22 @@
+<svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="circle-flags:jp" clip-path="url(#clip0_33696_6496)">
+<g id="Mask group">
+<mask id="mask0_33696_6496" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="55" height="55">
+<g id="Group">
+<path id="Vector" d="M27.4355 54.6416C42.2528 54.6416 54.2646 42.6298 54.2646 27.8125C54.2646 12.9952 42.2528 0.983398 27.4355 0.983398C12.6182 0.983398 0.606384 12.9952 0.606384 27.8125C0.606384 42.6298 12.6182 54.6416 27.4355 54.6416Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_33696_6496)">
+<g id="Group_2">
+<path id="Vector_2" d="M0.606384 0.983398H54.2646V54.6416H0.606384V0.983398Z" fill="#EEEEEE"/>
+<path id="Vector_3" d="M27.4355 39.4769C33.8775 39.4769 39.0999 34.2546 39.0999 27.8125C39.0999 21.3705 33.8775 16.1481 27.4355 16.1481C20.9934 16.1481 15.7711 21.3705 15.7711 27.8125C15.7711 34.2546 20.9934 39.4769 27.4355 39.4769Z" fill="#D80027"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_33696_6496">
+<rect width="53.6582" height="53.6582" fill="white" transform="translate(0.606384 0.983398)"/>
+</clipPath>
+</defs>
+</svg>

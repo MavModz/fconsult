@@ -1,0 +1,419 @@
+/** @format */
+
+.Login-first-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+#Loging-Second-setion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #696868 0%, #191818 100%);
+    border-bottom-left-radius: 186px;
+    background-color: #545353;
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 880px;
+}
+
+.Login-row1 {
+    display: flex;
+    padding-bottom: 35px;
+    background-color: #f8f7fc;
+}
+
+/* .Login-container {
+  padding-bottom: 40px;
+} */
+
+.Login-row1-image {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+}
+
+.Login-row1-image > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.Login-row1-text {
+    color: black;
+    text-align: center;
+    line-height: 60px;
+}
+
+.Login-row1-para {
+    text-align: center;
+}
+
+.iphone-logo {
+    height: 33px;
+}
+
+.Login-form-container {
+    background-color: #fff;
+    padding: 40px 40px 80px 40px;
+    margin: auto;
+    max-width: 510px;
+    border-radius: 40px;
+    background: #fff;
+    box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.08);
+}
+
+.Login-account-Signup > a {
+    color: #ff5757;
+
+}
+
+.iphone-logo {
+    height: 50px;
+}
+
+.Login-form-row2-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Login-row2-col3 {
+    text-align: start;
+}
+
+.Login-row2-col3 > h1 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 44px;
+
+}
+
+.Login-form-row2-text > h3 {
+
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 31px;
+    color: #3c3c3c;
+}
+
+.Login-form-row2-text > h3 > span {
+    font-weight: 600;
+
+}
+
+.Login-account-row2 {
+    font-size: 13px;
+
+    font-weight: 400;
+    line-height: 19px;
+    color: #8d8d8d;
+}
+
+.Login-account-Signup {
+    font-weight: 700;
+    color: #ff5757;
+    text-decoration: underline;
+}
+
+.Login-Google-apple {
+    display: flex;
+    align-items: center;
+    padding-top: 54px;
+}
+
+.Login-Goggle {
+    background: #e9f1ff;
+    width: 50%;
+    height: 55px;
+    border-radius: 9px;
+}
+
+.Login-anchor {
+
+    border: 0px solid;
+    border-radius: 3px;
+    color: #ff5757;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+.Login-apple {
+    width: 50px;
+    margin-left: 26px;
+}
+
+.Login-apple-anchor {
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    background: #f6f6f6;
+    border-radius: 9px;
+    height: 55px;
+    width: 60px;
+}
+
+.Login-row4 {
+    padding-top: 54px;
+    padding-bottom: 12px;
+}
+
+.Login-row4-text {
+    color: #000000;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.input-box {
+    padding: 10px, 20px;
+}
+
+.input-box {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 9px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.Login-row5-text {
+    color: #000000;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Login-row5 {
+    padding-bottom: 12px;
+    padding-top: 38px;
+}
+
+.Login-Forget-pass {
+    padding-top: 12px;
+    display: flex;
+    justify-content: end;
+}
+
+.link-primary {
+    color: #4285f4;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.Sign-button {
+    padding-top: 44px;
+    width: auto;
+}
+
+.form-control-box {
+
+    display: block;
+    width: 100%;
+    padding: 10px 20px !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 9px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    outline: none;
+}
+
+.btn-sign {
+
+    background-color: #ff5757;
+    border-radius: 45px;
+    color: #fff;
+    border: 2px solid #ff5757;
+    font-size: 12px;
+    height: 44px;
+    line-height: 41px;
+    padding: 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    width: 431px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-sign:hover {
+    background-color: #fff;
+    color: #ff5757;
+}
+
+.form-control-box:focus {
+    border: 1px solid #4285f4;
+}
+
+@media (min-width: 680px) and (max-width: 1280px) {
+    .Login-first-section {
+        display: none;
+    }
+    #Loging-Second-setion {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 679px) {
+    .Login-first-section {
+        display: none;
+    }
+    #Loging-Second-setion {
+        width: 100%;
+        border-radius: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .Login-form-container {
+        height: 638px;
+        width: 382px;
+    }
+    .btn-sign {
+        width: 268px;
+    }
+    .Sign-button {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .Login-anchor {
+        padding-left: 10px;
+    }
+    .Login-Google-apple {
+        display: flex;
+        align-items: center;
+        padding-top: 21px;
+    }
+    .Login-row2-col3 > h1 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .Login-first-section {
+        display: none;
+    }
+    #Loging-Second-setion {
+        width: 100%;
+        border-radius: 0px;
+        height: 750px;
+        padding-top: 50px;
+    }
+    .Login-form-container {
+        height: 608px;
+        width: 90%;
+        padding: 20px;
+    }
+    .btn-sign {
+        width: 268px;
+    }
+    .Sign-button {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .Login-anchor {
+        padding-left: 10px;
+    }
+    .Login-form-wrapper {
+        padding-top: 13px;
+    }
+    .Login-row4 {
+        padding-top: 43px;
+        padding-bottom: 12px;
+    }
+    .Login-Google-apple {
+        padding-top: 18px;
+    }
+    .Login-row2-col3 > h1 {
+        color: #000000;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+}
+
+@media (min-width: 10px) and (max-width: 374px) {
+    .Login-first-section {
+        display: none;
+    }
+    #Loging-Second-setion {
+        width: 100%;
+        border-radius: 0px;
+        height: 750px;
+        padding-top: 60px;
+    }
+    .Login-form-container {
+        height: 612px;
+        width: 90%;
+        padding: 20px;
+    }
+    .btn-sign {
+        width: 230px;
+    }
+    .Sign-button {
+        width: 90%;
+        margin: auto;
+        padding-top: 34px;
+        display: flex;
+        justify-content: center;
+    }
+    .Login-anchor {
+        padding-left: 10px;
+    }
+    .Login-form-wrapper {
+        padding-top: 13px;
+    }
+    .Login-row4 {
+        padding-top: 43px;
+        padding-bottom: 12px;
+    }
+    .Login-Google-apple {
+        padding-top: 18px;
+    }
+    .Login-Goggle {
+        width: 60%;
+    }
+    .Login-row2-col3 > h1 {
+        color: #000000;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+}

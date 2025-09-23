@@ -1,0 +1,136 @@
+.itiernary-wrapper {
+  background: #fff;
+  box-shadow: 0 2.73623px 2.73623px -2.73623px rgba(31, 27, 45, 0.08),
+    0 5.47246px 16.4174px rgba(31, 27, 45, 0.08);
+  padding: 18px 10px;
+  border-radius: 10px;
+}
+.first-container-trsttabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e0e0e0;
+  row-gap: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+.tourist-alldays-tab {
+  padding-right: 12px;
+  border-right: 1px solid #e0e0e0;
+  vertical-align: middle;
+}
+.inner-tab-content::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.inner-tab-content {
+  background: #f5f4f8;
+  border-radius: 5.7px;
+  padding: 8.9px 14.8px;
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: 400;
+}
+.first-container-trsttabs span {
+  padding-right: 30px;
+  border-right: 1px solid #e0e0e0;
+  vertical-align: middle;
+}
+.first-container-trsttabs span:last-child {
+  border-right: none;
+}
+.color-alltrst-tabcontent {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 550;
+}
+.allday-arraylength {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.day-filter-span {
+  padding: 5px 25px 5px 10px;
+  color: #3c3c3c;
+  border-radius: 0px 12px 12px 0px;
+  cursor: pointer;
+}
+.day-filter-span::before {
+  content: "";
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #64748b;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.day-filter-span.active {
+  background-color: #ff5757;
+  color: white;
+  width: max-content;
+}
+
+.day-filter-span.active::before {
+  background-color: white;
+}
+.top-day-design-selected {
+  color: #fff;
+  background-color: #ff5757;
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: 8px 8px 0px 0px;
+}
+.selected-day-right-side {
+  width: -webkit-fill-available;
+  border: 1px solid #e0e0e0;
+  padding: 15px 12px;
+  border-radius: 5px 10px 10px 10px;
+}
+.box-line-flightbtw {
+  border: 1px solid #e0e0e0;
+  max-width: 30px;
+  width: 100%;
+  height: 2px;
+}
+.dayplan-right-contain {
+  max-width: 470px;
+  width: 100%;
+}
+.custom-tabs-design{
+  border: 1px solid #e0e0e0;
+  padding: 2px 15px;
+  border-radius: 6px;
+}
+.belowbox-layover{
+  color: #ff5757;
+    background-color: #ffefef;
+    width: -webkit-fill-available;
+    padding: 5px 6px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px){
+  .dayplan-right-contain {
+    max-width: 80%;
+
+  }
+}
+@media screen and (max-width: 1024px){
+  .dayplan-right-contain {
+    max-width: 100%;
+
+  }
+}
+@media screen and (max-width:500px){
+
+}

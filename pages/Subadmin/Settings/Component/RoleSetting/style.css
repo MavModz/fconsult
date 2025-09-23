@@ -1,0 +1,174 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.RoleSetting-container {
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+}
+
+.RoleSetting-wrapper {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.RoleSetting-first > h2 {
+  font-size: 28px;
+  
+  font-weight: 700;
+  line-height: 42px;
+  color: #282823;
+  padding-bottom: 41px;
+}
+
+.RoleSetting-row1 {
+  
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+
+.RoleSetting-input {
+  width: 305px;
+  height: 60px;
+  background: rgba(241, 245, 249, 0.4);
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 15px;
+  
+  font-weight: 400;
+  line-height: 31px;
+  color: #64748b;
+  padding-left: 15px;
+  outline: none;
+}
+
+.RoleSetting-color {
+  padding-top: 20px;
+}
+
+.RoleSetting-color > h2 {
+  font-weight: 500;
+  font-size: 21px;
+  
+  line-height: 20px;
+  color: #0f172a;
+}
+
+.RoleSetting-button {
+  padding-top: 20px;
+}
+
+.RoleSetting-button > button {
+  width: 208px;
+  height: 59px;
+  border: 1px solid #ff5757;
+  background: rgba(255, 87, 87, 0.1);
+  border-radius: 29px;
+  font-size: 19px;
+  
+  font-weight: 700;
+  color: var(--Red-Toned, #ff5757);
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.RoleSetting-button > button:hover {
+  color: #fff;
+  background-color: #ff5757;
+}
+
+.RoleSetting-box {
+  width: 591px;
+  height: 124px;
+  background: #ffffff;
+  box-shadow: 0px 6.528000354766846px 101.18399810791016px 0px #99abc62e;
+  border-radius: 16px;
+}
+
+.leadstatus-box-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.leadstatus-box-wrapper > h3 {
+  font-size: 23px;
+  
+  font-weight: 600;
+  line-height: 39px;
+  color: #132440;
+}
+
+.RoleSetting-button-second > button {
+  width: 140px;
+  height: 41px;
+  border-radius: 20px;
+  
+  background: rgba(255, 87, 87, 0.1);
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--Bright-Red, #f22c15);
+}
+
+.RoleSetting-row2 {
+  width: 591px;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0px 6.303999900817871px 97.71199798583984px 0px #99abc62e;
+  margin-top: 23px;
+}
+
+.RoleSetting-row2-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  align-items: center;
+}
+
+.RoleSetting-row2-wrapper > h2 {
+  font-weight: 700;
+  font-size: 22px;
+  
+  line-height: 28px;
+}
+
+.RoleSetting-color-delete {
+  display: flex;
+  gap: 20px;
+}
+
+.delete-box {
+  width: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.color-picker {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  border: 1px solid gray;
+  gap: 20px;
+  padding: 5px;
+  border: none;
+}
+
+.color-picker1 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  border: 1px solid gray;
+  gap: 20px;
+  padding: 5px;
+}

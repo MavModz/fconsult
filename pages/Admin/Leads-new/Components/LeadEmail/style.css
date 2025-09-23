@@ -1,0 +1,247 @@
+    .main-container {
+    display: flex;
+    gap: 30px;
+    /* max-width: 1500px; */
+  }
+  
+  .comments-section {
+    background: white;
+    border-radius: 21px;
+    padding: 29px 29px 43px;
+    box-shadow: 10.3px 10.3px 25.75px 0px #00000014;
+  }
+  .comments-section {
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 8px;
+  }
+  .header h2{
+    color: #1F1B2D;
+font-size: 24px;
+font-weight: 700;
+line-height: 130%;
+margin-bottom: 0px;
+  }
+  .add-btn {
+    padding: 1px 20px;
+    border: 1.23px solid #ff5757;
+    background: #fff;
+    color: #ff5757;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 40px;
+    border-radius: 27px;
+    cursor: pointer;
+  }
+  
+  .comment-card {
+    padding: 19px 14px 10px 14px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom:  2.07px solid #EDEDED;
+  }
+  .comment-card h4{
+    color: #3c3c3c;
+    font-size: 23px;
+    font-weight: 500;
+  }
+  
+  .desc {
+    color:  #B5B5C3;
+font-weight: 500;
+    margin: 8px 0;
+  }
+  
+  .footer {
+   font-size: 18px;
+font-weight: 400;
+color:#464E5F;
+  }
+  
+  .tag {
+    padding: 6px 11px;
+    font-size: 16px;
+    border-radius: 11px;
+    color: #6750A3;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: -2%;
+   background-color:  #6750A31A;
+  }
+  
+  .comment-card.followup {
+    background-color:  #D7DCE433;
+  }
+
+  .followup-text {
+    color: #ff5757;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .comment-label > p{
+    margin-bottom: 4px !important;
+  }
+  .status {
+    font-size: 18px;
+    color: #64768b;
+    margin-top: 5px;
+  }
+  
+  .comment-label {
+    color:#838383;
+    font-size: 17px;
+  }
+  .reply-button:hover{
+    color:#ff5757;
+    text-decoration: underline;
+  }
+  .reply-button{
+    color: #838383;
+    text-align: end;
+  }
+  .call {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .call-status {
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .call-status.connected {
+    background-color: #05CD991A;
+    color:  #05CD99;
+    
+  }
+  
+  .call-status.not-picked {
+    background: #FF57571A;
+    color: #ff5757;
+  }
+  
+  .call-info {
+    font-size: 18px;
+    color: #111111;
+line-height: 100%;
+font-weight: 400;
+text-align: right;
+  }
+/*   
+  .call-info-text {
+    color: #464E5F;
+font-weight: 500;
+    font-size: 17px;
+   justify-content: end;
+  } */
+
+  .followup-btn-btn-dle-appt{
+    background-color: #ff5757;
+color: #ffffff;
+  }
+
+  /* .comment-card-left{
+    width: 65%;
+  } */
+     @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .main-container {
+    gap: 23px;
+  }
+  .call-status {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+  .comment-card {
+    padding: 15px 11px 8px 11px;
+  }
+  .comments-section{
+    padding: 20px 20px 33px;
+}}
+   @media only screen and (min-width: 900px) and (max-width: 1024px) {
+    .main-container{
+      gap:17px;
+    }
+    .comment-card-left{
+      width: 54%;
+    }
+    .comments-section {
+    padding: 29px 18px 43px;
+  }
+  .comment-card {
+    padding: 16px 10px 9px 10px;
+}
+   }
+  @media (max-width: 900px){
+   .main-container{
+    flex-direction: column;
+   }
+   .comment-card-left{
+      width: 70%;
+    }
+   .comments-section{
+    width: 100%;
+   }}
+     @media (max-width: 761px){
+      .comment-card-left{
+      width: 63%;
+    }
+     .comments-section {
+    padding: 29px 16px 43px;
+  }
+
+  .comment-card {
+    padding: 16px 10px 8px 10px;
+}
+     }
+      @media (max-width: 611px){
+      .comment-card-left{
+      width: 58%;
+    }}
+    @media (max-width: 525px){
+.comment-card{
+flex-direction: column;
+gap: 10px;
+justify-content: left;
+align-items: start;
+padding: 8px;
+}
+ .reply-button{
+    text-align: start;
+  }
+/* .comment-card-left{
+    width: 100%;
+  }
+  .comment-card-right{
+    width: 100%;
+  } */
+  .call-status, .call-info{
+    text-align: left;
+  }
+  .call-info-text{
+    justify-content: start;
+  }
+    }
+.add-btn {
+    line-height: 30px;
+    padding: 2px 15px;
+}
+      @media (max-width: 390px){
+     .comments-section {
+    padding: 24px 15px 37px;
+  }
+  .comment-card {
+    padding: 16px 10px 8px 10px;
+}
+      }
+
+  

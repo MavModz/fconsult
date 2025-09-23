@@ -1,0 +1,1170 @@
+.grow-business-1st-back-color {
+    background-color: #29292b;
+}
+
+.grow-your-1stpage-maxwidth {
+    margin: auto;
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #29292b; */
+    padding-top: 100px;
+}
+
+.grow-business-1st-page-about-content {
+    padding-top: 50px;
+
+}
+
+.grow-business-1st-page-head {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 68px;
+}
+
+.grow-business-1st-page-parag {
+    color: #fff;
+    font-size: 16px;
+    
+    width: 520px;
+    line-height: 24px;
+    opacity: 0.6
+}
+
+.grow-business-1st-page-col6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.grow-business-1st-page-right-imgg {
+    height: 590px;
+    width: 550px;
+}
+
+.grow-business-1st-page-right-imgg img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.grow-business-1st-page-btn {
+    font-size: 18px;
+    /* line-height: 32px; */
+    color: #fff;
+    margin-top: 35px;
+    display: inline-flex;
+    padding: 16px 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 41px;
+    background-color: #ff5757;
+    border: 1px solid #ff5757;
+
+}
+
+.grow-business-1st-page-btn:hover {
+    background-color: #ffffff;
+    color: #ff5757;
+}
+
+.grow-yourbusiness-belowparts {
+    text-align: center;
+    order: 3;
+    flex-basis: 100%;
+}
+
+.grow-yourbusiness-belowparts-diffr {
+    gap: 90px;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.grow-yourbusiness-belowparts-head {
+    display: grid;
+    justify-content: center;
+}
+
+.grow-yourbusiness-belowparts-head>p {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    width: max-content;
+    margin-bottom: 0px;
+}
+
+.grow-your-business-1st-logo-last {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 65px;
+}
+
+.grow-yourbisinesseng img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.growbusiness-2ndpage-wid {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.growbusiness-2ndpage-col12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.growbusiness-2ndpage-margin {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.growbusiness-2ndpage-align {
+    display: flex;
+    align-items: center;
+}
+
+.growbusiness-2ndpage-col-lg2nd {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+#grow-business-2ndpage-abtsss {
+    padding-bottom: 12px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.87;
+}
+
+#growbusiness-2ndpage-cmpnyleadsss {
+    color: #232536;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.growbusiness-2nd-page-title {
+    color: #232536;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+#growbusiness-2nd-page-assisting {
+    color: #5D5F6D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.growbusiness-2ndpage-wid-pict {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 50px;
+}
+
+.growbusiness-2ndpage-allphotos {
+    flex: 0 0 auto;
+    width: 31.33333333%;
+    /* height:500px; */
+    margin: auto;
+}
+
+.growbusiness-2ndpage-post-henry {
+    margin-bottom: 30px;
+    height: 100%;
+}
+.growbusiness-2ndpage-entry-thumb{
+    height: 100%;
+}
+/* .growbusiness-2ndpage-thumb-wrap{
+    height: 100%;
+} */
+.growbusiness-2ndpage-thumb-wrap img {
+    /* width: 100%;
+    height: 100%; */
+
+}
+
+.growbusiness-2ndpage-container-1560 {
+    justify-content: space-between;
+    display: flex;
+    width: 1280px;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.growbusiness-2ndpage-inside15 {
+    gap: 70px;
+    display: flex;
+}
+
+.growbusiness-2ndpage-1500>h4 {
+    color: #232536;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.growbusiness-2ndpage-1500>p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.growbusiness-2ndpage-read {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.grow-business-2ndpage-abtsss {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.growbusiness-2ndpage-read>p {
+    color: var(--Red-Toned, #ff5757);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.growyour-business-3rdpage-backclr {
+    background-color: #f9ecec;
+}
+
+.growyour-business-3rdpage-col12 {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.growyour-business-3rdpage-pad {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.growyour-business-3rdpagealign-items {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.growyour-business-3rdpage-left {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.growyour-business-3rdpage-headpad {
+    padding: 20px 0;
+}
+
+.growyour-business-3rdpage-ourexpert {
+    color: var(--Red-Toned, #ff5757);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.growyour-business-3rdpagelheadingh3 {
+    padding-bottom: 18px;
+    color: #232536;
+    font-size: 48px;
+    font-weight: 600;
+    /* line-height: 58px; */
+}
+
+#growyour-business-3rdpage-paragra-rich {
+    color: #5D5F6D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.growyour-business-3rdpage-rightdiv {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+
+.growyour-business-3rdpage-busnes {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+}
+
+.growyour-business-3rdpage-busnes0 {
+    border-bottom: 5px solid #ff5757;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+}
+
+.growyour-business-3rdpage-listing-grow {
+    height: 120px;
+    display: flex;
+    gap: 15px;
+}
+.growyour-business-3rdpage-throuhg{
+    padding: 0px 10px;
+}
+
+.growyour-business-3rdpage-throuhg>h5 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.growyour-business-3rdpage-throuhg>p {
+    color: #5D5F6D;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.growyour-business-4thpage-containerr1 {
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.growyour-business-4thpage-col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.growyour-business-4thpage-work-donation {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.growyour-business-4thpageitems-center {
+    display: flex;
+    align-items: center;
+}
+
+.growyour-business-4thpage-contents-inff {
+    gap: 40px;
+    display: flex;
+}
+
+.growyour-business-4thpage-yourdenote {
+    flex: 1;
+}
+
+.growyour-business-4thpage-yourdenote>h2 {
+    line-height: 120%;
+    flex: 1;
+    color: #1d2130;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.growyour-business-4thpage-abtprgdiv {
+    flex: 1;
+}
+
+#growyour-business-4thpagehow-we-paragraphhh {
+    color: #525560;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.growyour-business-5thpage-container {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.growyour-business-5thpage-container-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 40px;
+}
+
+.growyour-business-5thpage-info-last1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.growyour-business-5thpage-fandc-lst {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    background: rgba(28, 30, 83, 0.5);
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.growyour-business-5thpage-info-last1 img {
+    display: block;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.growyour-business-5thpage-buildstaller {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 31%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff;
+}
+
+.growyour-business-5thpage-heading-websites>h2 {
+    padding-bottom: 15px;
+    color: var(--White, #fff);
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.growyour-business-5thpage-pargr-websites {
+    color: #fff;
+    font-size: 17.012px;
+    font-weight: 700;
+}
+
+.growyour-business-5thpage-cntct {
+    padding-bottom: 45px;
+    height: 100%;
+    width: 100%;
+    background-color: #3b3b3b;
+    border-bottom-right-radius:20px;
+    border-top-right-radius:20px;
+}
+
+.growyour-business-5thpage-margato {
+    padding-top: 95px;
+    width: 80%;
+    margin: auto;
+}
+
+.growyour-business-5thpage-sendenquiry>span {
+    padding-bottom: 15px;
+    color: #fff;
+    font-size: 34.025px;
+    font-weight: 700;
+}
+
+.growyour-business-5thpage-last-loremipsun>p {
+    /* width: 400px; */
+    color: var(--Grey, #f4f6fc);
+    font-size: 17.012px;
+    font-weight: 700;
+}
+
+.growyour-business-5thpage-lastnameml {
+    padding-top: 36px;
+    text-align: center;
+}
+
+.growyour-business-5thpage-namegrow {
+    width: 100%;
+    background-color: #3b3b3b;
+    border-radius: 8.506px;
+    border: 1.595px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 10px;
+    padding: 12px 16px;
+}
+.growyour-business-5thpage-namegrow:valid {
+   color: #fff;
+}
+
+.growyour-business-5thpage-emailgrow {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #3b3b3b;
+    border-radius: 8.506px;
+    border: 1.595px solid rgba(255, 255, 255, 0.05);
+    padding: 12px 16px;
+}
+
+.growyour-business-5thpage-questiongrow {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #3b3b3b;
+    border-radius: 8.506px;
+    border: 1.595px solid rgba(255, 255, 255, 0.05);
+    padding: 12px 16px;
+}
+
+.growyour-business-5thpage-btn-lastgrow {
+    padding: 15px 54px;
+    width: 100%;
+    border-radius: 20px;
+    background: #ff5757;
+    cursor: pointer;
+    color:#ffffff;
+    border:1px solid #ff5757;
+}
+
+.growyour-business-5thpage-btn-lastgrow:hover{
+    background: #ffffff;
+    color:#ff5757;
+}
+#growyour-business-5thpage-btn-ctn {
+    font-size: 18px;
+   
+    background: none;
+    border: none;
+    line-height: 34px;
+    font-weight: 700;
+}
+
+
+
+.growyour-business-5thpage-bsn-ar11 {
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    padding-top: 25px;
+    display: flex;
+}
+
+.growyour-business-5thpage-gettouc {
+    cursor: pointer;
+    text-align: center;
+}
+
+.growyour-business-5thpage-gettouc>p {
+    color: var(--White, #fff);
+    font-size: 19.139px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (min-width:1080px) and (max-width:1330px) {
+    .grow-your-1stpage-maxwidth {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .growbusiness-2ndpage-wid {
+        padding-right: 25px;
+        padding-left: 25px;
+
+    }
+}
+@media screen and (min-width:992px) and (max-width:1130px) {
+    .growyour-business-3rdpagelheadingh3 {
+        padding-bottom: 11px;
+        font-size: 41px;
+        line-height: 50px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1330px) {
+    .growbusiness-2ndpage-wid {
+        padding-right: 25px;
+        padding-left: 25px;
+
+    }
+
+    .growyour-business-3rdpage-pad {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .growyour-business-4thpage-containerr1 {
+        padding-right: 25px;
+        padding-left: 25px;
+      
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .growyour-business-5thpage-info-last1 {
+        height: 600px;
+    }
+
+    .growbusiness-2ndpage-align {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .growbusiness-2ndpage-col-lg2nd {
+        margin: auto;
+        flex: 0 0 auto;
+        width: 90%;
+    }
+
+    .growbusiness-2ndpage-wid-pict {
+        padding-right: 25px;
+        padding-left: 25px;
+
+    }
+
+    .growbusiness-2ndpage-inside15 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
+
+    .growbusiness-2ndpage-container-1560 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .growbusiness-2ndpage-read {
+        justify-content: center;
+
+    }
+
+    .growyour-business-3rdpagealign-items {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .growyour-business-3rdpage-left {
+        margin: auto;
+        width: 90%;
+    }
+
+    .growyour-business-3rdpage-rightdiv {
+        margin: auto;
+        width: 80%;
+    }
+
+    .growyour-business-4thpage-contents-inff {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 23px;
+    }
+
+    .growyour-business-4thpage-work-donation {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 50px;
+    }
+
+    .growyour-business-5thpage-container-wrapper {
+        padding-right: 25px;
+        padding-left: 25px;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .growyour-business-3rdpage-pad {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .growbusiness-2ndpage-margin {
+        margin-top: 51px;
+
+    }
+    .growyour-business-3rdpagelheadingh3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1079px) {
+    .grow-your-1stpage-maxwidth {
+        display: grid;
+        grid-template-columns: 100%;
+        padding-top: 20px;
+    }
+
+    .grow-business-1st-page-col6 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .grow-business-1st-page-parag {
+        margin: auto;
+        width: 90%;
+    }
+
+    .grow-business-1st-page-right-imgg {
+        margin: auto;
+    }
+
+    .grow-yourbusiness-belowparts-diffr {
+        display: grid;
+        gap: 0px;
+        grid-template-columns: 100%;
+        padding-top: 40px;
+    }
+
+    .grow-your-business-1st-logo-last {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 0px;
+    }
+
+    .grow-yourbisinesseng img {
+        width: 45%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+
+    .grow-business-1st-page-about-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:767px) {
+    .growbusiness-2ndpage-1500>h4 {
+        font-size: 25px;
+    }
+
+    .grow-business-1st-page-head {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    #growbusiness-2ndpage-cmpnyleadsss {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .growbusiness-2nd-page-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .growyour-business-3rdpagelheadingh3 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .growyour-business-4thpage-yourdenote>h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .growyour-business-3rdpage-headpad {
+        padding: 10px 0;
+    }
+
+    .grow-your-1stpage-maxwidth {
+        display: grid;
+        grid-template-columns: 100%;
+        padding-top: 20px;
+    }
+
+    .grow-business-1st-page-col6 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .grow-business-1st-page-parag {
+        margin: auto;
+        width: 90%;
+    }
+
+    .grow-business-1st-page-right-imgg {
+        margin: auto;
+        width: auto;
+        height: 414px;
+    }
+
+    .grow-yourbusiness-belowparts-diffr {
+        display: grid;
+        gap: 0px;
+        grid-template-columns: 100%;
+        padding-top: 30px;
+    }
+
+    .grow-your-business-1st-logo-last {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 0px;
+    }
+
+    .grow-yourbisinesseng img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .grow-business-1st-page-about-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .growbusiness-2ndpage-align {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .growbusiness-2ndpage-col-lg2nd {
+        margin: auto;
+        flex: 0 0 auto;
+        width: 90%;
+    }
+
+    .growbusiness-2ndpage-wid-pict {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        padding-right: 18px;
+        padding-left: 18px;
+margin-bottom: 25px;
+    }
+    .growbusiness-2ndpage-entry-thumb {
+        text-align: center;
+    }
+
+    .growbusiness-2ndpage-allphotos {
+        width: 100%;
+    }
+
+    .growbusiness-2ndpage-inside15 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
+
+    .growbusiness-2ndpage-container-1560 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .growbusiness-2ndpage-read {
+        justify-content: center;
+    }
+
+    .growyour-business-3rdpagealign-items {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+
+    .growyour-business-3rdpage-left {
+        margin: auto;
+        width: 90%;
+    }
+
+    .growyour-business-3rdpage-rightdiv {
+        margin: auto;
+        width: 90%;
+    }
+
+    .growyour-business-4thpage-contents-inff {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 23px;
+    }
+
+    .growyour-business-4thpage-work-donation {
+        padding-left: 18px;
+        padding-right: 25px;
+        margin-top: 50px;
+    }
+
+    .growyour-business-5thpage-container-wrapper {
+        padding-right: 25px;
+        padding-left: 18px;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .growyour-business-3rdpage-pad {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .growbusiness-2ndpage-margin {
+        margin-top: 51px;
+    }
+
+    .grow-business-1st-page-btn {
+        padding: 14px 40px 14px 40px;
+    }
+
+    .growyour-business-5thpage-heading-websites>h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .growyour-business-5thpage-info-last1 {
+        height: 501px;
+    }
+    .growyour-business-5thpage-info-last1 img {
+        border-bottom-left-radius: 00px;
+        border-top-left-radius: 0px;
+    }
+    .growyour-business-5thpage-fandc-lst {
+        border-bottom-left-radius: 00px;
+        border-top-left-radius: 00px;
+    }
+    .growyour-business-5thpage-cntct {
+        border-bottom-right-radius:0px;
+        border-top-right-radius:0px;
+    }
+    .growyour-business-5thpage-btn-lastgrow {
+        padding: 9px 24px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:479px) {
+    .growyour-business-5thpage-btn-lastgrow {
+        padding: 8px 24px !important;
+    }
+    .growyour-business-5thpage-info-last1 {
+        height: 431px !important;
+    }
+    .growyour-business-5thpage-info-last1 img {
+        border-bottom-left-radius: 00px;
+        border-top-left-radius: 0px;
+    }
+    .growyour-business-5thpage-fandc-lst {
+        border-bottom-left-radius: 00px;
+        border-top-left-radius: 00px;
+    }
+    .growyour-business-5thpage-cntct {
+        border-bottom-right-radius:0px;
+        border-top-right-radius:0px;
+    }
+    .growyour-business-5thpage-buildstaller {
+        top: 49%;
+        width:80% !important;
+    }
+    .growyour-business-5thpage-margato{
+        padding-top: 30px;
+    }
+
+    .growyour-business-5thpage-heading-websites>h2 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+    #growbusiness-2nd-page-assisting {
+        margin-top: 10px;
+    }
+    .grow-business-1st-page-btn {
+        padding: 14px 40px 14px 40px;
+    }
+
+    .growbusiness-2ndpage-1500>h4 {
+        font-size: 25px;
+    }
+
+    .grow-business-1st-page-head {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom:15px;
+    }
+
+    #growbusiness-2ndpage-cmpnyleadsss {
+        font-size: 31px;
+        line-height: 35px;
+        margin-top: 35px;
+    }
+
+    .growbusiness-2nd-page-title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .growyour-business-3rdpagelheadingh3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .growyour-business-4thpage-yourdenote>h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .growyour-business-4thpage-containerr1{
+margin-top: 50px;
+    }
+
+    .growyour-business-3rdpage-headpad {
+        padding: 10px 0;
+    }
+
+    .grow-your-1stpage-maxwidth {
+        display: grid;
+        grid-template-columns: 100%;
+        padding-top: 20px;
+    }
+
+    .grow-business-1st-page-col6 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .grow-business-1st-page-parag {
+        margin: auto;
+        width: 90%;
+    }
+
+    .grow-business-1st-page-right-imgg {
+        margin: auto;
+        width: auto;
+        height: 414px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .grow-yourbusiness-belowparts-diffr {
+        display: grid;
+        gap: 0px;
+        grid-template-columns: 100%;
+        padding-top: 30px;
+    }
+
+    .grow-your-business-1st-logo-last {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 0px;
+    }
+
+    .grow-yourbisinesseng img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .grow-business-1st-page-about-content {
+        padding-top: 40px;
+        padding-bottom: 35px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .growbusiness-2ndpage-align {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .growbusiness-2ndpage-col-lg2nd {
+        margin: auto;
+        flex: 0 0 auto;
+        width: 90%;
+    }
+
+    .grow-business-2ndpage-abtsss {
+        margin-bottom: 15px;
+    }
+
+    .growbusiness-2ndpage-wid-pict {
+        display: grid;
+        grid-template-columns: 100%;
+        padding-right: 18px;
+        padding-left: 18px;
+        margin-bottom: 38px;
+    }
+
+    .growbusiness-2ndpage-allphotos {
+        width: 100%;
+    }
+
+    .growbusiness-2ndpage-inside15 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
+
+    .growbusiness-2ndpage-container-1560 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .growbusiness-2ndpage-read {
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+    .growyour-business-3rdpagealign-items {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+
+    .growyour-business-3rdpage-left {
+        margin: auto;
+        width: 90%;
+    }
+
+    .growyour-business-3rdpage-rightdiv {
+        margin: auto;
+        width: 90%;
+    }
+
+    .growyour-business-4thpage-contents-inff {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 23px;
+    }
+
+    .growyour-business-4thpage-work-donation {
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-top: 50px;
+    }
+
+    .growyour-business-5thpage-container-wrapper {
+        padding-right: 18px;
+        padding-left: 18px;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .growyour-business-3rdpage-pad {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .growbusiness-2ndpage-margin {
+        margin-top: 11px;
+        margin-bottom: 5px;
+    }
+    .growbusiness-2ndpage-post-henry {
+        margin-bottom: 10px;}
+}

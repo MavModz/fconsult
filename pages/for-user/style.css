@@ -1,0 +1,1246 @@
+/** @format */
+
+.foruser-row5-col3 {
+  width: 50%;
+}
+
+#first-box-user3 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.foruser-sec1 {
+  width: 100%;
+}
+.foruser-page-col1{
+  width:50%;
+}
+#first-box-user-main {
+  width: 50%;
+}
+.foruser-page-col2{
+  width: 50%;
+}
+.firstbox-1 {
+  /* background: rgb(255, 246, 246); */
+  background: linear-gradient(
+    0deg,
+    rgba(255, 246, 246, 1) 55%,
+    rgba(255, 191, 191, 1) 100%
+  );
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.firstbox > h1 {
+  
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  color: #000842;
+}
+
+.firstbox > p {
+  width: 70%;
+  margin: auto;
+  color: #3C3C3C;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.firstbox > button {
+  border:1px solid #ff5757;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: auto;
+  background-color: #ff5757;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+  width: 211px;
+  height: 73px;
+  padding: 23px 32px;
+  color: white;
+}
+.foruser-page-col2-main{
+  width:80%;
+  margin-left:80px;
+}
+
+.firstbox > button:hover {
+  background-color: white;
+  color: #ff5757;
+  cursor: pointer;
+}
+
+.firstbox-bottom-image > img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.foruser-container {
+  width: 80%;
+  max-width: 100%;
+  margin: auto;
+}
+.accordion {
+  width: 100%;
+}
+.see-btn{
+  width:80%;
+  margin-left: 80px;
+}
+.foruser-row {
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -0.5);
+    margin-left: calc(var(--bs-gutter-x) * -0.5);
+  }
+}
+
+#first-box-user > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.foruser-sec2-content {
+  display: flex;
+}
+
+.foruser-sec2-row1 {
+  width: 50%;
+}
+
+.foruser-single-how-work {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.foruser-row3-col1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foruser-row3-col2 {
+  width: 50%;
+  display: grid;
+}
+
+#foruser-how-work-info {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+#foruser1-how-work-info {
+  width: 80%;
+  margin: auto;
+}
+
+#first-box-user {
+  background: linear-gradient(
+      180deg,
+      rgba(123, 123, 124, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(148, 153, 221, 0.2) 0%,
+      rgba(0, 16, 255, 0.2) 100%
+    );
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+  height: 417px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 29.74px 29.74px 0px 29.74px;
+}
+
+#first-box-user1 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 204, 192, 0.3) 0%,
+    rgba(242, 76, 39, 0.3) 100%
+  );
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+  height: 417px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 29.74px 29.74px 0px 29.74px;
+}
+
+#first-box-user2 {
+  background: linear-gradient(
+    180deg,
+    rgba(123, 123, 124, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+  height: 417px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 29.74px 29.74px 0px 29.74px;
+}
+
+#first-box-user3 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 204, 192, 0.3) 0%,
+    rgba(242, 76, 39, 0.3) 100%
+  );
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+  height: 417px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 29.74px 29.74px 0px 29.74px;
+}
+
+#first-box-user2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.foruser-page-col1 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#foruser-top-row2 {
+  padding-top: 100px;
+  width: 100%;
+}
+
+.foruser-page-col2-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.see-btn {
+  display: flex;
+  width: 68%;
+  margin-top: 30px;
+}
+
+/* .foruser-page-col1 {
+  height: 414px;
+} */
+
+.firstbox-bottom-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 990px) {
+  .single-how-work .how-work-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #fe {
+    text-align: center;
+  }
+  .single-how-work .how-work-info .info > p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .foruser-page-col1 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .col-12 {
+    padding-top: 0px;
+  }
+  .single-how-work .how-work-thumb {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1080px) {
+  .foruser-page-col1 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1492px) {
+  .see-btn {
+    /* justify-content: center; */
+  }
+  .foruser-page-col2-main {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 780px) {
+  #foruser-top-row2 {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1870px) {
+  #foruser-enpoint {
+    height: 414px;
+  }
+}
+
+#foruser-line-one {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+}
+
+.foruser-row4-single-how-work {
+  margin-bottom: 100px;
+}
+
+.foruser-how-work-info {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.foruser-info {
+  width: 80%;
+  margin: auto;
+}
+
+.foruser-row4-how-work-info {
+  width: 80%;
+  margin: auto;
+}
+
+.foruser-row4-info > p {
+  color: #5d5f6d;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.foruser-row5 {
+  width: 100%;
+}
+
+.foruser-info > h3 {
+  color: #232536;
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.foruser-row5-col1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foruser-row5-col2 {
+  width: 50%;
+  display: grid;
+}
+
+.foruser-row5-info {
+  width: 80%;
+}
+
+.foruser-row5-info > p {
+  color: #5d5f6d;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.foruser-page-end {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 414px;
+  width: 100%;
+  margin-top: 100px;
+  background-color: #3c3c3c;
+}
+
+#foruser-enpoint {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foruser-page-col2 p {
+
+  font-weight: 600;
+  font-size: 34px;
+  color: #ffffff;
+  line-height: 44px;
+  letter-spacing: 1px;
+}
+
+.see-btn > button {
+  border: 1px solid #ff5757;
+  width: 171px;
+  height: 54px;
+  border-radius: 44px;
+  background-color: #ff5757;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 13px;
+}
+.see-btn > button:hover {
+  background-color: #ffffff;
+  color:#ff5757;
+}
+.btn-arrow{
+  font-weight: 800 !important;
+  font-size: 21px;
+}
+.btn-arrow:hover{
+  color:#ff5757;
+}
+.foruser-row5-how-work-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foruser-info > p {
+  color: #5d5f6d;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+}
+#fe {
+  color: #e6e6e6;
+  text-align: justify;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.title {
+  color: #232536;
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.foruser-info-row3 > p {
+  color: #5d5f6d;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#first-box-user1 {
+  width: 100%;
+  /* height: 100%;
+  object-fit: contain; */
+}
+
+.foruser-row3 {
+  width: 100%;
+}
+
+.foruser-row3-single-how-work {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.foruser-row4 {
+  width: 100%;
+}
+
+.foruser-row4-col2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foruser-row4-col3 {
+  width: 50%;
+}
+
+
+
+.foruser-page-question {
+  display: flex;
+  height: auto;
+  width: 1280px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.foruser-page-question-col1 {
+  width: 50%;
+}
+
+.foruser-first {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.foruser-first h3 {
+  width: 50%;
+  
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  color: #282938;
+}
+
+.foruser-second {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.foruser-second > p {
+  width: 50%;
+  
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ff5757;
+}
+.foruser-page-Faq{
+   margin-top: 30px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 600px) {
+  .foruser-page-question {
+    padding-top: 48px;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .foruser-second > p {
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 25px;
+    width: 60%;
+    padding-bottom: 20px;
+  }
+  .foruser-first h3 {
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .foruser-page-question {
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    display: block;
+    width: 92%;
+    margin: auto;
+  }
+  .foruser-second > p {
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+  }
+  .foruser-first h3 {
+    font-size: 24px;
+    line-height: 25px;
+    width: 100%;
+  }
+  .foruser-page-question-col1 {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .foruser-page-question {
+    padding-top: 10px;
+    margin: auto;
+  }
+
+  .foruser-first {
+    justify-content: center;
+    text-align: center;
+  }
+  /* .foruser-second {
+    justify-content: center;
+    text-align: center;
+  } */
+}
+
+@media (min-width: 780px) and (max-width: 1198px) {
+  .foruser-first {
+    justify-content: center;
+  }
+  /* .foruser-second {
+    justify-content: center;
+  } */
+}
+@media (min-width: 600px) and (max-width: 820px) {
+  .foruser-first h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .foruser-second > p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .see-btn {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1030px) {
+  .container-consult {
+    margin: 0 auto;
+    padding: 0rem;
+    width: 95%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1050px) {
+  .foruser-page-question1 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  .container-consult {
+    margin: 0 auto;
+    padding: 0rem;
+    width: 90%;
+  }
+  /* .firstbox > p {
+    width: 90%;
+  } */
+}
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+  .container-consult {
+    margin: 0 auto;
+    padding: 0rem;
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 450px) {
+  .container-consult {
+    margin: 0 auto;
+    padding: 0rem;
+    width: 87%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 600px) {
+  .firstbox > h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (min-width: 600px) and (max-width: 820px) {
+  .firstbox > h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .firstbox > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 425px) {
+  .firstbox > button {
+    padding: 10px 20px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    /* width:100%; */
+  }
+  .firstbox > p {
+    width: 90%;
+    padding-top: 14px;
+    padding-bottom: 20px;
+  }
+  .firstbox-1{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 30px;
+    padding-bottom: 35px;
+  }
+  .firstbox{
+  padding: 22px;
+  }
+  .firstbox > h1 {
+    font-size: 27px;
+    line-height: 31px;
+  }
+  .foruser-container {
+    width: 90%;
+    margin: auto;
+  }
+  #foruser-top-row2 {
+    padding-top: 0px;
+}}
+@media (min-width: 1080px) and (max-width: 1280px) {
+  .foruser-container {
+    width: 92%;
+  }
+}
+@media (min-width: 995px) and (max-width: 1080px) {
+  .foruser-info {
+    width: 70%;
+  }
+  .firstbox > h1 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    color: #000842;
+    
+}
+.foruser-container {
+  width: 95%;
+}
+  #foruser1-how-work-info {
+    width: 70%;
+  }
+  .foruser-row4-how-work-info {
+    width: 70%;
+  }
+  .foruser-row5-info {
+    width: 70%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 994px) {
+  .foruser-sec2-content {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .firstbox > h1 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 50px;
+    color: #000842;
+}
+  .foruser-sec2-row1 {
+    width: 80%;
+    margin: auto;
+  }
+  #foruser-line-one {
+    width: 100%;
+  }
+  .foruser-info > h3 {
+    text-align: center;
+  }
+  #fe {
+    text-align: center;
+  }
+  .foruser-info > p {
+    text-align: center;
+  }
+  .foruser-info {
+    padding-top: 20px;
+    width: 80%;
+  }
+  .foruser-row3-col2 {
+    width: 100%;
+  }
+  #foruser1-how-work-info {
+    width: 80%;
+    padding-bottom: 40px;
+  }
+  .title {
+    text-align: center;
+  }
+  .foruser-info-row3 > p {
+    text-align: center;
+  }
+  .foruser-row3-single-how-work {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #first-box-user-main {
+    width: 80%;
+    margin: auto;
+  }
+  .foruser-row4-col3 {
+    margin: auto;
+    width: 80%;
+  }
+  .foruser-row4-info > p {
+    text-align: center;
+  }
+  .foruser-row4-how-work-info {
+    width: 80%;
+    padding-top: 20px;
+  }
+  .foruser-row5-col2 {
+    width: 100%;
+  }
+  .foruser-row5-info {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .foruser-row5-info > p {
+    text-align: center;
+  }
+  .foruser-page-end {
+    flex-direction: column;
+    height: 469px;
+  }
+  .foruser-page-col1 {
+    width: 50%;
+  }
+  .foruser-page-end {
+    flex-direction: column;
+    margin-top: 50px;
+    height:620px;
+  }
+  .foruser-row5-col1, .foruser-row3-col1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #foruser-enpoint{
+    width:80%;
+    height:400px;
+  }
+  #foruser-top-row2{
+    padding-top: 0px;
+  }
+  .foruser-page-col2{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .see-btn {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .foruser-page-col2 p {
+    text-align: left;
+  }
+  .see-btn{
+    width:30%;
+  }
+  .foruser-page-col2-main{
+    width: 70%;
+  }
+  .firstbox-1 {
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 20px;
+  }
+  .firstbox-bottom-image > img {
+    max-width: 80%;
+    height: 90%;
+    padding-bottom: 36px;
+  }
+  .firstbox > p{
+padding: 20px 0px 30px ;
+width: 85%;
+  }
+  .firstbox > button{
+   margin-bottom: 50px;
+  }
+  .foruser-row5-col3 {
+    width: 80%;
+    margin: auto;
+  }
+  .foruser-single-how-work {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 699px) {
+  .foruser-sec2-content {
+    flex-direction: column;
+  }
+  .foruser-sec2-row1 {
+    width: 80%;
+    margin: auto;
+  }
+  .foruser-row5-col1, .foruser-row3-col1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #foruser-top-row2{
+    padding-top: 0px;
+  }
+  .firstbox-1 {
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0px;
+  }
+  .firstbox-bottom-image > img {
+    max-width: 80%;
+    height: 90%;
+    padding-bottom: 36px;
+  }
+  .firstbox > p{
+padding: 20px 0px 30px ;
+width: 85%;
+  }
+  .firstbox > button{
+   margin-bottom: 50px;
+  }
+  #foruser-line-one {
+    width: 100%;
+  }
+  .foruser-info > h3 {
+    text-align: center;
+  }
+  #fe {
+    text-align: center;
+  }
+  .foruser-info > p {
+    text-align: center;
+  }
+  .foruser-info {
+    padding-top: 20px;
+    width: 80%;
+  }
+  .foruser-row3-col2 {
+    width: 100%;
+  }
+  #foruser1-how-work-info {
+    width: 80%;
+    padding-bottom: 0px;
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+  .foruser-info-row3 > p {
+    text-align: center;
+  }
+  .foruser-row3-single-how-work {
+    margin: 70px 0px 70px;
+  }
+  .foruser-container {
+    width: 94%;}
+  #first-box-user-main {
+    width: 80%;
+    margin: auto;
+  }
+  #foruser-enpoint{
+    width: 80%;
+  }
+  .foruser-page-col2-main{
+    width: 100%;
+    margin-left: 0px;
+}
+.foruser-page-col2[data-v-69dffd0d] {
+  width: 100%;
+}
+.see-btn {
+  width: 90%;
+display: flex;
+justify-content: center;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+  .foruser-single-how-work{
+    margin:70px 0px 0px;
+  }
+  .foruser-row4-col3 {
+    margin: auto;
+    width: 80%;
+  }
+  .foruser-row4-info > p {
+    text-align: center;
+  }
+  .foruser-row4-how-work-info {
+    width: 80%;
+    padding-top: 0px;
+  }
+  .foruser-row5-col2 {
+    width: 100%;
+  }
+  .foruser-row5-info {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .foruser-row5-info > p {
+    text-align: center;
+  }
+  .foruser-page-end {
+    flex-direction: column;
+    height: 504px;
+  }
+  .foruser-page-col1 {
+    width: 80%;
+  }
+  .see-btn {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .foruser-page-col2 p {
+    text-align: center;
+    width: 80%;
+    font-size: 25px;
+  }
+  .firstbox-1 {
+    height: auto;
+  }
+  .firstbox-bottom-image {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+  }
+  #first-box-user {
+    height: 300px;
+  }
+  #first-box-user1 {
+    height: 300px;
+  }
+  #first-box-user2 {
+    height: 300px;
+  }
+  #first-box-user3 {
+    height: 300px;
+  }
+  .foruser-row5-col3 {
+    width: 80%;
+    margin: auto;
+  }
+  #first-box-user1 > img {
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .accordion button .accordion-title {
+    font-size: 18px;
+}
+  .foruser-sec2-content {
+    flex-direction: column;
+  }
+  .foruser-sec2-row1 {
+    width: 80%;
+    margin: auto;
+  }
+  #foruser-line-one {
+    width: 95%;
+  }
+  .foruser-info > h3 {
+    text-align: center;
+    font-size: 35px;
+  }
+  #fe {
+    text-align: center;
+    font-size: 90px;
+  }
+  .foruser-info > p {
+    text-align: center;
+  }
+  .foruser-info {
+    padding-top: 20px;
+    width: 95%;
+  }
+  .foruser-row3-col2 {
+    width: 100%;
+  }
+  #foruser1-how-work-info {
+    width: 95%;
+    padding-bottom: 40px;
+  }
+  .title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  .foruser-info-row3 > p {
+    text-align: center;
+  }
+  .foruser-row3-single-how-work {
+    margin-top: 50px;
+    margin-bottom: 18px;
+  }
+  #first-box-user-main {
+    width: 80%;
+    margin: auto;
+  }
+  .foruser-row4-col3 {
+    margin: auto;
+    width: 80%;
+  }
+  .foruser-row4-info > p {
+    text-align: center;
+  }
+  .foruser-row4-how-work-info {
+    width: 95%;
+    padding-top: 0px;
+  }
+  .foruser-row3-col1, .foruser-row5-col1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .foruser-row5-col2 {
+    width: 100%;
+  }
+  .foruser-row5-info {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 0px;
+  }
+  .foruser-row5-info > p {
+    text-align: center;
+  }
+  .foruser-page-end {
+    flex-direction: column;
+    margin-top: 50px;
+    height:500px;
+  }
+  /* .foruser-page-col2{
+    height:400px;
+  } */
+  #foruser-enpoint{
+    width:100%;
+  }
+  .foruser-page-col1 {
+    width: 80%;
+  }
+  .foruser-page-col2-main{
+    width:100%;
+    margin: 0px;
+  }
+  .see-btn {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+  .foruser-row4-single-how-work{
+    margin-bottom: 50px;
+  }
+  .foruser-page-col2 p {
+    text-align: center;
+    width: 90%;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .firstbox-1 {
+    height:auto;
+    padding-top: 18px;
+  }
+  .firstbox-bottom-image {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+  }
+  .see-btn{
+display: flex;
+justify-content: center;
+  }
+  .foruser-page-col2{
+width:95%;
+  }
+  #first-box-user {
+    height: 200px;
+  }
+  #first-box-user1 {
+    height: 200px;
+  }
+  #first-box-user2 {
+    height: 200px;
+  }
+  #first-box-user3 {
+    height: 200px;
+  }
+  .foruser-row5-col3 {
+    width: 80%;
+    margin: auto;
+  }
+  #first-box-user1 > img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .foruser-single-how-work {
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  /* .foruser-page-question-col1 {
+    width: 30%;
+  } */
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .foruser-second {
+    padding-left: 28px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1342px) {
+  .foruser-page-Faq {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1099px) {
+  .foruser-page-Faq {
+    width: 90%;
+    margin: auto;
+  }
+}

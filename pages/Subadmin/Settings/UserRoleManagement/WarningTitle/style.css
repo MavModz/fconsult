@@ -1,0 +1,156 @@
+.background-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #211f1fc4;
+  z-index: 1003;
+}
+
+.upload-image-box {
+  max-width: 500px;
+  width: 100%;
+  background-color: #fff;
+  padding: 45px 30px;
+  /* max-height: 330px;
+  height: 100%; */
+  border: 0;
+  border-radius: 15px;
+}
+
+.upload-image-box > p {
+  color: #757575;
+  width: 83%;
+  font-weight: 400;
+}
+
+.upload-top-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.upload-top-bar > .upload-text {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1f1b2d;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container > #back-btn {
+  padding: 12px 60px;
+  background: #ffff;
+  border-radius: 10px;
+  border: 1.63px solid #e7e7e7;
+  font-size: 20px;
+  font-weight: 700;
+  height: max-content;
+}
+
+.button-container > #upload-btn {
+  padding: 12px 30px;
+  background: #ff5757;
+  border-radius: 10px;
+  border: 1.63px solid #e7e7e7;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffff;
+  height: max-content;
+}
+
+.input-field {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.input-field > label {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.input-field > input {
+  border: 1.53px solid #cbd5e1;
+  height: 60px;
+  border-radius: 8px;
+  outline: none;
+  padding-inline: 20px;
+}
+
+.input-field > select {
+  border: 1.53px solid #cbd5e1;
+  height: 60px;
+  border-radius: 8px;
+  outline: none;
+  padding-inline: 20px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 40px;
+}
+
+.checkbox > input {
+  width: 18px;
+  height: 18px;
+}
+
+.checkbox > span {
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* media query here */
+
+@media (max-width: 480px) {
+  .button-container > #back-btn {
+    padding: 10px 50px;
+  }
+
+  .button-container > #upload-btn {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 450px) {
+}
+
+@media (max-width: 425px) {
+  .button-container > #back-btn {
+    padding: 10px 40px;
+  }
+
+  .button-container > #upload-btn {
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 395px) {
+}
+
+@media (max-width: 375px) {
+  .button-container > #back-btn {
+    font-size: 18px;
+    padding: 10px 25px;
+  }
+
+  .button-container > #upload-btn {
+    font-size: 18px;
+    padding: 10px 5px;
+  }
+}

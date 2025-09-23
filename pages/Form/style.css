@@ -1,0 +1,129 @@
+/** @format */
+
+.card {
+  background-color: transparent;
+}
+
+.addleads-gender-select {
+  border: 1px solid #D5D2DC;
+  padding: 12px 10px;
+  border-radius: 10px;
+}
+
+.gallery-container {
+  box-shadow: 7.831155300140381px 7.831155300140381px 19.5778865814209px 0px #00000014;
+  width: 100%;
+  background: #ffff;
+  height: 100%;
+  /* min-height: 760px; */
+  max-height: inherit;
+  border-radius: 0px 0px 15px 15px;
+  padding-bottom: 20px;
+}
+
+.generate-link-submit-email {
+  background-color: #ff5757;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.nav-item>.active {
+  color: #ff5757;
+  border-bottom: 2px solid #ff5757;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #a1a5b7;
+  font-size: 15.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+}
+
+.logo_image {
+  height: 100%;
+  width: 90%;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.cover_image {
+  height: 150px;
+  width: max-content;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.tabs {
+  border: none;
+  border-radius: 0px;
+  background-color: #e7ecf8;
+  /* border-top: 1px solid #EFF2F5;
+  margin: 0px 20px 0px 20px; */
+}
+
+/* #add-leads-bootsrt-header{
+  background-color:#e7ecf8;
+} */
+
+.course-buttons-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  gap: 19px;
+  padding-right: 20px;
+}
+
+.proceed-button1 {
+  border-radius: 25px;
+  background: linear-gradient(135deg, #ff8686 0%, #ff2618 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 12px;
+}
+
+.followup-button {
+  border-radius: 25px;
+  width: 141px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #ff6262;
+  color: #ff6262;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.form-url-wrapper,.card-section {
+  background-color: #fff !important;
+  border-radius: 14px !important;
+  box-shadow: 0 4.934579372406006px 19.738317489624023px 0 #1f1B2D1F !important;
+  padding: 15px 30px !important;
+  border: none !important;
+}
+
+.formName {
+  font-size: 1.75rem;;
+  font-weight: 400;
+  color: var(--gray-900, #1F1B2D);
+  margin-top: 1rem;
+}

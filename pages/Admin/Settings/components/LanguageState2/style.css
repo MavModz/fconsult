@@ -1,0 +1,134 @@
+/** @format */
+
+.background-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #211f1fc4;
+  z-index: 1003;
+}
+
+.upload-image-box {
+  max-width: 500px;
+  width: 100%;
+  background-color: #fff;
+  padding: 45px 30px;
+  /* max-height: 575px;
+  height: 100%; */
+  border: 0;
+  border-radius: 15px;
+}
+
+.upload-top-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.upload-top-bar > .upload-text {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1f1b2d;
+}
+
+.button-container > input {
+  height: 50px;
+  width: -webkit-fill-available;
+  border: 2px solid #d5d2dc;
+  border-radius: 10px;
+  padding-inline: 20px;
+  outline: none;
+}
+
+.added-btn {
+  height: 70px;
+  border: 2px solid #ff8686;
+  color: #ff5757;
+  background: #fff;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.upload-image-box > p {
+  color: #9691a4;
+  text-align: center;
+  padding-inline: 15px;
+}
+
+.submit-box > span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.span-red {
+  color: #ff5757;
+  float: inline-end;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.span-red > .hr {
+  margin: 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #ff8686 0%, #ff2618 100%);
+  border: 0;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffff;
+  margin-top: 18px;
+}
+/* media query here */
+
+@media (max-width: 480px) {
+  /* .upload-image-box {
+    max-height: 535px;
+  } */
+
+  /* .upload-image-box {
+    max-height: 575px;
+  } */
+}
+
+@media (max-width: 450px) {
+  /* .upload-image-box {
+    max-height: 500px;
+  } */
+
+  /* .upload-image-box {
+    max-height: 575px;
+  } */
+}
+
+@media (max-width: 425px) {
+  /* .upload-image-box {
+    max-height: 484px;
+  } */
+
+  /* .upload-image-box {
+    max-height: 600px;
+  } */
+}

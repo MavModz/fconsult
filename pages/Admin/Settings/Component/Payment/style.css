@@ -1,0 +1,132 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Payment-container {
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+}
+
+.Payment-wrapper {
+  padding: 40px;
+}
+
+.Payment-logo {
+  cursor: pointer;
+}
+
+.Payment-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Payment-first > h2 {
+  font-size: 28px;
+  
+  font-weight: 700;
+  line-height: 42px;
+  color: #282823;
+  padding-bottom: 41px;
+}
+
+.Payment-row1 > h3 {
+  font-size: 17px;
+  
+  font-weight: 500;
+  line-height: 15px;
+  color: #0f172a;
+  padding-bottom: 15px;
+}
+
+.Payment-input {
+  width: 305px;
+  height: 60px;
+  background: linear-gradient(0deg, #cbd5e1);
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 15px;
+  
+  font-weight: 400;
+  line-height: 31px;
+  color: #64748b;
+  padding-left: 15px;
+  outline: none;
+}
+
+.Payment-button-box {
+  padding-top: 25px;
+}
+
+.Payment-add {
+  height: 51px;
+  width: 99px;
+  box-shadow: 0px 1.768px 3.536px 0px rgba(255, 211, 53, 0.3);
+  background: #ff5757;
+  color: #fff;
+  
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14.143px;
+  border-radius: 10px;
+  border: none;
+}
+
+.Payment-add:hover {
+  background-color: #fff;
+  color: #ff5757;
+  border: 1px solid #ff5757;
+  transition: ease-in-out 0.3s;
+}
+
+.Payment-box {
+  width: 612px;
+  height: 104px;
+  background: #ffffff;
+  box-shadow: 0px 6.528000354766846px 101.18399810791016px 0px #99abc62e;
+  border-radius: 16px;
+}
+
+.Payment-box-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.Payment-box2 {
+  width: 612px;
+  height: 104px;
+  background: #ffffff;
+  box-shadow: 0px 6.528000354766846px 101.18399810791016px 0px #99abc62e;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+.Payment-box3 {
+  width: 612px;
+  height: 104px;
+  background: #ffffff;
+  box-shadow: 0px 6.528000354766846px 101.18399810791016px 0px #99abc62e;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+.Payment-box4 {
+  width: 612px;
+  height: 104px;
+  background: #ffffff;
+  box-shadow: 0px 6.528000354766846px 101.18399810791016px 0px #99abc62e;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+.Payment-box-wrapper > h3 {
+  
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #150a33;
+}

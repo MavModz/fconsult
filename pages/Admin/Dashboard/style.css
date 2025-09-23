@@ -1,0 +1,339 @@
+
+
+.custom-datatable ::v-deep(.p-datatable-tbody > tr:not(:last-child)) {
+  border-bottom: 1px solid #E5E7EB; /* Tailwind's gray-200 */
+}
+
+.custom-datatable ::v-deep(.p-datatable-tbody > tr > td) {
+  white-space: nowrap;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.pagination-container {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    gap: 10px;
+    font-weight: 500;
+    color: #333;
+}
+.user-name{
+    font-size: 24px;
+}
+.leads-table-namee-wgt:hover {
+  color: #f93232;
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+.leads-table-namee-wgt-dtee {
+  /* word-wrap: break-word;  */
+  white-space: normal; 
+  color: #3c3c3c;
+  font-size: 17px;
+  font-weight: 500;
+}
+.hover-effect:hover {
+    background: white !important;
+    color: #FF5757 !important;
+}
+.new-lead, .open-lead {
+  background-color: #fff4e4;
+  color: #E99518;
+}
+
+.lost-lead {
+  background-color: #FFF0F0;
+  color: #F93232;
+}
+
+.hot-lead {
+  background-color: #FFF0F0;
+  color: #F93232;
+}
+
+.in-progress {
+  background-color: #e6f4fd;
+  color: #008CE4;
+}
+
+.lost-lead {
+  background-color: #EDEDFE;
+  color: #605DEC;
+}
+
+.converted-lead {
+  background-color: #EBF6EB;
+  color: #31AA27;
+}
+.all-atble-leds-srvc {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  height: inherit;
+}
+#update-events-drpsemi-leads {
+  word-wrap: break-word; 
+  white-space: normal; 
+  padding: 6px 24px;
+  border-radius: 25px;
+  border: none;
+}
+.all-atble-leds-srvc>span {
+  background: #5d6b981a;
+  padding: 6px 16px;
+  border-radius: 25px;
+  color: #5d6b98;
+  font-weight: 500;
+}
+.cta .cta-buttton.hover-effect:hover .cta-button-number p {
+    color: #FF5757 !important;
+}
+
+.card-section {
+    padding: 25px !important;
+    width: 100%;
+    border: 1px solid #d7dce4;
+    border-radius: 10px;
+}
+
+
+h6 {
+    margin: 0px !important
+}
+
+.institute-name h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.location-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.badge {
+    background-color: #FFA2171A;
+    border-radius: 90px !important;
+    font-size: 15px;
+    padding: 7px 10px !important;
+}
+
+.badge-icon {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.badge-text p {
+    color: #E8910F;
+    font-size: 15px;
+}
+
+.customer-ratings,
+.licence-number {
+    padding: 7px 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(131, 131, 131, 0.10);
+    background: rgba(131, 131, 131, 0.05);
+}
+
+.licence-number h6 {
+    color: #3C3C3C;
+    font-size: 18px;
+}
+
+.divider p {
+    color: #737983 !important;
+}
+
+.cta {
+    gap: 10px !important;
+}
+
+.cta-buttton {
+    background-color: #FF5757;
+    border-radius: 90px !important;
+    padding: 4px 15px !important;
+    color: #ffffff;
+    border: 1px solid #ff5757;
+}
+
+.cta-button-number p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.meta {
+    gap: 10px !important;
+}
+
+.meta-badge {
+    text-align: center;
+}
+
+.meta-badge p {
+    font-size: 16px;
+    padding: 4px 15px;
+    color: #838383;
+    border-radius: 80px !important;
+    border: 1px solid #D7DCE4;
+    margin-bottom: 0px;
+}
+
+.left-section-1 {
+    width: 55%;
+}
+
+.time {
+    font-size: 16px;
+    font-weight: 500;
+    color: #11142D;
+}
+
+.time-active {
+    background-color: #ff5757;
+    color: #ffffff !important;
+}
+
+.whatsapp-icon img {
+    width: 40px;
+}
+.growth{
+    width: 47%;
+}
+.pointers{
+    width: 53%;
+}
+@media only screen and (max-width: 370px){
+.user-name{
+    font-size: 21px;
+}}
+@media only screen and (max-width: 992px) {
+
+    .institute-profile,
+    .institute-profile-location {
+        flex-direction: column;
+    }
+
+    .left-section {
+        width: 62% !important;
+    }
+
+    .card-section {
+        padding: 12px !important;
+    }
+
+
+    .cta-button-number p {
+        font-size: 16px;
+        padding: 3px 6px !important;
+        box-sizing: 25px;
+    }
+
+    .cta {
+        gap: 8px !important;
+    }
+
+    .whatsapp-icon img {
+        width: 39px;
+    }
+
+    .meta-badge p {
+        font-size: 12px;
+        padding: 4px 9px;
+    }
+
+    .meta {
+        gap: 3px !important;
+    }
+
+    .institute-name h3 {
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .badge-icon img {
+        height: 18px !important;
+    }
+
+    .badge-text p {
+        font-size: 17px;
+    }
+
+    .customer-ratings-section {
+        margin-top: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-section {
+        padding: 16px !important;
+    }
+
+    .institute-profile {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .left-section-1 {
+        width: 100%;
+        justify-content: center !important;
+    }
+
+    .meta {
+        gap: 9px !important;
+    }
+
+    .institute-name h3 {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .left-section-1 {
+        flex-direction: column;
+    }
+
+    .badge-icon {
+        display: none;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .heading h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .customer-location {
+        margin-top: 8px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1363px) {
+.growth-sec{
+    flex-direction: column;
+}
+.pointers, .growth{
+    width: 100%;
+}
+}
+@media screen and (max-width: 1660px) {
+.money-growth{
+    flex-direction: column;
+}
+.income, .invoice{
+    width: 100%;
+}
+}
+/* @media screen and (max-width: 880px) {
+    .leads{
+        flex-direction: column;
+    }
+    .listing .customers{
+        width: 100%;
+    }
+} */
