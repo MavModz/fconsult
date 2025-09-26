@@ -1,0 +1,300 @@
+<template>
+  <div class="relative w-64">
+    <!-- Display current selection -->
+    <div @click="toggleDropdown" class="border p-2 bg-white cursor-pointer">
+      <template v-if="finalSelection">
+        <strong>{{ finalSelection.category }}</strong>
+        <span v-if="finalSelection.subcategory"> / {{ finalSelection.subcategory }}</span>
+      </template>
+      <template v-else>
+        Select Status
+      </template>
+    </div>
+
+    <!-- Dropdown -->
+    <div v-if="dropdownOpen" class="absolute border bg-white mt-1 w-full z-10 max-h-60 overflow-auto">
+      <!-- Status list -->
+      <div v-if="!selectedCategory">
+        <div v-for="status in statuses" :key="status._id"
+          @click="selectCategory(status.stagename, status.subStage || [])"
+          class="p-2 hover:bg-gray-100 cursor-pointer">
+          {{ status.stagename }}
+        </div>
+      </div>
+
+      <!-- Substatus list -->
+      <div v-else>
+        <div v-for="sub in subcategories" :key="sub" @click="selectSubcategory(sub)"
+          class="p-2 hover:bg-gray-100 cursor-pointer">
+          <strong>{{ selectedCategory }}</strong> / {{ sub }}
+        </div>
+        <!-- If no substatus, confirm directly -->
+        <div v-if="subcategories.length === 0" class="p-2 text-gray-500 italic">No substatus available</div>
+      </div>
+    </div>
+  </div>
+
+
+  <Dialog v-model:visible="counsellorModal" modal header="Convert To Customer"
+    class="w-[92vw] sm:w-[80vw] md:w-[60vw] lg:w-[40vw] xl:w-[32vw]">
+    <FormKit type="form" @submit="convertCustomer" class="leads-form-style">
+      <div>
+        <label class="single-lead-cmttitls mb-1 ">Assign Counsellor</label><br />
+        <FormKit validation="required" type="select" name="assigned_to" class="single-lead-cmt-mdlo"
+          placeholder="Task title" validation-label="Counsellor" @change="getSubCouncellor" :options="items"
+          v-model="selectedOption" />
+      </div>
+      <span>
+        <label class="leads-label-assign-add mt-3 mb-1">Assign Description</label>
+        <FormKit type="textarea" validation="required" name="comment" id="leads-textarea-dgn"
+          validation-label="Description" />
+      </span>
+      <div class="modal-footer-section">
+        <!-- <button type="button" class="btn-btn-cancel" data-bs-dismiss="modal" id="close" @click="counsellorModal = false">Go back</button> -->
+        <button type="submit"
+          class="  mt-4 bg-[#ff5757] text-[#ffffff] rounded px-4 py-2 btn-btn-dle-appt">Submit</button>
+      </div>
+    </FormKit>
+  </Dialog>
+</template>
+
+<script setup>
+import { ref, onMounted, watch } from 'vue'
+// replace with your actual API import
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+// Props
+const props = defineProps({
+  status: { type: String, required: true },
+  subStage: { type: String, default: null }
+})
+console.log("data",props)
+const emit = defineEmits(['trigger-init'])
+// States
+const dropdownOpen = ref(false)
+const selectedCategory = ref(null)
+const subcategories = ref([])
+const finalSelection = ref(null)
+const statuses = ref([])
+//covert customer
+const counsellorModal = ref(false)
+const items = ref([])
+const loading = ref(false)
+const selectedOption = ref(null)
+// Toggle dropdown
+function toggleDropdown() {
+  dropdownOpen.value = !dropdownOpen.value
+  if (!dropdownOpen.value) {
+    selectedCategory.value = null
+    subcategories.value = []
+  }
+}
+
+
+function selectCategory(name, subs) {
+  selectedCategory.value = name
+  subcategories.value = subs
+
+  if (subs.length === 0) {
+    finalSelection.value = {
+      category: selectedCategory.value,
+      subcategory: null
+    }
+    dropdownOpen.value = false
+    selectedCategory.value = null
+
+    updateStatus(finalSelection.value.category, finalSelection.value.subcategory)
+  }
+}
+function selectSubcategory(sub) {
+  finalSelection.value = {
+    category: selectedCategory.value,
+    subcategory: sub
+  }
+  dropdownOpen.value = false
+  selectedCategory.value = null
+  subcategories.value = []
+
+  updateStatus(finalSelection.value.category, finalSelection.value.subcategory)
+}
+
+
+// Load from API
+async function loadStatuses() {
+  try {
+    const res = await adminGet('/customerStage')
+    statuses.value = res.data.leadstatus || []
+  } catch (err) {
+    console.error('Error fetching lead statuses:', err)
+  }
+}
+
+async function updateStatus(status, subStage) {
+  try {
+    const confirmed = await askConfirm('Do you want to update the stage?', 'Update Stage', 'Update', 'Cancel')
+    if (!confirmed) return
+
+    if (status === "Converted Lead") {
+      handleConvertedLead()
+    } else {
+
+      await adminPut(`/update-customer-stage/${route.params.id}`, {
+        lead_stage: status,
+        lead_sub_stage: subStage
+      })
+      emit('trigger-init')
+      successAlert('Customer updated successfully!')
+    }
+  } catch (err) {
+    console.error('Failed to update status:', err)
+  }
+}
+async function handleConvertedLead() {
+  console.log("Converted status")
+  counsellorModal.value = true
+  await getSubCouncellor()
+}
+
+async function getSubCouncellor() {
+  loading.value = true
+  const res = await adminGet(`/select-employes-list`)
+  items.value = res.data.employe_list.map(i => ({ label: i.name, value: i._id }))
+  loading.value = false
+}
+
+async function convertCustomer(v) {
+  loading.value = true
+  try {
+    await adminPut(`/assign-leads/${route.params.id}`, v)
+    await adminPut(`/convert-customer/${route.params.id}`)
+    emit('trigger-init')
+    successAlert("Counsellor assigned and customer converted successfully!")
+    counsellorModal.value = false
+  } catch (err) {
+    console.error("Error assigning counsellor or converting customer:", err)
+  }
+  loading.value = false
+}
+
+
+
+// Set initial selection from props
+function setInitialSelection() {
+  if (!props.status) return
+  const match = statuses.value.find(s => s.stagename === props.status)
+  if (match) {
+    finalSelection.value = {
+      category: props.status,
+      subcategory: props.subStage || null
+    }
+  }
+}
+
+// Lifecycle
+onMounted(async () => {
+  await loadStatuses()
+  setInitialSelection()
+})
+
+// Update on props change
+watch(
+  () => [props.status, props.subStage],
+  () => {
+    setInitialSelection()
+  }
+)
+</script>
+
+<style scoped>
+/* Optional but makes it nicer */
+.scroll {
+  max-height: 200px;
+  overflow-y: auto;
+}
+</style>
+
+
+
+
+
+
+
+<!-- 
+<template>
+  <div class="relative w-64">
+   
+    <div @click="toggleDropdown" class="border p-2 bg-white cursor-pointer">
+      <template v-if="finalSelection">
+        <strong>{{ finalSelection.category }}</strong> / {{ finalSelection.subcategory }}
+      </template>
+      <template v-else>
+        Select Status
+      </template>
+    </div>
+
+  
+    <div v-if="dropdownOpen" class="absolute border bg-white mt-1 w-full z-10">
+     
+      <div v-if="!selectedCategory">
+        <div 
+          v-for="status in statuses" 
+          :key="status.name" 
+          @click="selectCategory(status.name, status.subcategories)"
+          class="p-2 hover:bg-gray-100 cursor-pointer"
+        >
+          {{ status.name }}
+        </div>
+      </div>
+
+      
+      <div v-else>
+        <div 
+          v-for="sub in subcategories" 
+          :key="sub" 
+          @click="selectSubcategory(sub)"
+          class="p-2 hover:bg-gray-100 cursor-pointer"
+        >
+          <strong>{{ selectedCategory }}</strong> / {{ sub }}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+
+const dropdownOpen = ref(false)
+const selectedCategory = ref(null)
+const subcategories = ref([])
+const finalSelection = ref(null)
+
+const statuses = [
+  { name: 'Cold', subcategories: ['Less Cold', 'More Cold'] },
+  { name: 'Hot', subcategories: ['Less Hot', 'More Hot'] }
+]
+
+function toggleDropdown() {
+  dropdownOpen.value = !dropdownOpen.value
+  if (!dropdownOpen.value) {
+    selectedCategory.value = null
+    subcategories.value = []
+  }
+}
+
+function selectCategory(name, subs) {
+  selectedCategory.value = name
+  subcategories.value = subs
+}
+
+function selectSubcategory(sub) {
+  finalSelection.value = {
+    category: selectedCategory.value,
+    subcategory: sub
+  }
+  dropdownOpen.value = false
+  selectedCategory.value = null
+  subcategories.value = []
+}
+</script> -->

@@ -1,0 +1,196 @@
+
+.common-shadow {
+  border-radius: 50px;
+  background: #ffff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  /* padding: 23px 0px; */
+  height: 100vh;
+}
+#custom-claimidd-padd{
+  margin-top: 80px;
+}
+.cstwdth-clmrp{
+  max-width: 372px;
+  line-height: 40px !important;
+}
+.bimg {
+  height: 100vh;
+  position: relative;
+  background-color: #d7dce433;
+}
+
+.image-background {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-background > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.btn-primary {
+  background: #ff5757;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 17px;
+  font-weight: 700;
+}
+
+.company-list {
+  max-height: 20vh;
+  overflow-y: auto;
+}
+
+.overflow {
+  overflow-x: hidden;
+}
+
+.form-group > label {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: -webkit-fill-available;
+  color: #696f79;
+}
+
+.para {
+  color: #8692a6;
+  font-size: 16px;
+}
+
+.containers {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.containers > input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 10px;
+  left: -38px;
+  height: 28px;
+  width: 28px;
+  border: 3px solid #e4e4ef;
+  border-radius: 5px;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: transparent;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #ff5757;
+}
+
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.containers .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 5px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.containers input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.background-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #211f1fc4;
+  z-index: 1003;
+}
+
+.Picture2 {
+  width: 300px;
+  height: 130px;
+  background-color:#fff0f1; /* Red background color */
+  /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='13' ry='13' stroke='%23D5D2DCFF' stroke-width='3' stroke-dasharray='6, 14' stroke-dashoffset='8' stroke-linecap='square'/%3e%3c/svg%3e"); */
+  background-repeat: no-repeat;
+  border: 1px dashed #FF5757;
+  border-radius: 13px;
+  box-shadow: 0 2.7px 2.7px -2.7px rgba(31, 27, 45, 0.08), 0 5.5px 16.4px rgba(31, 27, 45, 0.08);
+}
+
+.Picture2 > label {
+  border-radius: 14px;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 130px;
+  width: 300px;
+  color: white;
+}
+
+
+/* Custom CSS to override py-5 above 576px */
+@media (max-width: 991px) {
+  .bimg {
+  display: none;
+  } 
+  .cstwdth-clmrp{
+    max-width: -webkit-fill-available;
+}
+
+}
+
+@media (max-width: 576px) {
+  .py-5-custom {
+    padding-inline: 2rem !important; /* Override padding-top */
+  }
+
+  .image-background > img {
+    padding-inline: 25px;
+  }
+}

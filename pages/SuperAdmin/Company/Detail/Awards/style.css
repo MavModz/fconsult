@@ -1,0 +1,421 @@
+  
+  * {
+    border: none;
+}
+
+img {
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.card-img-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 3.7) 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 20px;
+
+}
+
+.achievers-screen {
+    width: 100%;
+    height: auto;
+    border-radius: 15.662px;
+    background: #FFF;
+    box-shadow: 7.831px 7.831px 19.578px 0px rgba(0, 0, 0, 0.08);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+
+.achievers-publs {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+
+.achiever-add {
+    text-align: center;
+}
+
+.your-events-btn {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+    border: none;
+    width: 178px;
+    height: 52.4px;
+    color: #fff;
+    padding: 5.2px 20.8px;
+    border-radius: 28.6px;
+    background-color: #ff6c68;
+    transition: 0.8s;
+
+    font-weight: 700;
+    transition: ease-out 0.8s;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+.your-events-btn:hover {
+    color: red;
+
+}
+.your-events-btn::before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #fff;
+    border: 1px solid red;
+    border-radius: 24px;
+
+}
+.your-events-btn:hover::before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+
+.pbl-clr>p {
+    color: #282823;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+
+.action_btn {
+    background-color: white;
+    border-radius: 50px;
+    color: #454056;
+    border: none;
+    width: 33px;
+    float: right;
+    margin: 5px;
+}
+
+.action_btn i {
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+
+.achiever_details {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.achiever_details span {
+    position: relative;
+    top: -6px;
+    font-size: 13px;
+}
+
+.modal-content {
+    width: 680px;
+}
+
+.modal-body {
+    width: 680px;
+}
+
+.achvr-leftimg-vw {
+    width: 50%;
+    position: relative;
+}
+
+.achvr-namabs {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    transform: translate(10px, 10px);
+    padding-bottom: 20px;
+}
+
+.achvr-leftimg-vw img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    width: 50%;
+}
+
+.achv-jagdep {
+    color: #F8FCFF;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 0px;
+
+}
+
+.achvr-vsa {
+    color: #D7DCE4;
+    font-weight: 400;
+    font-size: 18.5px;
+}
+
+.dropdown-menu i {
+    position: relative;
+    top: 3px;
+    right: 2px;
+    font-size: 18px;
+}
+
+.primary {
+    color: #ff5757;
+}
+
+#mdl-crd {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.achvr-hr {
+    border: 1px solid #909090;
+}
+
+.achvr-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.achvr-cmp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.achvr-share {
+    width: 25px;
+    height: 25px;
+}
+
+.achvr-share img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.achvr-aside-serv {
+    width: 30px;
+    height: 30px;
+
+}
+
+.achvr-aside-serv img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.achvr-cntr>p {
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.achvr-descpt>p {
+    text-align: left;
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 4.5px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: left;
+    padding-top: 22px;
+    margin-bottom: 13px;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+
+.achivr-pagntion {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+
+.pagination .page-item .page-link {
+    color: red;
+    font-size: 18px;
+}
+
+
+
+
+/* modal delete */
+
+#achvr-btn-cross{
+    padding: 14px;
+    float: right;
+}
+.event-mdl-del>p{
+    color: #333333;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 0px;
+    padding-top:  15px;
+    padding-left: 10px;
+}
+.modal-event-stl{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.modal-footer-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.btn-btn-cancel{
+    width: 146px;
+    padding: 7px;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1.63px solid #E7E7E7;
+    background-color: #fff;
+    border-radius: 8px;
+
+
+}
+.btn-btn-dle{
+    width: 146px;
+    padding: 7px;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: #D71414;
+    border-radius: 8px;
+}
+.event-mdl-par{
+    padding-left: 15px;
+    padding-right: 40px;
+}
+
+.event-mdl-par{
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+@media screen and (max-width:575px) {
+
+    .achivr-pagntion {
+        justify-content: center;
+        padding: 0px;
+
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+    .row{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .col-sm-3 {
+        width: 100%;
+    }
+    .achivr-pagntion {
+        justify-content: center;
+        padding: 0px;
+
+    }
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:910px) {
+    .modal-body {
+        width: auto;
+    }
+
+    .achvr-namabs {
+        left: 9px;
+
+    }
+
+}
+
+
+@media screen and (max-width:767px) {
+    .modal-body {
+        width: auto;
+    }
+
+    .achvr-namab {
+        left: 9px;
+
+    }
+
+    #mdl-crd {
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+
+    .achvr-leftimg-vw {
+        width: 100%;
+
+    }
+
+    .card-body {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width:1440px) {
+    img {
+        height: 340px;
+
+    }
+}

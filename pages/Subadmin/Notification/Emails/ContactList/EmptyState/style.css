@@ -1,0 +1,272 @@
+.btn-btn-dle-appt,
+.followup-btn-btn-dle-appt,
+.btn-btn-dle-appt,
+.submit-btn {
+  background-color: #ff5757;
+  color: #ffffff;
+}
+.text-position{
+  text-align: left;
+}
+select {
+  appearance: auto;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+}
+
+.custom-select,
+.formkit-input {
+  border: none !important;
+  outline: none !important;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'], 
+input[type='file'], select
+input[type='select'] {
+  padding: 1.1rem 1.5rem 1rem 1.2rem;
+  border: 1.19px solid #D5D2DC;
+  border-radius: 10px;
+  border-bottom-left-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+}
+
+.select-option {
+  padding: 0.2rem 1.5rem 0.2rem 0.6rem;
+  border: 1.19px solid #D5D2DC;
+  border-radius: 10px;
+  border-bottom-left-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.location-input {
+  font-size: 16px;
+  color: #3A3A3C;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.tag {
+  background: #3C3C3C1A;
+  border-radius: 999px;
+  padding: 9px 17px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3C3C3C;
+  gap: 8px;
+}
+
+.tag .remove-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #555;
+}
+
+.tag .remove-icon:hover {
+  color: #000;
+}
+
+.add-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #f44336;
+  cursor: pointer;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.input-group label,
+.input-gp label,
+label {
+  margin-bottom: 8px;
+  font-size: 21px;
+  color: #3c3c3c;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.input-group input,
+.upload-box,
+.upload-box-1,
+.brochure_upload-box,
+.input-group textarea {
+  padding: 1.1rem 1.5rem 1rem 1.2rem;
+  border: 1.19px solid #D5D2DC;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+}
+
+.brochure_upload-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brochure_upload-box input {
+  width: 100%;
+}
+
+.upload-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.upload-option {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 3px 12px;
+  margin-bottom: 4px;
+  color: #4c5361;
+  font-size: 15px;
+  font-weight: 400;
+  color: #454056;
+  cursor: pointer;
+}
+
+.upload-option:hover,
+.dropdown-item:hover {
+  background-color: #e9e8ec;
+}
+
+.upload-option:last-child {
+  margin-bottom: 0;
+}
+
+.icon i {
+  font-size: 18px;
+  color: var(--lighter-shade, #64748B);
+}
+
+.add-button {
+  border: 1px solid #ff5757;
+  background: #ff5757;
+  color: #ffffff;
+  padding: 10px 19px;
+  border-radius: 117px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 150%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.upload-card {
+  background: #F5F4F8;
+  box-shadow: 0px 5.98px 17.95px 0px #1F1B2D14;
+  box-shadow: 0px 2.99px 2.99px -2.99px #1F1B2D14;
+  border-radius: 18px;
+  padding: 8px 4px;
+  border: 1.5px solid #EFECF3;
+  z-index: 999;
+  width: 215px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 999px;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked+.slider {
+  background-color: #22c55e;
+}
+
+input:checked+.slider:before {
+  transform: translateX(20px);
+}
+@media (max-width:640px){
+  .text-position{
+    text-align:center ;
+  }
+  .input-group label,
+.input-gp label,
+label {
+  font-size: 18px;
+}
+input[type='text'],
+input[type='tel'],
+input[type='select'],
+input[type='file'],
+.brochure_upload-box,
+input[type='email'], select {
+  padding: 0.8rem 1rem 0.8rem 0.8rem;
+}
+.select-option {
+  padding: 0rem 0.9rem 0rem 0.2rem;
+}
+  .slider:before {
+  height: 10px;
+  width: 10px;
+  left: 3px;
+  bottom: 3px;
+}
+.switch {
+  width: 34px;
+  height: 16px;
+}
+}

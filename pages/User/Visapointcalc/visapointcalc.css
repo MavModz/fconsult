@@ -1,0 +1,11 @@
+@media (max-width:577px) and (min-width:482px) {
+    .visapoint{
+        margin-top: 7.2rem !important;
+    }
+}
+
+@media (max-width:481px)  {
+    .visapoint{
+        margin-top: 10rem !important;
+    }
+}

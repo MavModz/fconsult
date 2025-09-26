@@ -1,0 +1,158 @@
+.p-sidebar {
+  padding: 24px;
+}
+
+.p-sidebar-header-content {
+  color: #000000;
+  font-size: 30px !important;
+  line-height: 44px;
+  font-weight: 500;
+  padding: 0px 1px;
+}
+
+.header-para {
+  color: #8692A6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.p-radiobutton {
+  border: 1px solid #ff5722;
+  border-radius: 50px;
+}
+
+.radio-group {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#update-event-select {
+  outline: none;
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 15px;
+  background: rgba(241, 245, 249, 0.40);
+  border: 1px solid #CBD5E1;
+}
+
+.selected-option {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.checkbox-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+  display: flex;
+  justify-content: center;
+
+}
+
+.checkbox-card.active {
+  border-color: #f44336;
+  background-color: #ffe5e5;
+  filter: grayscale(0%);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.hidden-radio {
+  display: none;
+}  
+  .custom-select {
+    border: none !important;
+    outline: none !important;
+  }
+   .input-group input::placeholder {
+    color: #9691A4;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 16px;
+  }
+   
+  .input-group input {
+    padding: 1rem 3.5rem 1rem 1.5rem;
+    border: 1.19px solid #D5D2DC;
+    border-radius: 10px !important;
+    background-color: #ffffff !important;
+    /* border-bottom-left-radius: 10px !important;
+    border-top-left-radius: 10px !important; */
+  }
+
+ .select-option {
+    padding: 0.1rem 1.5rem 0.1rem 0.8rem;
+    border: 1.19px solid #D5D2DC;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+  
+  }
+.selected-option {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+ 
+  select {
+    appearance: auto;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+  }
+.card-content>img {
+  width: 50px;
+  height: 50px;
+}
+input[type="text"]
+{
+  background-color: #F8FAFC;
+  border-radius: 0.75rem;
+}
+.card-content>p {
+  color: #FF5757;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.btn-red {
+  background: #ff5757;
+  border: 0;
+  padding: 15px 40px;
+  border-radius: 15px;
+  color: #ffff;
+  width: 100%;
+  font-family: 700;
+  font-size: 23px;
+}
+
+.formkit-no-files, .formkit-file-list {
+  display: none;
+}
+
+.formkit-help {
+  color: #676B6C;
+  font-size: 16px;
+  font-weight: 400;
+}

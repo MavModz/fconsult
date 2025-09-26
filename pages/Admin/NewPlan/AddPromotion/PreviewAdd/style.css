@@ -1,0 +1,1052 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* CSS */
+.slidecontainer {
+  position: relative;
+  /* Ensure the relative positioning context */
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 100px;
+}
+
+/* Tooltip styles */
+.slidecontainer p {
+  width: 67px;
+  height: 61px;
+  background-color: #ff5757;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 31px;
+  text-align: center;
+  line-height: 37px;
+  border-radius: 10px;
+  padding: 8px;
+  position: absolute;
+  /* Position the tooltip absolutely within the slidecontainer */
+  top: -75px;
+  /* Adjust this value to place the tooltip above the slider */
+  left: 50%;
+  /* Start with the tooltip in the center */
+  transform: translateX(-50%);
+  /* Center the tooltip */
+  transition: left 0.2s;
+  /* Smooth transition for the tooltip movement */
+}
+
+.slidecontainer h2 {
+  width: 24px;
+  height: 14px;
+  background-color: #ff5757;
+  position: absolute;
+  /* Position the tail absolutely within the slidecontainer */
+  top: -14px;
+  /* Adjust this value to align with the bottom of the tooltip */
+  left: 50%;
+  /* Align with the center of the tooltip */
+  border-radius: 0 0 10px 10px;
+  transform: translateX(-50%);
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: black;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 8px;
+  position: relative;
+  /* Ensure the relative positioning context */
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  box-shadow: 0px 5.145811557769775px 10.29162311553955px 0px #0000001a;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  /* Ensure the relative positioning context */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+  position: relative;
+  /* Ensure the relative positioning context */
+}
+
+.rangeValue {
+  color: #ff5757;
+  padding: fffff;
+  padding: 10px 25px 9px 16px;
+  /* top right bottom left */
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+#tooltip {
+  position: absolute;
+  bottom: 40%;
+  transform: translateX(-50%);
+}
+
+.range-box>img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding-top: 15px;
+}
+
+.Adlive-wrapper {
+  display: flex;
+}
+
+.Adlive-section1 {
+  width: 50%;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.Adlive-section1-row1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.Adlive-section1-row2 {
+  text-align: center;
+}
+
+.Adlive-section1-row2>img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Adlive-section1-row2>h2 {
+  margin-top: -50px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  color: #ff5757;
+}
+
+.Adlive-section2 {
+  width: 50%;
+  background-color: #f6f8fb;
+  padding: 40px;
+}
+
+.Adlive-section2-back {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.Adlive-section2-row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Adlive-section2-row1-col2>p:first-child {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #bdbdbd;
+}
+
+.Adlive-section2-row1-col2 :nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8692a6;
+  text-align: right;
+}
+
+.Adlive-section2-row2 {
+  padding-top: 90px;
+  width: 510px;
+}
+
+.Adlive-section2-row2-col1 {
+  display: flex;
+  gap: 8px;
+}
+
+.Adlive-section2-back>a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8692a6;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Adlive-section2-back>p {
+  margin: 0px;
+}
+
+.Adlive-section2-row2-col1>h2 {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 49px;
+  color: #1f1f1f;
+}
+
+.Adlive-section2-row2>h3 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 49px;
+  color: #ff5757;
+}
+
+.Adlive-section2-row2>p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #a6a6a6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Adlive-btn {
+  padding-bottom: 20px;
+}
+
+.Adlive-btn>button {
+  width: 100%;
+  height: 80px;
+  background-color: #ff5757;
+  color: #ffffff;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  border: none;
+}
+
+.Adlive-section2-row2>h4 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+.adlive-btn {
+  margin-top: -90px;
+}
+
+.adlive-btn>button {
+  width: 548px;
+  height: 82px;
+  border-radius: 7px;
+  background-color: #ff5757;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  transition: ease-out 0.8s;
+  outline: none;
+  position: relative;
+  z-index: 1;
+}
+
+.adlive-btn>button:hover {
+  color: red;
+}
+
+.adlive-btn>button::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #fff;
+  border: 1px solid red;
+  border-radius: 7px;
+}
+
+.adlive-btn>button:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+/* css */
+
+.Adlive-form {
+  width: 440px;
+  padding-top: 10px;
+}
+
+.Adlive-form>label {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 34px;
+  letter-spacing: 0.27px;
+  color: #0f172a;
+}
+
+.dropdown {
+  width: 100%;
+  height: 68px;
+  border-radius: 9px;
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #64748b;
+}
+
+.Adlive-address {
+  position: relative;
+}
+
+.Adlive-address>input {
+  width: 100%;
+  height: 68px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding-left: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #8692a6;
+  outline: none;
+}
+
+.Adlive-address-icon {
+  position: absolute;
+  right: 15px;
+  top: 22px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.Adlive-address-icon>p {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #9691a4;
+}
+
+#location {
+  color: #9691a4;
+}
+
+.Adlive-time {
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+#start {
+  width: 210px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  outline: none;
+  font-weight: 400;
+  font-size: 19px;
+  color: #64748b;
+  line-height: 32px;
+}
+
+#end {
+  width: 210px;
+  height: 60px;
+  border-radius: 8px;
+  padding-left: 10px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  font-weight: 400;
+  font-size: 19px;
+  color: #64748b;
+  line-height: 32px;
+}
+
+.Adlive-time>div>label {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0f172a;
+  line-height: 32px;
+  padding-bottom: 8px;
+}
+
+.Adlive-section2-endrow {
+  padding-top: 30px;
+}
+
+.slidecontainer {
+  width: 100%;
+  /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  /* Override default CSS styles */
+  appearance: none;
+  width: 100%;
+  /* Full-width */
+  height: 8px;
+  /* Specified height */
+  background: black;
+  /* Grey background */
+  outline: none;
+  /* Remove outline */
+  opacity: 1;
+  /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s;
+  /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+  border-radius: 8px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1;
+  /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 30px;
+  /* Set a specific slider handle width */
+  height: 30px;
+  /* Slider handle height */
+  background: #ffffff;
+  box-shadow: 0px 5.145811557769775px 10.29162311553955px 0px #0000001a;
+  border-radius: 20px;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  /* Set a specific slider handle width */
+  height: 25px;
+  /* Slider handle height */
+  background: #04aa6d;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+.range-box>img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding-top: 15px;
+}
+
+#Adlive-drpsemi {
+  height: 68px;
+  outline: none;
+}
+
+.Adlive-section1-btn {
+  margin-top: -82px;
+}
+
+.Adlive-section2-endrow>div>label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #0f172a;
+}
+
+.slidecontainer>p {
+  color: #ff5757;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 37px;
+}
+
+@media screen and (min-width: 1551px) and (max-width: 1650px) {
+  .adlive-btn>button {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1480px) and (max-width: 1550px) {
+  .Adlive-section2-row2 {
+    padding-top: 80px;
+    width: 482px;
+  }
+
+  .adlive-btn>button {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1479px) {
+  .Adlive-section2-row2 {
+    padding-top: 50px;
+    width: 400px;
+  }
+
+  .adlive-btn>button {
+    width: 420px;
+  }
+
+  .Adlive-section1-row2 {
+    padding-top: 30px;
+  }
+
+  .Adlive-form {
+    padding-top: 0px;
+  }
+
+  .Adlive-section2-row2>p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1399px) {
+  .Adlive-section2-row2 {
+    padding-top: 40px;
+    width: 350px;
+  }
+
+  .Adlive-section2-row2>h3 {
+    font-size: 28px;
+  }
+
+  .Adlive-section2-row2>p {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+
+  .adlive-btn>button {
+    width: 380px;
+  }
+
+  .Adlive-section1-row2 {
+    padding-top: 30px;
+  }
+
+  .Adlive-form {
+    width: 380px;
+  }
+
+  #end {
+    width: 180px;
+  }
+
+  #start {
+    width: 180px;
+  }
+
+  .Adlive-time {
+    padding-top: 20px;
+  }
+
+  .Adlive-section2-endrow {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1350px) {
+  .adlive-btn>button {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 590px) and (max-width: 1299px) {
+  .Adlive-section2 {
+    width: 80%;
+    margin: auto;
+  }
+
+  .Adlive-section2-row2 {
+    width: 80%;
+    margin: auto;
+  }
+
+  .Adlive-section2-row2-col1 {
+    justify-content: center;
+  }
+
+  .Adlive-section2-row2 {
+    text-align: center;
+    width: 80%;
+  }
+
+  .Adlive-form {
+    margin: auto;
+  }
+
+  .Adlive-section2-row2 {
+    padding-top: 58px;
+    width: 80%;
+  }
+
+  .Adlive-section2-row2>p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1299px) {
+  .Adlive-section2-row2>h3 {
+    font-size: 28px;
+  }
+
+  .Adlive-section2-row2>h3 {
+    line-height: 39px;
+  }
+
+  .Adlive-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .Adlive-section2 {
+    width: 70%;
+    margin: auto;
+  }
+
+  .Adlive-section1 {
+    margin: auto;
+    width: 70%;
+    background-color: #f6f8fb;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .Adlive-section1-row2>img {
+    display: none;
+  }
+
+  .adlive-btn {
+    margin-top: 0px;
+  }
+
+  .Adlive-section1-row1 {
+    display: none;
+  }
+
+  .adlive-btn>button {
+    width: 440px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .Adlive-section2 {
+    width: 100%;
+  }
+
+  .Adlive-section2-row2 {
+    padding-top: 40px;
+    width: 510px;
+  }
+
+  .Adlive-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .Adlive-section2 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .Adlive-section1 {
+    margin: auto;
+    width: 90%;
+    background-color: #f6f8fb;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .Adlive-section1-row2>img {
+    display: none;
+  }
+
+  .adlive-btn {
+    margin-top: 0px;
+  }
+
+  .Adlive-section1-row1 {
+    display: none;
+  }
+
+  .adlive-btn>button {
+    width: 440px;
+  }
+}
+
+@media screen and (min-width: 590px) and (max-width: 767px) {
+  .Adlive-section2 {
+    width: 100%;
+  }
+
+  .Adlive-section2-row2 {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .Adlive-section2-row2>p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .Adlive-form {
+    width: 380px;
+  }
+
+  #start {
+    width: 180px;
+  }
+
+  #end {
+    width: 180px;
+  }
+
+  .Adlive-section2-row2>h3 {
+    line-height: 35px;
+  }
+
+  .Adlive-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .Adlive-section2 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .Adlive-section1 {
+    margin: auto;
+    width: 100%;
+    background-color: #f6f8fb;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .Adlive-section1-row2>img {
+    display: none;
+  }
+
+  .adlive-btn {
+    margin-top: 0px;
+  }
+
+  .Adlive-section1-row1 {
+    display: none;
+  }
+
+  .adlive-btn>button {
+    width: 440px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 589px) {
+  .Adlive-section2 {
+    width: 100%;
+  }
+
+  .Adlive-section2-row2 {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .Adlive-section2-row2>p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .Adlive-form {
+    width: 380px;
+    margin: auto;
+  }
+
+  #start {
+    width: 180px;
+  }
+
+  #end {
+    width: 180px;
+  }
+
+  .Adlive-section2-row2>h3 {
+    line-height: 35px;
+  }
+
+  .Adlive-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .Adlive-section2 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .Adlive-section1 {
+    margin: auto;
+    width: 100%;
+    background-color: #f6f8fb;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .Adlive-section1-row2>img {
+    display: none;
+  }
+
+  .adlive-btn {
+    margin-top: 0px;
+  }
+
+  .Adlive-section1-row1 {
+    display: none;
+  }
+
+  .adlive-btn>button {
+    width: 380px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+  .Adlive-section2 {
+    width: 100%;
+  }
+
+  .Adlive-section2-row2 {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .Adlive-section2-row2>p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .Adlive-form {
+    width: 300px;
+    margin: auto;
+  }
+
+  #start {
+    width: 140px;
+  }
+
+  #end {
+    width: 140px;
+  }
+
+  .Adlive-section2-row2>h3 {
+    line-height: 35px;
+    font-size: 25px;
+  }
+
+  .Adlive-section2-row2-col1 {
+    justify-content: center;
+  }
+
+  .Adlive-section2-row2 {
+    text-align: center;
+  }
+
+  .slidecontainer>p {
+    font-size: 25px;
+  }
+
+  .Adlive-section2 {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+
+  .Adlive-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .Adlive-section2 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .Adlive-section1 {
+    margin: auto;
+    width: 100%;
+    background-color: #f6f8fb;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .Adlive-section1-row2>img {
+    display: none;
+  }
+
+  .adlive-btn {
+    margin-top: 0px;
+  }
+
+  .Adlive-section1-row1 {
+    display: none;
+  }
+
+  .adlive-btn>button {
+    width: 300px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+  .Adlive-section2 {
+    width: 100%;
+  }
+
+  .Adlive-section2-row2 {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .Adlive-section2-row2>p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .Adlive-form {
+    width: 250px;
+    margin: auto;
+  }
+
+  #start {
+    width: 250px;
+  }
+
+  #end {
+    width: 250px;
+  }
+
+  .Adlive-section2-row2>h3 {
+    line-height: 35px;
+    font-size: 25px;
+  }
+
+  .Adlive-section2-row2-col1 {
+    justify-content: center;
+  }
+
+  .Adlive-section2-row2 {
+    text-align: center;
+  }
+
+  .slidecontainer>p {
+    font-size: 25px;
+  }
+
+  .Adlive-section2 {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+
+  .Adlive-time {
+    flex-direction: column;
+  }
+
+  .Adlive-address-icon>p {
+    display: none;
+  }
+
+  .Adlive-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .Adlive-section2 {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .Adlive-section1 {
+    margin: auto;
+    width: 100%;
+    background-color: #f6f8fb;
+    padding-top: 20px;
+    padding: 30px;
+    padding-bottom: 50px;
+  }
+
+  .Adlive-section1-row2>img {
+    display: none;
+  }
+
+  .adlive-btn {
+    margin-top: 0px;
+  }
+
+  .Adlive-section1-row1 {
+    display: none;
+  }
+
+  .adlive-btn>button {
+    width: 250px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 340px) {
+  .Adlive-form {
+    width: 220px;
+    margin: auto;
+  }
+
+  #start {
+    width: 220px;
+  }
+
+  #end {
+    width: 220px;
+  }
+
+  .adlive-btn>button {
+    width: 240px;
+    font-size: 18px;
+  }
+
+  .Adlive-section1 {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+}

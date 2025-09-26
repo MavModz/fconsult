@@ -1,0 +1,47 @@
+{
+  "gallery": [
+    {"img":"https://cdn.dribbble.com/users/310943/screenshots/2518631/push-notifications-illustration2.gif",
+      "title":"Welcome Home, gallery",
+      "desc":"Step into your immigration journey with confidence! Our dashboard is your gateway to transparency, security, and personalized solutions. Let's navigate your path to a brighter future together"
+    },
+    {"img":"https://cdn.dribbble.com/users/310943/screenshots/2518631/push-notifications-illustration2.gif",
+      "title":"Welcome Home, abc",
+      "desc":"Step into your immigration journey with confidence! Our dashboard is your gateway to transparency, security, and personalized solutions. Let's navigate your path to a brighter future together"
+    },
+    {"img":"https://cdn.dribbble.com/users/310943/screenshots/2518631/push-notifications-illustration2.gif",
+      "title":"Welcome Home, abc",
+      "desc":"Step into your immigration journey with confidence! Our dashboard is your gateway to transparency, security, and personalized solutions. Let's navigate your path to a brighter future together"
+    }
+  ],
+  "business-profile": [
+    {"img":"https://cdn.dribbble.com/users/310943/screenshots/2518631/push-notifications-illustration2.gif",
+      "title":"Welcome Home, businessprofile",
+      "desc":"Step into your immigration journey with confidence! Our dashboard is your gateway to transparency, security, and personalized solutions. Let's navigate your path to a brighter future together"
+    },
+    {"img":"https://cdn.dribbble.com/users/310943/screenshots/2518631/push-notifications-illustration2.gif",
+      "title":"Welcome Home, abc",
+      "desc":"Step into your immigration journey with confidence! Our dashboard is your gateway to transparency, security, and personalized solutions. Let's navigate your path to a brighter future together"
+    },
+    {"img":"https://cdn.dribbble.com/users/310943/screenshots/2518631/push-notifications-illustration2.gif",
+      "title":"Welcome Home, abc",
+      "desc":"Step into your immigration journey with confidence! Our dashboard is your gateway to transparency, security, and personalized solutions. Let's navigate your path to a brighter future together"
+    }
+  ],
+
+  "events": [
+    {"img":"https://cdn.dribbble.com/users/310943/screenshots/2518631/push-notifications-illustration2.gif",
+      "title":"Welcome Home, events",
+      "desc":"Step into your immigration journey with confidence! Our dashboard is your gateway to transparency, security, and personalized solutions. Let's navigate your path to a brighter future together"
+    },
+    {"img":"https://cdn.dribbble.com/users/310943/screenshots/2518631/push-notifications-illustration2.gif",
+      "title":"Welcome Home, abc",
+      "desc":"Step into your immigration journey with confidence! Our dashboard is your gateway to transparency, security, and personalized solutions. Let's navigate your path to a brighter future together"
+    },
+    {"img":"https://cdn.dribbble.com/users/310943/screenshots/2518631/push-notifications-illustration2.gif",
+      "title":"Welcome Home, abc",
+      "desc":"Step into your immigration journey with confidence! Our dashboard is your gateway to transparency, security, and personalized solutions. Let's navigate your path to a brighter future together"
+    }
+  ]
+
+
+}

@@ -1,0 +1,230 @@
+/** @format */
+
+#background-tertiorary {
+  background-color: #fff !important;
+}
+.giving-hght-onbording {
+  height: 100vh;
+}
+.common-shadow {
+  border-radius: 15px;
+  background: #ffff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  height: 100vh;
+  overflow: auto;
+}
+#input_24{
+  margin-top: 100px;
+}
+.bimg {
+  height: 100vh;
+  position: relative;
+  background-color: #d7dce433;
+}
+
+.image-background {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-background > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#input_39{
+  padding-top: 70px;
+}
+
+.btn-primary {
+  background: #ff5757;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 17px;
+}
+
+.company-list {
+  max-height: 20vh;
+  overflow-y: auto;
+}
+
+.overflow {
+  overflow-x: hidden;
+}
+
+.form-group > label {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: -webkit-fill-available;
+  color: #696f79;
+}
+
+.para {
+  color: #8692a6;
+  
+  font-size: 16px;
+}
+
+.containers {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.containers > input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 10px;
+  left: -38px;
+  height: 28px;
+  width: 28px;
+  border: 3px solid #e4e4ef;
+  border-radius: 5px;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: transparent;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #ff5757;
+}
+
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.containers .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.containers input:checked ~ .checkmark:after {
+  display: block;
+}
+.cst-step-lastchec{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+/* .cname {
+  display: flex;
+  width: 450px;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 10px;
+} */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: max-content;
+}
+
+tr > td {
+  /* width: 100%; */
+  /* text-align: left; */
+}
+
+#cstwidth-stp1-right{
+  display: flex;
+  /* align-items: center; */
+  max-width: 715px;
+  /* margin: auto; */
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.warning-claimpop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  padding: 20px 0px 30px 0px;
+}
+.cancel-claimppe{
+  font-size: 19px;
+  color: #ff5757;
+  background-color: #fff;
+  padding: 8px 35px;
+  border-radius: 10px;
+  border: 1px solid #ff5757;
+}
+.warning-clm-ppp{
+  font-size: 19px;
+  color: #fff;
+  background-color: #ff5757;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+.md-warningclm-ppp{
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}
+.cstm-modalbd-pp{
+  padding: 10px 10px 0px 30px;
+}
+
+
+/* Custom CSS to override py-5 above 576px */
+@media (max-width: 991px) {
+  .image-background > img {
+    width: 350px;
+  }
+  .bimg {
+    display: none;
+  }
+  #cstwidth-stp1-right{
+    max-width: -webkit-fill-available;
+    padding: 0px 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bimg {
+    height: fit-content;
+  }
+}
+
+@media (max-width: 576px) {
+  .py-5-custom {
+    padding-inline: 2rem !important; /* Override padding-top */
+  }
+
+  .image-background > img {
+    padding-inline: 25px;
+  }
+}

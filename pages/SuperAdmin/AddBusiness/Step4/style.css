@@ -1,0 +1,138 @@
+/** @format */
+
+#complete-prf-onbrding{
+    background-color: #fff !important;
+}
+.common-shadow {
+    border-radius: 15px;
+    background: #ffff;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    height: 100vh;
+    overflow: auto;
+}
+
+.bimg {
+    background: #d7dce433;
+    height: 100vh;
+}
+.step4-mapadjust{
+    display: flex;
+    justify-content: center;
+}
+#mapContainer{
+    margin-top: 80px !important;
+    max-width: 80%;
+    width: 100%;
+}
+.cst-mapclass-wdd{
+    max-width: 80%;
+    width: 100%;
+    margin: auto;
+    gap: 10px;
+}
+.btn-primary {
+    background: #ff5757;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 17px;
+    font-weight: 500;
+}
+
+.text-body-secondary {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+    height: 40px;
+    justify-content: center;
+}
+
+.text-body-secondary > .text-align {
+    padding-top: 5px;
+    color: rgb(134, 146, 166);
+}
+
+.para {
+    color: #8692a6;
+    
+    font-size: 16px;
+}
+
+.form-group > label {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: -webkit-fill-available;
+    color: #696f79;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.down-icon {
+    bottom: 19px;
+    right: 25px;
+}
+
+.location-icon {
+    display: flex;
+    top: 5px;
+    right:10px;
+    color: #9691a4;
+    font-size: 12px;
+}
+
+.location-btn {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    background: linear-gradient(135deg, #ff8686 0%, #ff2618 100%);
+    color: #ffff;
+    padding: 6px 14px;
+    border-radius: 25px;
+    border: 0;
+}
+
+.location-btn:hover {
+    background-color: red;
+}
+
+.green-section {
+    background: #01b57433;
+    /* height: 58px; */
+    color: #01b574;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 6px;
+    width: 85%;
+    margin: auto;
+}
+
+.background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #211f1fc4;
+    z-index: 1003;
+}
+
+@media screen and (max-width:991px){
+    #media-queries-cpmt-prfll{
+        order: 2;
+    }
+
+}

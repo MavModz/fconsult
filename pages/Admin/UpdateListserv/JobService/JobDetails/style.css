@@ -1,0 +1,249 @@
+.joblis-cmp-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 4.934579372406006px 19.738317489624023px 0px #1F1B2D1F;
+}
+.jbldt-list-sal{
+    width: 15%;
+    margin-bottom:  0px !important;
+}
+.job-dtls-salry-range{
+    width: 25%;
+    margin-bottom:  0px !important;
+}
+.joblis-basic-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.joblis-basic-basdgn{
+padding-bottom: 15px;
+}
+.joblis-basic-basdgn>span {
+    color: #1F1B2D;
+    font-weight: 700;
+    font-size: 26px;
+
+}
+.jblis-jb-post{
+    color:#666276;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+}
+.jblis-jb-possnr{
+    color: #666276;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+.joblis-bacs-1stbx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding-top: 8px;
+}
+.joblis-bacs-2stbx {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.joblis-bsc-dic-wd {
+    width: 100%;
+}
+.jbdtls-srvc-upload{
+    padding-top: 30px;
+}
+.joblis-bsc-dic-wd-upld {
+    min-width: 130px;
+    background-color: #ff5757;
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    justify-content: center;
+    padding: 10px 8px;
+    cursor: pointer;
+}
+.joblis-basc-lble {
+    color: #1F1B2D;
+    font-weight: 500;
+    font-size: 17px;
+    padding-bottom: 2px;
+}
+.joblis-basc-lble-sal {
+    color: #1F1B2D;
+    font-weight: 650;
+    font-size: 17px;
+    padding-bottom: 2px;
+}
+
+.joblis-basc-inpt1st {
+    width: 100%;
+    border: 1px solid #D5D2DC;
+    outline: none;
+    border-radius: 9px;
+    padding: 10px 10px;
+
+}
+.jobliscmp-dro{
+    width: 50%;
+}
+#updateevents-drpsemi{
+    padding: 10px 10px;
+}
+.joblsticmp-addmore{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    padding-top: 35px;
+}
+.joblsticmp-addmore>span{
+    color: #ff5757;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 85px;
+}
+.jblst-brd-cmp{
+    border: 1px solid #EFECF3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.joblis-bacs-4stbx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 15px;
+}
+.jbls-cmp-social{
+    padding-top: 30px;
+ 
+}
+.jbls-cmp-social>span{
+    color: #1F1B2D;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.joblis-lsr-nextbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding: 25px 40px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 4.934579372406006px 19.738317489624023px 0px #1F1B2D1F;
+}
+.jobls-btnnxt{
+    background-color: #ff5757;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 21px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.jobls-btnnxt-white{
+    background-color: #fff;
+    border: 1px solid #ff5757;
+    padding: 7px 20px;
+    border-radius: 21px;
+    color: #ff5757;
+    font-size: 17px;  
+    font-weight: 700;
+}
+
+.jbdtls-outadd-on {
+    border: 1.53px solid #cbd5e1;
+    width: -webkit-fill-available;
+    height: 48px;
+    border-radius: 8px;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    column-gap: 10px;
+}
+.jobdtls-red-on{
+    display: flex;
+    column-gap: 10px;
+    background: #ff575733;
+    padding: 5px 18px;
+    color: #ff5757;
+    font-weight: 700;
+    border-radius: 24px;
+    font-family: 'Dm sans';
+    min-width: max-content;
+}
+
+
+/* OFF CANVAS */
+.job-offcanvs-padd{
+    padding: 20px;
+}
+
+.jboff-customtab{
+color: #000000;
+font-size: 28PX;
+font-weight: 500;
+}
+
+.border-line{
+    border: 1.48px solid #d5d2dc;
+}
+
+
+
+
+@media screen and (max-width:767px){
+    .joblis-bacs-2stbx{
+        display: grid;
+        grid-template-columns: 100%;
+     
+    }
+    .jobliscmp-dro{
+        width: 100%;
+    }
+    .joblis-bacs-4stbx {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 15px;
+    }
+    .jbldt-list-sal{
+        width: 100%;
+    }
+    .job-dtls-salry-range{
+        width: 100%;
+        
+    }
+    .joblis-bacs-1stbx{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .salaru-jbls-hide{
+        display: none;
+    }
+    .joblis-bsc-dic-wd{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+@media screen and (max-width:400px){
+    .joblis-lsr-nextbtn {
+        display: grid;
+        row-gap: 15px;
+        justify-content: center;
+
+    }
+}

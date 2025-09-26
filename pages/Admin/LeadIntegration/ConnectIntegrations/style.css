@@ -1,0 +1,58 @@
+.integration-container {
+width: 100%;
+height: 100%;
+background-color: white;
+padding: 30px;
+border-radius: 15px;
+}
+
+.integration-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+ .integration-search {
+       display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+ }
+.integration-search {
+    gap: 10px;
+}
+
+.integration-header input, .integration-header select {
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 1px solid #ccc;
+    outline: none;
+}
+.form-select{
+width: 170px !important;
+}
+.form-control{
+width: 210px !important;
+border-radius: 5px !important;
+}
+.integration-header input::placeholder {
+    color: #8F9BBA;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.integration-search button {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.integration-log-btn {
+    background-color: white;
+    color: #676B6C;
+    border: 1px solid #676B6C;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

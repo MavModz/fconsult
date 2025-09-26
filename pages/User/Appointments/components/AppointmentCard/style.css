@@ -1,0 +1,233 @@
+/** @format */
+
+.appointment-card {
+  box-shadow: 0px 6.06px 24.32px 0px #36363614;
+  background: #ffff;
+  border-radius: 18px;
+  padding: 22px 24px;
+  position: relative;
+}
+
+.date {
+  background: #ffdbdb;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 8px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.date>h5 {
+  margin: 0 auto;
+  font-size: 28px;
+  width: fit-content;
+  color: #ff5757;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.date>h6 {
+  margin: 0 auto;
+  font-size: 10px;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+}
+
+.name>h6 {
+  color: #101010;
+  margin: 0;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.name>p {
+  margin: 0;
+  color: #b5b5c3;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.break-line {
+  margin: 15px 0px;
+  border: 1px solid rgba(58, 58, 60, 0.10);
+}
+
+.appointment-card>p {
+  color: #89898b;
+  font-size: 15px;
+  font-weight: 500;
+  overflow: auto;
+  text-overflow: ellipsis;
+  line-height: 27px;
+  max-height: 100px;
+  min-height: 50px;
+}
+
+.add-google {
+  color: #ff5757;
+}
+
+.cancel {
+  background: #ff5757;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: underline;
+}
+
+.new {
+  background: #68ff57;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: underline;
+}
+
+.your-user-btncontainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  column-gap: 15px;
+  padding-bottom: 35px;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #2c2c2c;
+  padding: 5px 20px;
+  font-weight: 400;
+  border-radius: 20px;
+  margin-bottom: 0px;
+  font-size: 19px;
+}
+
+/* Add styles for inactive buttons */
+.your-user-allbtn:not(.active) {
+  color: #828282;
+  background-color: #fff;
+  border: 1px solid #bdbdbd;
+  padding: 5px 20px;
+  font-weight: 400;
+  border-radius: 20px;
+  margin-bottom: 0px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.your-user-allbtn-pending:not(.active) {
+  color: #828282;
+  background-color: #fff;
+  border: 1px solid #bdbdbd;
+  padding: 5px 20px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#your-user-allbtn-pending-drpdon {
+  color: #828282;
+  background-color: #fff;
+  border: 1px solid #bdbdbd;
+  padding: 5.29px 33.77px 5.29px 10.77px;
+  font-weight: 400;
+  border-radius: 150px;
+  font-size: 19px;
+}
+
+.your-user-content-percard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 16px 0px 16px 14px;
+  box-shadow: 0px 2.2489240169525146px 26.987089157104492px 4.497848033905029px #49434314;
+}
+
+.your-user-contentcard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+/* 
+  /* media query here  */
+
+@media screen and (min-width: 992px) and (max-width: 1470px) {
+  .your-user-contentcard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .your-user-contentcard {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .pipline-view-actl-eml-flx {
+    display: grid;
+    row-gap: 15px;
+  }
+
+  .your-user-btncontainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .appointment-card {
+    height: 370px;
+  }
+
+  .break-line {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 335px) {
+  .appointment-card {
+    height: 385px;
+  }
+}
+
+
+.reschedule {
+  background-color: #008CE41A;
+  color: #008CE4;
+  border-radius: 100px;
+  font-weight: 100;
+}
+
+.accept {
+  background-color: #ff5757;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 100;
+}
+
+.accept :hover{
+  background-color: #fff;
+  color: #ff5757;
+  border-radius: 100px;
+  font-weight: 100;
+}

@@ -1,0 +1,917 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Smadlive-wrapper {
+  display: flex;
+}
+
+.Smadlive-section1 {
+  width: 50%;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.Smadlive-section1-row1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.Smadlive-section1-row2 {
+  text-align: center;
+}
+
+.Smadlive-section1-row2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Smadlive-section1-row2 > h2 {
+  margin-top: -50px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  color: #ff5757;
+}
+
+.Smadlive-section2 {
+  width: 50%;
+  background-color: #f6f8fb;
+  padding: 40px;
+}
+
+.Smadlive-section2-back {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.Smadlive-section2-row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Smadlive-section2-row1-col2 > p:first-child {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #bdbdbd;
+}
+
+.Smadlive-section2-row1-col2 :nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8692a6;
+  text-align: right;
+}
+
+.Smadlive-section2-row2 {
+  padding-top: 90px;
+  width: 510px;
+}
+
+.Smadlive-section2-row2-col1 {
+  display: flex;
+  gap: 8px;
+}
+
+.Smadlive-section2-back > a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8692a6;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Smadlive-section2-back > p {
+  margin: 0px;
+}
+
+.Smadlive-section2-row2-col1 > h2 {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 49px;
+  color: #1f1f1f;
+}
+
+.Smadlive-section2-row2 > h3 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 49px;
+  color: #ff5757;
+}
+
+.Smadlive-section2-row2 > p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #a6a6a6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Smadlive-btn {
+  padding-bottom: 20px;
+}
+
+.Smadlive-btn > button {
+  width: 100%;
+  height: 80px;
+  background-color: #ff5757;
+  color: #ffffff;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  border: none;
+}
+
+.Smadlive-section2-row2 > h4 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+.adlive-btn {
+  margin-top: -90px;
+}
+
+.adlive-btn > button {
+  width: 548px;
+  height: 82px;
+  border-radius: 7px;
+  background-color: #ff5757;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  transition: ease-out 0.8s;
+  outline: none;
+  position: relative;
+  z-index: 1;
+}
+
+.adlive-btn > button:hover {
+  color: red;
+}
+
+.adlive-btn > button::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #fff;
+  border: 1px solid red;
+  border-radius: 7px;
+}
+.adlive-btn > button:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+/* css */
+
+.Smadlive-form {
+  width: 440px;
+  padding-top: 10px;
+}
+
+.Smadlive-form > label {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 34px;
+  letter-spacing: 0.27px;
+  color: #0f172a;
+}
+
+.dropdown {
+  width: 100%;
+  height: 68px;
+  border-radius: 9px;
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #64748b;
+}
+
+.Smadlive-address {
+  position: relative;
+}
+
+.Smadlive-address > input {
+  width: 100%;
+  height: 68px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding-left: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #8692a6;
+  outline: none;
+}
+
+.Smadlive-address-icon {
+  position: absolute;
+  right: 15px;
+  top: 22px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.Smadlive-address-icon > p {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #9691a4;
+}
+
+#location {
+  color: #9691a4;
+}
+
+.Smadlive-time {
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+#start {
+  width: 210px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  outline: none;
+  font-weight: 400;
+  font-size: 19px;
+  color: #64748b;
+  line-height: 32px;
+}
+
+#end {
+  width: 210px;
+  height: 60px;
+  border-radius: 8px;
+  padding-left: 10px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  font-weight: 400;
+  font-size: 19px;
+  color: #64748b;
+  line-height: 32px;
+}
+
+.Smadlive-time > div > label {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0f172a;
+  line-height: 32px;
+  padding-bottom: 8px;
+}
+
+.Smadlive-section2-endrow {
+  padding-top: 30px;
+}
+
+/* CSS */
+.slidecontainer {
+  position: relative; /* Ensure the relative positioning context */
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 100px;
+}
+
+/* Tooltip styles */
+.slidecontainer p {
+  width: 67px;
+  height: 61px;
+  background-color: #ff5757;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 31px;
+  text-align: center;
+  line-height: 37px;
+  border-radius: 10px;
+  padding: 8px;
+  position: absolute; /* Position the tooltip absolutely within the slidecontainer */
+  top: -75px; /* Adjust this value to place the tooltip above the slider */
+  left: 50%; /* Start with the tooltip in the center */
+  transform: translateX(-50%); /* Center the tooltip */
+  transition: left 0.2s; /* Smooth transition for the tooltip movement */
+}
+
+.slidecontainer h2 {
+  width: 24px;
+  height: 14px;
+  background-color: #ff5757;
+  position: absolute; /* Position the tail absolutely within the slidecontainer */
+  top: -14px; /* Adjust this value to align with the bottom of the tooltip */
+  left: 50%; /* Align with the center of the tooltip */
+  border-radius: 0 0 10px 10px;
+  transform: translateX(-50%);
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: black;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 8px;
+  position: relative; /* Ensure the relative positioning context */
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  box-shadow: 0px 5.145811557769775px 10.29162311553955px 0px #0000001a;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative; /* Ensure the relative positioning context */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+  position: relative; /* Ensure the relative positioning context */
+}
+
+.rangeValue {
+  color: #ff5757;
+  padding: fffff;
+  padding: 10px 25px 9px 16px; /* top right bottom left */
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+#tooltip {
+  position: absolute;
+  bottom: 40%;
+  transform: translateX(-50%);
+}
+
+.range-box > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding-top: 15px;
+}
+
+#Smadlive-drpsemi {
+  height: 68px;
+  outline: none;
+}
+
+.Smadlive-section1-btn {
+  margin-top: -82px;
+}
+
+.Smadlive-section2-endrow > div > label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #0f172a;
+}
+
+.slidecontainer > p {
+  color: #ff5757;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 37px;
+}
+
+@media screen and (min-width: 1551px) and (max-width: 1650px) {
+  .adlive-btn > button {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1480px) and (max-width: 1550px) {
+  .Smadlive-section2-row2 {
+    padding-top: 80px;
+    width: 482px;
+  }
+  .adlive-btn > button {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1479px) {
+  .Smadlive-section2-row2 {
+    padding-top: 50px;
+    width: 400px;
+  }
+  .adlive-btn > button {
+    width: 420px;
+  }
+  .Smadlive-section1-row2 {
+    padding-top: 30px;
+  }
+  .Smadlive-form {
+    padding-top: 0px;
+  }
+  .Smadlive-section2-row2 > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1399px) {
+  .Smadlive-section2-row2 {
+    padding-top: 40px;
+    width: 350px;
+  }
+  .Smadlive-section2-row2 > h3 {
+    font-size: 28px;
+  }
+  .Smadlive-section2-row2 > p {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .adlive-btn > button {
+    width: 380px;
+  }
+  .Smadlive-section1-row2 {
+    padding-top: 30px;
+  }
+  .Smadlive-form {
+    width: 380px;
+  }
+  #end {
+    width: 180px;
+  }
+  #start {
+    width: 180px;
+  }
+  .Smadlive-time {
+    padding-top: 20px;
+  }
+  .Smadlive-section2-endrow {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1350px) {
+  .adlive-btn > button {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 590px) and (max-width: 1299px) {
+  .Smadlive-section1-row1 {
+    display: none;
+  }
+  .Smadlive-section1-row2 > img {
+    display: none;
+  }
+  .adlive-btn {
+    margin-top: 0px;
+  }
+
+  .Smadlive-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .Smadlive-section2 {
+    width: 80%;
+    margin: auto;
+  }
+  .Smadlive-section2-row2 {
+    width: 80%;
+    margin: auto;
+  }
+  .Smadlive-section2-row2-col1 {
+    justify-content: center;
+  }
+  .Smadlive-section2-row2 {
+    text-align: center;
+    width: 80%;
+  }
+  .Smadlive-form {
+    margin: auto;
+  }
+  .Smadlive-section2-row2 {
+    padding-top: 58px;
+    width: 80%;
+  }
+  .Smadlive-section2-row2 > p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1299px) {
+  .Smadlive-section2-row2 > h3 {
+    font-size: 28px;
+  }
+
+  .Smadlive-section2-row2 > h3 {
+    line-height: 39px;
+  }
+  .adlive-btn {
+    width: 460px;
+    margin: auto;
+  }
+  .adlive-btn > button {
+    width: 100%;
+  }
+  .Smadlive-section1 {
+    padding-top: 20px;
+  }
+  .Smadlive-section1 {
+    background-color: #f6f8fb;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .Smadlive-section2 {
+    width: 100%;
+  }
+  .Smadlive-section2-row2 {
+    padding-top: 60px;
+    width: 510px;
+  }
+  .adlive-btn {
+    width: 460px;
+    margin: auto;
+  }
+  .adlive-btn > button {
+    width: 100%;
+  }
+  .Smadlive-section1 {
+    padding-top: 20px;
+  }
+  .Smadlive-section1 {
+    background-color: #f6f8fb;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 590px) and (max-width: 767px) {
+  .Smadlive-section2 {
+    width: 100%;
+  }
+  .Smadlive-section2-row2 {
+    width: 100%;
+    padding-top: 40px;
+  }
+  .Smadlive-section2-row2 > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Smadlive-form {
+    width: 380px;
+  }
+  #start {
+    width: 180px;
+  }
+  #end {
+    width: 180px;
+  }
+  .Smadlive-section2-row2 > h3 {
+    line-height: 35px;
+  }
+  .adlive-btn {
+    width: 380px;
+    margin: auto;
+  }
+  .adlive-btn > button {
+    width: 100%;
+  }
+  .Smadlive-section1 {
+    padding-top: 20px;
+  }
+  .Smadlive-section1 {
+    background-color: #f6f8fb;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 589px) {
+  .Smadlive-section2 {
+    width: 100%;
+  }
+  .Smadlive-section2-row2 {
+    width: 100%;
+    padding-top: 40px;
+  }
+  .Smadlive-section2-row2 > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Smadlive-form {
+    width: 380px;
+  }
+  #start {
+    width: 180px;
+  }
+  #end {
+    width: 180px;
+  }
+  .Smadlive-section2-row2 > h3 {
+    line-height: 35px;
+  }
+  .adlive-btn {
+    width: 380px;
+    margin: auto;
+  }
+  .adlive-btn > button {
+    width: 100%;
+  }
+  .Smadlive-section1 {
+    padding-top: 20px;
+  }
+  .Smadlive-section1 {
+    background-color: #f6f8fb;
+    width: 100%;
+    margin: auto;
+  }
+  .Smadlive-section1-row1 {
+    display: none;
+  }
+  .Smadlive-section1-row2 > img {
+    display: none;
+  }
+  .adlive-btn {
+    margin-top: 0px;
+  }
+
+  .Smadlive-wrapper {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+  .Smadlive-section2 {
+    width: 100%;
+  }
+  .Smadlive-section2-row2 {
+    width: 100%;
+    padding-top: 40px;
+  }
+  .Smadlive-section2-row2 > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Smadlive-form {
+    width: 300px;
+    margin: auto;
+  }
+  #start {
+    width: 140px;
+  }
+  #end {
+    width: 140px;
+  }
+  .Smadlive-section2-row2 > h3 {
+    line-height: 35px;
+    font-size: 25px;
+  }
+  .Smadlive-section2-row2-col1 {
+    justify-content: center;
+  }
+  .Smadlive-section2-row2 {
+    text-align: center;
+  }
+  .slidecontainer > p {
+    font-size: 25px;
+  }
+  .Smadlive-section2 {
+    padding: 20px;
+    padding-bottom: 20px;
+  }
+  .rangeValue {
+    padding: 0px 6px 6px 4px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+  }
+  .slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+  }
+  .adlive-btn {
+    width: 300px;
+    margin: auto;
+  }
+  .adlive-btn > button {
+    width: 100%;
+    font-size: 20px;
+  }
+  .Smadlive-section1 {
+    padding-top: 20px;
+  }
+  .Smadlive-section1 {
+    background-color: #f6f8fb;
+    width: 100%;
+    margin: auto;
+  }
+  .Smadlive-section1-row1 {
+    display: none;
+  }
+  .Smadlive-section1-row2 > img {
+    display: none;
+  }
+  .adlive-btn {
+    margin-top: 0px;
+  }
+
+  .Smadlive-wrapper {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+  .Smadlive-section2 {
+    width: 100%;
+  }
+  .Smadlive-section2-row2 {
+    width: 100%;
+    padding-top: 40px;
+  }
+  .Smadlive-section2-row2 > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Smadlive-form {
+    width: 250px;
+    margin: auto;
+  }
+  #start {
+    width: 250px;
+  }
+  #end {
+    width: 250px;
+  }
+  .Smadlive-section2-row2 > h3 {
+    line-height: 35px;
+    font-size: 25px;
+  }
+  .Smadlive-section2-row2-col1 {
+    justify-content: center;
+  }
+  .Smadlive-section2-row2 {
+    text-align: center;
+  }
+  .slidecontainer > p {
+    font-size: 25px;
+  }
+  .Smadlive-section2 {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  .Smadlive-time {
+    flex-direction: column;
+  }
+  .Smadlive-address-icon > p {
+    display: none;
+  }
+  .rangeValue {
+    padding: 0px 6px 6px 4px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+  }
+  .slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+  }
+  .adlive-btn {
+    width: 240px;
+    margin: auto;
+  }
+
+  .Smadlive-section1 {
+    background-color: #f6f8fb;
+    width: 100%;
+    margin: auto;
+  }
+  .Smadlive-section1-row1 {
+    display: none;
+  }
+  .Smadlive-section1-row2 > img {
+    display: none;
+  }
+  .adlive-btn {
+    margin-top: 0px;
+  }
+
+  .Smadlive-wrapper {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 340px) {
+  .Smadlive-form {
+    width: 220px;
+    margin: auto;
+  }
+  #start {
+    width: 220px;
+  }
+  #end {
+    width: 220px;
+  }
+  .rangeValue {
+    padding: 0px 6px 6px 4px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+  }
+  .slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+  }
+  .adlive-btn {
+    width: 240px;
+    margin: auto;
+  }
+  .adlive-btn > button {
+    font-size: 18px;
+    width: 100%;
+  }
+  .Smadlive-section1 {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 341px) and (max-width: 375px) {
+  .adlive-btn {
+    width: 260px;
+    margin: auto;
+  }
+  .adlive-btn > button {
+    font-size: 18px;
+    width: 100%;
+  }
+  .Smadlive-section1 {
+    padding-top: 20px;
+  }
+}

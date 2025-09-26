@@ -1,0 +1,66 @@
+.comments-user-side-comments-main-container {}
+
+.comments-user-side-comments {
+    display: flex;
+    position: relative;
+}
+
+.comments-user-side-comments-cross-icon {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.comments-user-side-comments-count {
+    color: #ff4b55;
+    background-color: #fce3e6;
+    padding: 8px 10px;
+    border-radius: 60px;
+    margin-left: 10px;
+}
+
+.comments-user-side-comments-sections-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+.comments-user-side-comments-sections-container-profile-image {
+
+    width: 60px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+.comments-user-side-comments-sections-container-profile-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.comments-user-side-comments-sections-container-horizontal-line {
+    border: 1px solid #ff4b55;
+    height: 50px;
+}
+
+.comments-user-side-comments-sections-container-message-content {
+    margin-bottom: 10px;
+}
+
+.add-recommendation-button{
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-recommendation-button button{
+   background-color: #ff4b55;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+
+}

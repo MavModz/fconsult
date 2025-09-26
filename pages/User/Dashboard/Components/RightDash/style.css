@@ -1,0 +1,151 @@
+.Right-dashboard-parent {
+    background: #fff;
+    box-shadow: 0 2.73623px 2.73623px -2.73623px rgba(31, 27, 45, 0.08),
+        0 5.47246px 16.4174px rgba(31, 27, 45, 0.08);
+    padding: 28px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.blur-container {
+    position: absolute;
+    bottom: 10px;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.clear-button {
+    position: relative;
+    z-index: 1;
+    color: white;
+    border:1px solid #ff5757;
+    padding: 12px 40px;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color:  var(--Red-Toned, #FF5757);;
+}
+
+.clear-button:hover {
+    color: #ff5757;
+    /* border: 1px solid #ff5757; */
+    background-color: #fff;
+  }
+.Right-dashboard-parent {
+    width: 49%;
+}
+
+.top-immigration-user {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 28px;
+}
+
+.rih-user-below-image>p {
+    color: #454056;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.right-rating-data-user {
+    color: #9691a4;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.rih-user-below-image {
+    padding-top: 15px;
+}
+
+.right-data-user-rattt {
+    color: #666276;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.right-user-image-container {
+    position: relative;
+    width: 100%;
+}
+
+.right-user-image-container img {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-abslt-user-data img {
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+}
+
+.image-abslt-user-data {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+.inside-user-right-content-ast {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.parent-ratings-right-side-star {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.max-width-whole-card-user {
+    max-width: 605px;
+    width: 100%;
+}
+
+.right-side-user-dynamic-company {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.right-side-user-dynamic-company {
+    max-height: 666px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+@media screen and (max-width:1700px) {
+    .right-side-user-dynamic-company {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .Right-dashboard-parent {
+        width: 100%;
+    }
+
+    .right-side-user-dynamic-company {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .right-side-user-dynamic-company {
+        grid-template-columns: 100%;
+    }
+
+    .max-width-whole-card-user {
+        max-width: -webkit-fill-available;
+    }
+}

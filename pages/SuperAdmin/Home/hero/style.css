@@ -1,0 +1,33 @@
+/** @format */
+
+h1 {
+  color: green;
+}
+
+.card-spradmin-back {
+  background-color: #fff;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.btn-btn-success-superadmin {
+  display: flex;
+  justify-content: end;
+  padding: 20px 20px;
+}
+
+.add-success-superadmin {
+  color: #fff;
+  padding: 7px 20px;
+  border-radius: 28.6px;
+  background-color: #ff6c68;
+  max-width: 120px;
+  width: 100%;
+  text-align: center;
+  transition: 1s;
+}
+
+.add-success-superadmin:hover {
+  color: #ff6c68;
+  background-color: #fff;
+  border: 1px solid #ff6c68;
+}

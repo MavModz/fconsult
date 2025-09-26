@@ -1,0 +1,106 @@
+.generate-agreement-container{
+    min-width: 1000px;
+    width: 100%;
+    overflow-x: scroll !important;
+    scrollbar-width: none;
+}
+.generate-agreement-wrapper{
+    display: flex;
+    column-gap: 15px;
+}
+.generate-agreement-left{
+    width: 32%;
+    background-color: #e4e8ee;
+    padding: 20px;
+    border-radius: 8px;
+}
+.generate-agreement-right{
+    width: 68%;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #d2d2d2;
+}
+.generate-agreement-left-1st-content{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+.gerner-agreement-dropdwn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px 0px 0px;
+}
+.generate-agreem-beldrop{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+    column-gap: 10px;
+    row-gap: 25px;
+    align-items: center;
+}
+.genrt-agremt-1stcustomer{
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: #f8fcff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    cursor: pointer;
+}
+.gerner-agreement-dropdwn>span{
+    color: #3C3C3C;
+    font-weight: 500;
+    font-size: 19px;
+}
+.customer-name-agrmt-generte{
+    color: #3C3C3C;
+    font-size: 15px;
+    font-weight: 500;
+}
+.btn_agreement{
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff5757;
+    padding: 6px 20px;
+    border-radius: 8px;
+    width: 100%;
+    font-weight: 600;
+}
+.assign-document{
+    color: #0F172A;
+    font-weight: 500;
+    font-size: 22px;
+}
+.add-on-multiple{
+    width: 85%;
+    border: 1.53px solid #cbd5e1;
+    height: 50px;
+    border-radius: 8px;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    column-gap: 10px;
+}
+.add-on-multiple-red{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    background: #ff575733;
+    padding: 5px 18px;
+    color: #ff5757;
+    font-weight: 700;
+    border-radius: 24px;
+
+    min-width: max-content;
+}
+.ankita-assign{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 30px;
+}

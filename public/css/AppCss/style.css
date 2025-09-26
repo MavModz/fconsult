@@ -1,0 +1,205 @@
+/* li {
+    padding: 3px 12px;
+} */
+html {
+    scroll-behavior: smooth;
+  }
+
+.btn-danger-aftercpy-link {
+    margin-top: 15px;
+}
+.blog-paragraph-html-editor-content p{
+    font-size: 17px !important;
+    line-height: 25px !important;
+  }
+
+.row-red {
+
+    background-color: #ffe0df !important;
+    color: white !important;
+}
+
+/* tooltip button */
+.tooltip-gallery-cont {
+    display: flex;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.tooltip-gallery-cont-services {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    border-radius: 50px;
+    color: #454056;
+    width: 33px;
+    position: absolute;
+    left: 0px;
+    margin: 20px;
+}
+
+
+.card {
+    border: none;
+}
+
+
+a>span>p {
+    text-decoration: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+.divhover:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    /* border: 3px solid #e5e5e5; */
+    /* outline: 0.1px solid #f97676; */
+    cursor: pointer;
+}
+
+.divhover2:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px 1px #d3d4d2 !important;
+}
+
+.update-events-1stdrop .ql-toolbar {
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+.update-events-1stdrop .ql-container {
+    border-radius: 0px 0px 10px 10px !important;
+}
+
+.update-events-1stdrop-quilleditor {
+    height: 200px;
+}
+
+/* .award-description-input-field .ql-container {
+    border-radius: 0px 0px 10px 10px !important;
+}
+.award-description-input-field .ql-toolbar {
+    border-radius: 10px 10px 0px 0px !important;
+}
+.award-description-input-field{
+    row-gap: 0px !important;
+    height: 350px !important;
+} */
+.blog-editor .ql-container {
+    border-radius: 0px 0px 10px 10px !important;
+}
+
+.blog-editor .ql-toolbar {
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+/* .award-container{
+    row-gap: 10px !important;
+}
+.award-container-date{
+    row-gap: 10px !important;
+
+}
+.award-description-input-field label{
+    margin-bottom: 10px !important;
+}
+.award-description-input-field .ql-container{
+    margin-bottom: 0px !important;
+} */
+/* Confirmation Dialogue */
+.delete-delete {
+    background-color: #ff5757;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.delete-cancel {
+    background-color: #ffff;
+    color: grey;
+    padding: 0px 10px;
+    border: 0.1px solid grey;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+
+/* Main Card Right Side */
+.cnt {
+    padding: 10px;
+    box-shadow: 7.831155300140381px 7.831155300140381px 19.5778865814209px 0px #00000014;
+    width: 100%;
+    background: #ffff;
+    min-height: 78vh;
+    max-height: inherit;
+    border-radius: 15px;
+}
+
+.required:after {
+    content: " *";
+    color: red;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px !important;
+    margin-bottom: 6px !important;
+    /* padding: 3px 12px 10px 12px !important; */
+    color: inherit;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.dropdown-item:hover {
+    transition: 0.4s;
+    /*color: #ffffff !important;
+    background-color: #ff5757 !important; */
+    border-bottom: 1px solid #ff5757;
+    background: transparent;
+    transition: 0.4s;
+    color: #ff5757;
+
+    /* padding-bottom: 10px !important; */
+}
+
+.dropdown-item i {
+    color: inherit;
+}
+
+/* service quill editor */
+.cstmservdwd .ql-snow {
+    margin-bottom: 0px !important;
+}
+
+.steper-jobdtls-quilledtr .ql-container {
+    margin-bottom: 0px !important;
+    min-height: 160px;
+}
+
+input[type='select'],
+input[type='datetime-local'],
+input[type='date'],
+select[class='formkit-input'],
+select[class='form-select'] {
+    cursor: pointer;
+}
+
+
+.ql-toolbar {
+    border-radius:10px 10px 0px 0px;
+}
+
+.ql-container {
+    border-radius:0px 0px 10px 10px;
+}

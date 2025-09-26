@@ -1,0 +1,467 @@
+/* Add styles here to replicate the design */
+.campaigns-dashboard {
+    padding: 20px;
+}
+
+.campaign-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: var(--background-white);
+    padding: 18px 14px;
+    border-radius: 4px;
+}
+
+.search-filter {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.p-sidebar-header-content{
+    font-size: 30px !important;
+}
+.pipeline-custom-compaign-header .p-sidebar-header {
+    margin-top: 40px !important;
+  font-size: 32px !important;  
+  font-weight: 600 !important; 
+}
+.form-label{
+    font-size: 20px;
+}
+    .pipeline-custom-compaign-header .p-sidebar-header{
+        padding: 40px !important;
+    }
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.add-campaign-button, .filter-button {
+    background-color: #fef0ef;
+    color: #FF5757;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.campaigns-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stats-funnel {
+    display: flex;
+    flex-direction: column
+}
+
+.stats {
+    flex : 0 0 30%;
+    padding: 20px;
+}
+
+.funnel {
+    flex: 0 0 70%;
+}
+
+.stats-funnel {
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.stat-item {
+    margin-bottom: 17px;
+}
+
+.stat-item .label {
+    font-size: 14px;
+    color: #A5A5A5;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.stat-item .value {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1B2559;
+    display: flex;
+    align-items: center;
+}
+
+.stat-item .percentage {
+    font-size: 14px;
+    margin-left: 10px;
+    background-color: #e3f2fd;
+    padding: 2px 8px;
+    border-radius: 50px;
+    color: #008ce4; /* Blue color for positive percentage */
+}
+
+.stat-item .percentage.increase {
+    font-size: 14px;
+    margin-left: 10px;
+    background-color: #e5faf5;
+    padding: 2px 8px;
+    border-radius: 50px;
+    color: #05CD99; /* Green color for positive percentage */
+}
+
+.stat-item .percentage.decrease {
+    background-color: #ffefef;
+    padding: 2px 8px;
+    color: #FF635F; /* Red color for negative percentage */
+}
+
+/* Funnel styles from Frame3 */
+.parent-Intitue-level {
+    padding-top: 15px;
+}
+
+.trapezoid {
+  background-color: #6750a3;
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 5% 100%);
+  border-radius: 5px 5px 22px 22px;
+  width: 100%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-block-end: 12px;
+  padding: 30px 0;
+}
+.trapezoid-2nd {
+  background-color: #008ce4;
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 5% 100%);
+  border-radius: 5px 5px 22px 22px;
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-block-end: 12px;
+  padding: 30px 0;
+}
+.trapezoid-3nd {
+  background-color: #ffa217;
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 5% 100%);
+  border-radius: 5px 5px 22px 22px;
+  width: 80%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-block-end: 12px;
+  padding: 30px 0;
+}
+.trapezoid-4nd {
+  background-color: #00aca5;
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 5% 100%);
+  border-radius: 5px 5px 22px 22px;
+  width: 70%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-block-end: 12px;
+  padding: 30px 0;
+}
+
+.stats-funnel h3, .charts h3 {
+     color: #676B6C;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.stats-funnel h3 > span {
+    color: #ff5757;
+    font-weight: 700;
+}
+
+.charts {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.in-progress-donut, .dead-donut {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.campaign-list h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.donut-chart-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campaign-list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    max-height: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.campaign-list img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.campaign-list p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* ADD CAMPAIGN SIDEBAR */
+
+.campaign-subhead {
+    color: #8692A6;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 6px 5px;
+}
+
+.form-card-wrapper {
+    padding: 0 5px;
+}
+
+.lead-automation-btn, .multi-select-campaign {
+    width: 100%;
+    background-color: #fff;
+    color: var(--bs-body-black);
+    border: 1px solid var(--bs-border-color);
+    border-radius: 0.375rem;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lead-automation-btn span {
+    background-color: #ffefef;
+    color: #ff5757;
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+.campaign-submit-btn {
+    width: 100%;
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 14px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.campaign-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    width: 100%;
+}
+
+:deep(.p-multiselect-label) {
+    padding: 0 !important;
+    color: var(--bs-body-black);
+}
+
+:deep(.p-multiselect-item-wrpaper) {
+    padding: 5px !important;
+}
+
+.formkit-input-campaign {
+    border-color: red !important;
+}
+
+.charts-empty {
+    height: calc(100vh - 180px);
+    overflow-y: auto;
+}
+
+.charts-empty::-webkit-scrollbar {
+    width: 6px;
+}
+
+.charts-empty::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.charts-empty::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.charts-empty::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .charts {
+        flex-direction: column;
+    }
+
+    .in-progress-donut, .dead-donut {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .campaigns-dashboard {
+        padding: 10px;
+    }
+
+    .campaign-header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 10px;
+    }
+
+    .search-filter {
+        width: 100%;
+    }
+
+    .search-input {
+        flex: 1;
+    }
+
+    .add-campaign-button {
+        width: 100%;
+    }
+
+    .stats-funnel {
+        padding: 15px;
+    }
+
+    .stats {
+        padding: 10px;
+    }
+
+    .stat-item .value {
+        font-size: 18px;
+    }
+
+    .trapezoid, .trapezoid-2nd, .trapezoid-3nd, .trapezoid-4nd {
+        height: 40px;
+        padding: 20px 0;
+    }
+
+    .donut-chart-container {
+        height: 250px;
+    }
+
+    .campaign-list {
+        padding: 20px 10px;
+    }
+
+    .campaign-list img {
+        max-width: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .campaigns-dashboard {
+        padding: 5px;
+    }
+
+    .stats-funnel h3, .charts h3 {
+        font-size: 12px;
+    }
+
+    .stat-item .label {
+        font-size: 12px;
+    }
+
+    .stat-item .value {
+        font-size: 16px;
+    }
+
+    .stat-item .percentage {
+        font-size: 12px;
+        padding: 1px 6px;
+    }
+
+    .trapezoid, .trapezoid-2nd, .trapezoid-3nd, .trapezoid-4nd {
+        height: 35px;
+        padding: 15px 0;
+    }
+
+    .donut-chart-container {
+        height: 200px;
+    }
+
+    .campaign-list h3 {
+        font-size: 16px;
+    }
+
+    .campaign-list p {
+        font-size: 14px;
+    }
+
+    .campaign-list img {
+        max-width: 100px;
+    }
+}
+
+/* Fix for campaign list container on mobile */
+@media screen and (max-width: 768px) {
+    .campaign-list-container {
+        padding: 10px;
+    }
+}
+
+/* Fix for sidebar on mobile */
+@media screen and (max-width: 768px) {
+    :deep(.p-sidebar) {
+        width: 100% !important;
+    }
+}

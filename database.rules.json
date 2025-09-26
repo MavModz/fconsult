@@ -1,0 +1,11 @@
+{
+  "rules": {
+    ".read": "true",    // Only authenticated users can read data    : auth != null
+    ".write": "true",   // Only authenticated users can write data   : auth != null
+
+    "your_data_node": {
+      ".read": "true",  // Only authenticated users can read from this node
+      ".write": "true", // Only authenticated users can write to this node
+    }
+  }
+}
