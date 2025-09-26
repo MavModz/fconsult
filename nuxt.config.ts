@@ -53,7 +53,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     "nuxt-primevue",
     '@formkit/nuxt',
-    'nuxt-vue3-google-signin',
     'nuxt-bootstrap-icons',
     '@nuxt/image',
     '@sidebase/nuxt-pdf',
@@ -101,10 +100,6 @@ export default defineNuxtConfig({
       '/Terms/**'
     ],
     autoLastmod: true,
-  },
-
-  googleSignIn: {
-    clientId: process.env.GOOGLE_LOGIN_CLIENTID,
   },
 
   routeRules: {
