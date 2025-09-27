@@ -54,27 +54,6 @@
               </li>
             </ul>
           </li>
-           <li class="men" id="integrations">
-            <NuxtLink to="/admin/integrations">
-              <i class="bi bi-sliders2"></i> Integration
-            </NuxtLink>
-          </li>
-
-          <li class="men" id="l2" v-if="me?.user?.plan?.crm">
-            <NuxtLink to="/admin/appointments">
-              <i class="bi bi-calendar2-range"></i>Appointments
-            </NuxtLink>
-          </li>
-           <li class="men" id="Recommendations" v-if="me.user.plan.crm">
-            <NuxtLink to="/admin/recommendation">
-              <i class="bi bi-envelope-plus"></i>Recommendations
-            </NuxtLink>
-          </li>
-          <li class="men" id="visitorRegister" v-if="me?.user?.plan?.crm">
-            <NuxtLink to="/admin/forms">
-              <i class="bi bi-person-badge"></i>Visitor Register
-            </NuxtLink>
-          </li>
           <li class="men cursor-pointer" id="customer" v-if="me.user.plan.crm">
             <NuxtLink class="page-list flex gap-[20px]">
               <i class="bi bi-people"></i>My Customers
@@ -82,19 +61,10 @@
             </NuxtLink>
             <ul class="sub-menu ps-4">
               <li>
-                <NuxtLink to="/admin/customerdashboard" id="c1" class="sub-men"><span
-                    class="text-[#A3AED0]">Dashboard</span></NuxtLink>
-              </li>
-              <li>
                 <NuxtLink to="/admin/customers/view" id="c2" class="sub-men"><span class="text-[#A3AED0]">Customer
                     List</span></NuxtLink>
               </li>
             </ul>
-          </li>
-          <li class="men" id="admin-invoices" v-if="me?.user?.plan?.crm">
-            <NuxtLink to="/admin/invoice">
-              <i class="bi bi-receipt"></i>Invoices
-            </NuxtLink>
           </li>
           <li class="men cursor-pointer" id="customer" v-if="me.user.plan.crm">
             <NuxtLink class="page-list flex gap-[20px]">
@@ -111,23 +81,6 @@
                     class="text-[#A3AED0]">WhatsApp</span></NuxtLink>
               </li>
             </ul>
-          </li>
-          <li class="men" id="admin-workflow" v-if="me?.user?.plan?.crm">
-            <NuxtLink to="/admin/workflow">
-              <i class="bi bi-diagram-3"></i>WorkFlow
-            </NuxtLink>
-          </li>
-
-          <li class="men cursor-pointer" id="explorePlan" v-if="me.user.plan.crm">
-            <NuxtLink to="/admin/explorePlan">
-              <i class="bi bi-upc-scan"></i>Explore Plans
-            </NuxtLink>
-          </li>
-
-          <li class="men" id="settings" v-if="me?.user?.plan?.crm">
-            <NuxtLink to="/admin/settings/LeadManagement" class="page-list flex gap-[20px]">
-              <i class="bi bi-sliders"></i>Settings
-            </NuxtLink>
           </li>
           <li class="men" id="mgt" v-if="!me?.user?.plan?.crm || me?.user?.plan?.crm_trial">
             <NuxtLink to="/admin/erp" class="page-list flex gap-[20px]">
