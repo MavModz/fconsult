@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center h-screen bg-[#eeeeee] py-[70px] ">
     <div class="form-url-wrapper w-[55%]">
-      <CompanyDetails :company="form.company_id" v-if="form" />
+      <!-- <CompanyDetails :company="form.company_id" v-if="form" /> -->
       <div>
         <p class="formName">Need Title Here</p>
       </div>
@@ -39,14 +39,14 @@
 </template>
 
 <script>
-import CompanyDetails from './CompanyDetails.vue';
+// import CompanyDetails from './CompanyDetails.vue';
 export default {
   data() {
     return {
       form: null,
     }
   },
-  components: { CompanyDetails },
+  // components: { CompanyDetails },
   async mounted() {
     this.form = (await homeGet(`/home-forms/${this.$route.query.id}`)).data.data;
   },
