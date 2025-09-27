@@ -669,7 +669,7 @@
     <div>
         <LeadDocuments v-if="activeTab === 'documents'" />
         <LeadComments v-if="activeTab === 'comments'" :lead="lead" @trigger-init="init" />
-        <LeadRecommendation v-if="activeTab === 'recommendation'" />
+        <!-- <LeadRecommendation v-if="activeTab === 'recommendation'" /> -->
         <LeadAgreement v-if="activeTab === 'agreement'" />
         <LeadAppointments v-if="activeTab === 'appointment'" :lead="lead" />
         <LeadInvoice v-if="activeTab === 'invoice'" />
@@ -962,7 +962,7 @@ import { QuillEditor } from '@vueup/vue-quill'
 import '@vueup/vue-quill/dist/vue-quill.snow.css'
 import LeadDocuments from '../../Components/LeadDocuments/LeadDocuments.vue';
 import LeadComments from '../../Components/LeadComments/index.vue';
-import LeadRecommendation from '../../Components/LeadRecommendation/index.vue';
+// import LeadRecommendation from '../../Components/LeadRecommendation/index.vue';
 import LeadAgreement from '../../Components/LeadAgreement/index.vue';
 import LeadAppointments from '../../Components/LeadAppointments/index.vue';
 import LeadInvoice from '../../Components/LeadInvoice/index.vue';
@@ -973,7 +973,7 @@ export default {
         QuillEditor,
         LeadDocuments,
         LeadComments,
-        LeadRecommendation,
+        // LeadRecommendation,
         LeadAgreement,
         LeadAppointments,
         LeadInvoice,
